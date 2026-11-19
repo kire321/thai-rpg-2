@@ -1,0 +1,16 @@
+[
+  {
+    "id": "char_pawnshop_appraiser",
+    "name": "The Appraiser",
+    "description": "An elderly woman who runs the pawnshop at the canal landing. She can weigh a bracelet by eye, dates every ticket in a clerk's hand, and remembers each pledge by the face that brought it. Villagers bring her their chains before the rice is planted and redeem them after the boats come in.",
+    "picture": "/img/appraiser.png",
+    "inventory": ["obj_spectacles", "obj_strongbox"]
+  },
+  {
+    "id": "char_lek",
+    "name": "Lek",
+    "description": "The player. The temple school's teacher, sent out after dark with the office notice in one pocket and the school's brass seal in the other. He reads letters for whoever cannot — tonight that is half the canal.",
+    "picture": "/img/lek.png",
+    "inventory": ["obj_notice", "obj_seal", "obj_pen"]
+  }
+]

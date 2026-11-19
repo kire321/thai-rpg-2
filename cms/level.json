@@ -1,0 +1,562 @@
+{
+ "id": "lvl_pawnshop",
+ "title": "The Spectacles at the Intersection",
+ "location": "place_pawnshop",
+ "frc": "char_pawnshop_appraiser",
+ "reward": "obj_spectacles",
+ "opening": [
+  {
+   "character": null,
+   "place": "place_pawnshop",
+   "dialogue": "The twenty-eighth came and went, and the boat that should have poled up from the intersection never did. Tonight the canal office answered: the boatman's mooring must be read to, understood, and signed by first boat — in his own hand — or the landing takes his boat for fees."
+  },
+  {
+   "character": null,
+   "place": "place_pawnshop",
+   "dialogue": "The letter came to the temple school, because letters do. The head monk read it once, folded it along its old crease, and put it in Lek's pocket with the school's brass seal. 'He carried your ink upriver for nine years,' he said. 'Go and see what his eyes are doing.'"
+  },
+  {
+   "character": null,
+   "place": "place_pawnshop",
+   "dialogue": "The pawnshop at the landing is the last lamp on the canal. Behind its caged counter the appraiser is weighing something small and round, and the boatman's boat — everyone knows — has been sitting at the intersection with its tarp on, three weeks quiet."
+  }
+ ],
+ "turns": [
+  {
+   "id": "appraiser_turn_1",
+   "speaker": "char_pawnshop_appraiser",
+   "stage_directions": [
+    "She holds the spectacles up to the lamp, then sets them down on the counter inside the cage, like a verdict she has already delivered."
+   ],
+   "dialogue": "Three weeks that boat sits at the intersection with its tarp on. ทำไมไปนานจังเลย — why was he gone so long? When the office man came asking, I told him: (พี่)จะรีบไปเดี๋ยวนี้, the clerk said, he'll rush off right now. People are always rushing. The boat stayed.",
+   "target": {
+    "type": "object",
+    "id": "obj_spectacles"
+   },
+   "uses": "obj_spectacles",
+   "tag": "tag_account_absence",
+   "thai": "ทำไมไปนานจัง(เลย) — 'why were you gone so long?'"
+  },
+  {
+   "id": "appraiser_turn_2",
+   "speaker": "char_pawnshop_appraiser",
+   "stage_directions": [
+    "She turns from the cage and lays one hand flat on the iron strongbox behind her."
+   ],
+   "dialogue": "ในนั้นมีอะไรบ้าง — you want to know what I keep in there? Everything this canal cannot hold onto. (เธอ)รู้ไหมว่านี่คืออะไร — do you know what this is? Brass and wire, one arm mended with fishing line. To me it is thirty baht on a pink slip. To a man who cannot read his own mooring, it is the difference.",
+   "target": {
+    "type": "object",
+    "id": "obj_strongbox"
+   },
+   "uses": "obj_strongbox",
+   "tag": "tag_ask_inside",
+   "thai": "ในนั้นมีอะไร(บ้าง) — 'what's in there?'"
+  },
+  {
+   "id": "appraiser_turn_3",
+   "speaker": "char_pawnshop_appraiser",
+   "stage_directions": [
+    "She slides a paper across the counter until the cage wire stops it."
+   ],
+   "dialogue": "The office does not wait, teacher. จะบอกเขาเมื่อไหร่ — when are you going to tell him? I asked the clerk if the boatman knew. คงงั้นแหละ, he said, that's probably right, and he stamped the file like he was swatting a fly.",
+   "target": {
+    "type": "object",
+    "id": "obj_notice"
+   },
+   "uses": "obj_notice",
+   "tag": "tag_press_decision",
+   "thai": "จะบอกเขาเมื่อไหร่ — 'when are you going to tell him?'"
+  },
+  {
+   "id": "appraiser_turn_4",
+   "speaker": "char_pawnshop_appraiser",
+   "stage_directions": [
+    "For the first time she sits down, which in this shop is a form of confession."
+   ],
+   "dialogue": "He came in here himself, two weeks back, squinting at my ticket board like it was weather on a far mountain. กลับไม่ไหว — I can't make it back, he told me. Upriver without my glasses I miss the channel marks. (เขา)พูดจริงนะ — and that man means it. He did not beg. He priced his own shame and walked out.",
+   "target": {
+    "type": "object",
+    "id": "obj_spectacles"
+   },
+   "uses": "obj_spectacles",
+   "tag": "tag_admit_struggle",
+   "thai": "กลับไม่ไหว — 'I can't make it back'"
+  },
+  {
+   "id": "appraiser_turn_5",
+   "speaker": "char_pawnshop_appraiser",
+   "stage_directions": [
+    "She unhooks a lantern and sets it on the counter, still lit, a loan in itself."
+   ],
+   "dialogue": "พอถึงสีแยก — when you reach the intersection, his boat is the one with the green tarp, third stake on the left. He asked me once what province the sea was in. อยู่จันทบุรี — I told him, everything is somewhere, teacher. Nobody asks where a thing is until they cannot get to it.",
+   "target": {
+    "type": "object",
+    "id": "obj_strongbox"
+   },
+   "uses": "obj_strongbox",
+   "tag": "tag_ask_way",
+   "thai": "พอถึง(สีแยก) — 'when you reach the intersection…'"
+  },
+  {
+   "id": "appraiser_turn_6",
+   "speaker": "char_pawnshop_appraiser",
+   "stage_directions": [
+    "She wraps the spectacles in oilcloth, slowly, the way you close a book you expect to reopen."
+   ],
+   "dialogue": "When he pawned them he said ผมคิดว่าไม่เป็นไร — I thought it was okay. It is never okay. ดีใจที่รู้ว่า — I am glad to know the school still keeps a reader. The canal forgets how to read one boatman at a time, and nobody notices the water rising.",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   },
+   "uses": "obj_spectacles",
+   "tag": "tag_reassure_fine",
+   "thai": "ผมคิดว่าไม่เป็นไร — 'I thought it was okay.'"
+  }
+ ],
+ "turnResults": {
+  "appraiser_turn_1": {
+   "speaker": null,
+   "line": "The spectacles go back on their hook inside the cage. The appraiser picks up her pen and waits, the way scales wait, for something to be laid on the other pan.",
+   "bubble": ""
+  },
+  "appraiser_turn_2": {
+   "speaker": "char_pawnshop_appraiser",
+   "line": "'In there?' She pats the strongbox once. 'Everything this canal cannot hold onto. In here—' she taps her temple, '—only the sums. The sums are how I keep the two apart.'",
+   "bubble": ""
+  },
+  "appraiser_turn_3": {
+   "speaker": null,
+   "line": "The notice lies against the cage wire where she pushed it, creased along its old fold. The lamplight makes the office's blue stamp look like a small cold eye.",
+   "bubble": ""
+  },
+  "appraiser_turn_4": {
+   "speaker": "char_pawnshop_appraiser",
+   "line": "'He priced his own shame,' she says again, quieter, as if testing whether the sentence weighs the same twice. It does. Somewhere behind the shop a night bird asks a question nobody answers.",
+   "bubble": ""
+  },
+  "appraiser_turn_5": {
+   "speaker": null,
+   "line": "The lantern's flame leans toward the door, though the door is shut. Directions, in this shop, are a kind of change: she gives them only when something has been bought.",
+   "bubble": ""
+  },
+  "appraiser_turn_6": {
+   "speaker": "char_pawnshop_appraiser",
+   "line": "'A reader,' she says, tasting the word like a coin. 'Good. Then read the room, teacher — the box opens for a stake, and the stake had better have a name the school will stand behind.'",
+   "bubble": ""
+  }
+ },
+ "finale": [
+  {
+   "character": null,
+   "place": "place_pawnshop",
+   "dialogue": "The intersection, third stake on the left, the green tarp. The boatman takes the spectacles with both hands, the way men take back things they were sure they had lost for good. ผมสายตาไม่ดี, he says — my eyes are no good — but these know the way home."
+  },
+  {
+   "character": null,
+   "place": "place_pawnshop",
+   "dialogue": "By lantern light he reads the notice himself, slowly, his lips working like a man rowing. Then he signs — a wobbly, deliberate hand, the first words he has written in a year — and presses the paper to his chest. First boat, he says. I will be first boat."
+  },
+  {
+   "character": null,
+   "place": "place_pawnshop",
+   "dialogue": "Behind him the canal lies black and quiet, all its crossings waiting. The appraiser's lamp goes out at the landing, but another comes on at the intersection — the boatman's stern lamp, lit for the first time in three weeks. The ferry is a small thing. The morning is a big one. Lek walks home between them."
+  }
+ ],
+ "lekInventory": [
+  "obj_notice",
+  "obj_seal",
+  "obj_pen"
+ ],
+ "objects": {
+  "obj_spectacles": {
+   "name": "the brass-rimmed spectacles",
+   "description": "Round lenses in brass, one temple arm mended with fishing line. The pink pawn slip on the bow is dated three weeks back.",
+   "picture": "/img/spectacles.png"
+  },
+  "obj_ticket": {
+   "name": "the pink pawn ticket",
+   "description": "Stiff pink paper, the shop's red chop, a column of figures in a clerk's hand. It names the boatman and a sum.",
+   "picture": "/img/ticket.png"
+  },
+  "obj_strongbox": {
+   "name": "the iron strongbox",
+   "description": "Black iron, a brass hasp, sitting behind the cage where the appraiser can lay a hand on it without looking. Beside it, a shallow dish of brass weights.",
+   "picture": "/img/strongbox.png"
+  },
+  "obj_seal": {
+   "name": "the temple-school seal",
+   "description": "A small brass stamp with a worn wooden handle, carried in a fold of cloth. The school's name is cut into its face backwards, so it reads true only when pressed into something.",
+   "picture": "/img/seal.png"
+  },
+  "obj_notice": {
+   "name": "the canal-office notice",
+   "description": "Cream paper, an official letterhead, a blue stamp. It has been folded and unfolded so many times the creases are soft as cloth.",
+   "picture": "/img/notice.png"
+  },
+  "obj_pen": {
+   "name": "the fountain pen",
+   "description": "Lek's own, a gift from a grateful parent. It writes in blue and leaks if you carry it upside down.",
+   "picture": null
+  }
+ },
+ "sceneObjects": [
+  {
+   "flag": "ticket_issued",
+   "ids": [
+    "obj_ticket"
+   ]
+  },
+  {
+   "ids": [
+    "obj_strongbox"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_pawnshop_appraiser",
+   "item": "obj_notice",
+   "choice": 0,
+   "speaker": "char_pawnshop_appraiser",
+   "line": "She reads it through the cage wire, twice, the second time moving her lips. 'So. The office is polite even when it drowns you. First boat, his own hand.' She hands the notice back with two fingers. 'Paper is not the problem, teacher. The problem is that everything the office wants has to pass through that box — and the box only respects a stake.'",
+   "flag": "notice_read",
+   "bubble": "The appraiser has read the notice"
+  },
+  {
+   "scene": "char_pawnshop_appraiser",
+   "item": "obj_seal",
+   "choice": 0,
+   "requiresFlag": "notice_read",
+   "speaker": "char_pawnshop_appraiser",
+   "line": "She weighs the seal in her palm like a bracelet brought in before the rice is planted. 'The school vouches.' The strongbox opens on oiled hinges; pink slips stir like moths. Out comes one ticket on its red string. 'Thirty baht, guaranteed by this seal. Carry it to the man it names — and teacher? (พี่)จะรีบไปเดี๋ยวนี้ — rush. The office counts mornings, not excuses.'",
+   "addToLek": [
+    "obj_ticket"
+   ],
+   "removeFromLek": [
+    "obj_seal"
+   ],
+   "flag": "ticket_issued",
+   "bubble": "Received: the pink pawn ticket · Staked: the temple-school seal"
+  },
+  {
+   "scene": "char_pawnshop_appraiser",
+   "item": "obj_ticket",
+   "choice": 0,
+   "requiresFlag": "ticket_issued",
+   "speaker": "char_pawnshop_appraiser",
+   "line": "She reads the ticket one more time, as if it might have changed its mind. Then she unhooks the spectacles from inside the cage, wraps them in oilcloth, and folds Lek's fingers over the parcel. 'The box gives nothing back late, and nothing back twice. Go and put his eyes where his boat is.'",
+   "addToLek": [
+    "obj_spectacles"
+   ],
+   "removeFromLek": [
+    "obj_ticket"
+   ],
+   "flag": "level_won",
+   "bubble": "Received: the brass-rimmed spectacles"
+  }
+ ],
+ "fallbacks": {
+  "char_pawnshop_appraiser": [
+   "She receives the {item} over the cage and gives it back the way the canal returns things — slowly, and with less than it took. 'Pawned is pawned. Redeemed is redeemed. There is no third word in this shop.'",
+   "She weighs the {item} in her palm, then lays it on the counter between you and taps, once, a nail on the notice's blue stamp. 'Paper outlasts boats. Read what the office wrote — then tell me what you are prepared to leave on this counter.'",
+   "She sighs and smooths the notice flat with both hands, like a wrung shirt. 'The boatman cannot read. The office will not listen. You are a schoolteacher with the school's seal in your pocket and a stamped letter on my counter. Do the sum, teacher. I am only the scale.'"
+  ],
+  "obj_strongbox": [
+   "The strongbox does not open for looking at. The hasp stays shut, and the brass weights in their dish give you the only answer this shop keeps: everything here has been measured twice.",
+   "The dish of weights sits beside the box like a row of small verdicts. Whatever is meant to go into that box — or come out of it — will first be laid on the counter and weighed in front of a witness.",
+   "She watches you look at the strongbox, then at your own pockets, then back at the box. 'It opens for a stake,' she says, not unkindly. 'The school's seal is a stake. A teacher's promise is not. She has been weighed before.'"
+  ],
+  "narrator": [
+   "The {item} goes back into your pocket with the night's other failures. The lamplight leans; the canal carries something past the shop and forgets it.",
+   "The {item} waits on the counter a long moment, learns nothing, and is handed back. Behind the cage, the pink slips stir though there is no wind.",
+   "Nothing comes of it yet. But the night is long, the box is iron, and the appraiser has begun, very slightly, to watch your hands instead of your face — which from her is a whole conversation."
+  ]
+ },
+ "lekPriorities": [
+  "loyalty to the boatman's nine years",
+  "duty to the school's seal",
+  "mercy for a reader without glasses",
+  "fear of the office deadline",
+  "thrift — keep the seal in the family",
+  "curiosity about the strongbox",
+  "piety toward pawned things",
+  "vanity — look like a man who knows sums",
+  "caution — don't stake what isn't yours",
+  "wanderlust — the night canal, going anywhere"
+ ],
+ "choices": {
+  "char_pawnshop_appraiser|obj_notice": [
+   {
+    "label": "Hand the notice through the cage and wait",
+    "priority": "loyalty to the boatman's nine years"
+   },
+   {
+    "label": "Ask what the office would do if he never signs",
+    "priority": "fear of the office deadline"
+   },
+   {
+    "label": "Tap the blue stamp and say nothing",
+    "priority": "curiosity about the strongbox"
+   }
+  ],
+  "char_pawnshop_appraiser|obj_seal": [
+   {
+    "label": "Lay the school's seal on the counter as a stake",
+    "priority": "duty to the school's seal"
+   },
+   {
+    "label": "Show the seal but keep hold of the handle",
+    "priority": "caution — don't stake what isn't yours"
+   },
+   {
+    "label": "Ask whether the seal would even weigh enough",
+    "priority": "vanity — look like a man who knows sums"
+   }
+  ],
+  "char_pawnshop_appraiser|obj_ticket": [
+   {
+    "label": "Present the ticket for the spectacles",
+    "priority": "mercy for a reader without glasses"
+   },
+   {
+    "label": "Read the ticket aloud before handing it over",
+    "priority": "duty to the school's seal"
+   },
+   {
+    "label": "Ask her to double-check the figures first",
+    "priority": "thrift — keep the seal in the family"
+   }
+  ],
+  "char_pawnshop_appraiser|obj_pen": [
+   {
+    "label": "Offer the fountain pen as a deposit",
+    "priority": "vanity — look like a man who knows sums"
+   },
+   {
+    "label": "Ask her to write down what he owes",
+    "priority": "piety toward pawned things"
+   },
+   {
+    "label": "Fidget with the cap and put it away",
+    "priority": "caution — don't stake what isn't yours"
+   }
+  ],
+  "char_pawnshop_appraiser|*": [
+   {
+    "label": "Ask about the boatman, flat out",
+    "priority": "loyalty to the boatman's nine years"
+   },
+   {
+    "label": "Ask what the strongbox keeps",
+    "priority": "curiosity about the strongbox"
+   },
+   {
+    "label": "Say goodnight and mean it",
+    "priority": "wanderlust — the night canal, going anywhere"
+   }
+  ],
+  "obj_strongbox|*": [
+   {
+    "label": "Study the hasp and the dish of weights",
+    "priority": "curiosity about the strongbox"
+   },
+   {
+    "label": "Lay a hand on the cage wire and wait",
+    "priority": "piety toward pawned things"
+   },
+   {
+    "label": "Step back and reconsider the whole errand",
+    "priority": "caution — don't stake what isn't yours"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Try it anyway",
+    "priority": "mercy for a reader without glasses"
+   },
+   {
+    "label": "Hold back and watch her face",
+    "priority": "caution — don't stake what isn't yours"
+   },
+   {
+    "label": "Ask about the night boat, to be saying something",
+    "priority": "wanderlust — the night canal, going anywhere"
+   }
+  ]
+ },
+ "seedProgress": {
+  "cardStats": {
+   "card-433-2.-eng-thai": {
+    "repetitions": 3,
+    "interval": 19,
+    "ef": 2.7,
+    "lastReviewed": 20767,
+    "failedToday": false
+   },
+   "card-412-19.-eng-thai": {
+    "repetitions": 3,
+    "interval": 14,
+    "ef": 2.2199999999999998,
+    "lastReviewed": 20771,
+    "failedToday": false
+   },
+   "card-439-2.-eng-thai": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.36,
+    "lastReviewed": 20764,
+    "failedToday": false
+   },
+   "card-431-9.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.5,
+    "lastReviewed": 20759,
+    "failedToday": false
+   },
+   "card-415-10.-eng-thai": {
+    "repetitions": 2,
+    "interval": 6,
+    "ef": 2.36,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-448-14.-thai-eng": {
+    "repetitions": 1,
+    "interval": 1,
+    "ef": 2.5,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-433-16.-eng-thai": {
+    "repetitions": 3,
+    "interval": 10,
+    "ef": 2.2199999999999998,
+    "lastReviewed": 20764,
+    "failedToday": false
+   },
+   "card-431-19.-thai-eng": {
+    "repetitions": 1,
+    "interval": 1,
+    "ef": 2.5,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-433-19.-eng-thai": {
+    "repetitions": 1,
+    "interval": 1,
+    "ef": 2.36,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-446-16.-thai-eng": {
+    "repetitions": 2,
+    "interval": 8,
+    "ef": 2.7,
+    "lastReviewed": 20766,
+    "failedToday": false
+   },
+   "card-402-15.-eng-thai": {
+    "repetitions": 1,
+    "interval": 1,
+    "ef": 2.5,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-412-12.-thai-eng": {
+    "repetitions": 1,
+    "interval": 1,
+    "ef": 2.36,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-446-12.-thai-eng": {
+    "repetitions": 3,
+    "interval": 16,
+    "ef": 2.6,
+    "lastReviewed": 20759,
+    "failedToday": false
+   },
+   "card-409-14.-eng-thai": {
+    "repetitions": 3,
+    "interval": 9,
+    "ef": 2.0799999999999996,
+    "lastReviewed": 20764,
+    "failedToday": false
+   },
+   "card-405-6.-thai-eng": {
+    "repetitions": 2,
+    "interval": 8,
+    "ef": 2.6,
+    "lastReviewed": 20766,
+    "failedToday": false
+   },
+   "card-433-19.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.36,
+    "lastReviewed": 20767,
+    "failedToday": false
+   },
+   "card-412-19.-thai-eng": {
+    "repetitions": 2,
+    "interval": 6,
+    "ef": 2.5,
+    "lastReviewed": 20767,
+    "failedToday": false
+   },
+   "card-424-8.-thai-eng": {
+    "repetitions": 0,
+    "interval": 1,
+    "ef": 2.5,
+    "lastReviewed": 20773,
+    "failedToday": true
+   },
+   "card-446-2.-eng-thai": {
+    "repetitions": 1,
+    "interval": 1,
+    "ef": 2.0799999999999996,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-405-2.-thai-eng": {
+    "repetitions": 1,
+    "interval": 1,
+    "ef": 2.5,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-439-2.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.5,
+    "lastReviewed": 20758,
+    "failedToday": false
+   },
+   "card-433-15.-thai-eng": {
+    "repetitions": 2,
+    "interval": 8,
+    "ef": 2.6,
+    "lastReviewed": 20766,
+    "failedToday": false
+   },
+   "card-424-7.-eng-thai": {
+    "repetitions": 1,
+    "interval": 1,
+    "ef": 2.5,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-405-10.-thai-eng": {
+    "repetitions": 2,
+    "interval": 6,
+    "ef": 2.6,
+    "lastReviewed": 20767,
+    "failedToday": false
+   }
+  },
+  "againQueue": [
+   "card-424-8.-thai-eng"
+  ]
+ }
+}

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "tag_account_absence",
+  "name": "account for an absence",
+  "description": "Said when someone who should be here has not been, and the asking has teeth.",
+  "picture": null,
+  "vocab_item_ids": [
+   "424-8.",
+   "409-14."
+  ]
+ },
+ {
+  "id": "tag_ask_inside",
+  "name": "ask what is inside",
+  "description": "Said to make the closed thing — box, room, mouth — declare itself.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-10.",
+   "433-19."
+  ]
+ },
+ {
+  "id": "tag_press_decision",
+  "name": "press for a decision",
+  "description": "Said when patience has run out and the answer must be dated.",
+  "picture": null,
+  "vocab_item_ids": [
+   "433-15.",
+   "446-2."
+  ]
+ },
+ {
+  "id": "tag_admit_struggle",
+  "name": "admit the struggle",
+  "description": "Said when the difficulty is finally named out loud, and meant.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-2.",
+   "431-19."
+  ]
+ },
+ {
+  "id": "tag_ask_way",
+  "name": "ask the way",
+  "description": "Said to get bearings — on roads, and on where this whole thing is going.",
+  "picture": null,
+  "vocab_item_ids": [
+   "431-9.",
+   "424-7."
+  ]
+ },
+ {
+  "id": "tag_reassure_fine",
+  "name": "reassure that it is fine",
+  "description": "Said to put a small mercy between someone and their worry.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-15.",
+   "446-12."
+  ]
+ },
+ {
+  "id": "tag_get_working",
+  "name": "get a thing working",
+  "description": "Said with sleeves going up and expectations going down.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-6.",
+   "409-18."
+  ]
+ },
+ {
+  "id": "tag_what_matters",
+  "name": "say what matters",
+  "description": "Said to cut the sentence down to the one clause that carries weight.",
+  "picture": null,
+  "vocab_item_ids": [
+   "412-12.",
+   "433-2."
+  ]
+ },
+ {
+  "id": "tag_offer_eyes",
+  "name": "offer your eyes",
+  "description": "Said by someone who can read, to someone who cannot.",
+  "picture": null,
+  "vocab_item_ids": [
+   "433-16.",
+   "405-19."
+  ]
+ },
+ {
+  "id": "tag_conclude_gone",
+  "name": "conclude someone is gone",
+  "description": "Said when the empty chair has made its argument and won.",
+  "picture": null,
+  "vocab_item_ids": [
+   "412-19.",
+   "439-2."
+  ]
+ },
+ {
+  "id": "tag_approach_house",
+  "name": "approach a house",
+  "description": "Said at a threshold, wondering who is home and whether to knock.",
+  "picture": null,
+  "vocab_item_ids": [
+   "446-16.",
+   "435-3."
+  ]
+ },
+ {
+  "id": "tag_cite_rule",
+  "name": "cite the rule",
+  "description": "Said when the way out is printed somewhere and someone must read it.",
+  "picture": null,
+  "vocab_item_ids": [
+   "448-14.",
+   "402-9."
+  ]
+ },
+ {
+  "id": "tag_confirm_formally",
+  "name": "confirm formally",
+  "description": "Said to close a matter with the correct words and a small bow.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-14.",
+   "405-8."
+  ]
+ },
+ {
+  "id": "tag_remember_abundance",
+  "name": "remember the plenty",
+  "description": "Said to hold onto how much there was before counting what is left.",
+  "picture": null,
+  "vocab_item_ids": [
+   "415-10.",
+   "439-17."
+  ]
+ }
+]

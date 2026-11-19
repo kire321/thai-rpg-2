@@ -1,0 +1,3232 @@
+[
+ {
+  "id": "lvl_sim_000",
+  "title": "Canal level 000",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_071",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_071 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_001",
+  "title": "Canal level 001",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_080",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_080 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_002",
+  "title": "Canal level 002",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_103",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_103 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_003",
+  "title": "Canal level 003",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_302",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_302 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_004",
+  "title": "Canal level 004",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_remember_abundance",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_remember_abundance waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_005",
+  "title": "Canal level 005",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_007",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_007 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_006",
+  "title": "Canal level 006",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_224",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_224 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_007",
+  "title": "Canal level 007",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_255",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_255 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_008",
+  "title": "Canal level 008",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_004",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_004 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_009",
+  "title": "Canal level 009",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_065",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_065 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_010",
+  "title": "Canal level 010",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_281",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_281 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_011",
+  "title": "Canal level 011",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_124",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_124 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_012",
+  "title": "Canal level 012",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_157",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_157 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_013",
+  "title": "Canal level 013",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_014",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_014 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_014",
+  "title": "Canal level 014",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_198",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_198 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_015",
+  "title": "Canal level 015",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_030",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_030 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_016",
+  "title": "Canal level 016",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_074",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_074 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_017",
+  "title": "Canal level 017",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_003",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_003 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_018",
+  "title": "Canal level 018",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_087",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_087 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_019",
+  "title": "Canal level 019",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_228",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_228 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_020",
+  "title": "Canal level 020",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_272",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_272 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_021",
+  "title": "Canal level 021",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_198",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_198 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_022",
+  "title": "Canal level 022",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_142",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_142 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_023",
+  "title": "Canal level 023",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_048",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_048 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_024",
+  "title": "Canal level 024",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_273",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_273 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_025",
+  "title": "Canal level 025",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_086",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_086 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_026",
+  "title": "Canal level 026",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_281",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_281 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_027",
+  "title": "Canal level 027",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_333",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_333 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_028",
+  "title": "Canal level 028",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_027",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_027 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_029",
+  "title": "Canal level 029",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_066",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_066 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_030",
+  "title": "Canal level 030",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_251",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_251 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_031",
+  "title": "Canal level 031",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_193",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_193 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_032",
+  "title": "Canal level 032",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_109",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_109 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_033",
+  "title": "Canal level 033",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_052",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_052 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_034",
+  "title": "Canal level 034",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_004",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_004 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_035",
+  "title": "Canal level 035",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_138",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_138 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_pawnshop",
+  "title": "The Spectacles at the Intersection",
+  "level": true,
+  "acts": [
+   {
+    "tag": "tag_account_absence",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The pawnshop at the canal landing, last lamp lit. A notice from the canal office is folded in Lek's pocket, and behind the caged counter an old woman is weighing a pair of brass-rimmed spectacles that are not hers."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_037",
+  "title": "Canal level 037",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_184",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_184 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_038",
+  "title": "Canal level 038",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_314",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_314 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_039",
+  "title": "Canal level 039",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_235",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_235 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_040",
+  "title": "Canal level 040",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_311",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_311 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_041",
+  "title": "Canal level 041",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_254",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_254 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_042",
+  "title": "Canal level 042",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_074",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_074 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_043",
+  "title": "Canal level 043",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_approach_house",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_approach_house waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_044",
+  "title": "Canal level 044",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_086",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_086 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_045",
+  "title": "Canal level 045",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_084",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_084 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_046",
+  "title": "Canal level 046",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_account_absence",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_account_absence waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_047",
+  "title": "Canal level 047",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_007",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_007 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_048",
+  "title": "Canal level 048",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_063",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_063 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_049",
+  "title": "Canal level 049",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_214",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_214 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_050",
+  "title": "Canal level 050",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_262",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_262 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_051",
+  "title": "Canal level 051",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_177",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_177 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_052",
+  "title": "Canal level 052",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_268",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_268 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_053",
+  "title": "Canal level 053",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_188",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_188 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_054",
+  "title": "Canal level 054",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_220",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_220 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_055",
+  "title": "Canal level 055",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_224",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_224 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_056",
+  "title": "Canal level 056",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_164",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_164 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_057",
+  "title": "Canal level 057",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_244",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_244 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_058",
+  "title": "Canal level 058",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_327",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_327 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_059",
+  "title": "Canal level 059",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_318",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_318 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_060",
+  "title": "Canal level 060",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_028",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_028 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_061",
+  "title": "Canal level 061",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_090",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_090 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_062",
+  "title": "Canal level 062",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_254",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_254 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_063",
+  "title": "Canal level 063",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_press_decision",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_press_decision waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_064",
+  "title": "Canal level 064",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_141",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_141 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_065",
+  "title": "Canal level 065",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_319",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_319 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_066",
+  "title": "Canal level 066",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_082",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_082 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_067",
+  "title": "Canal level 067",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_292",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_292 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_068",
+  "title": "Canal level 068",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_271",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_271 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_069",
+  "title": "Canal level 069",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_005",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_005 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_070",
+  "title": "Canal level 070",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_025",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_025 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_071",
+  "title": "Canal level 071",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_027",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_027 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_072",
+  "title": "Canal level 072",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_085",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_085 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_073",
+  "title": "Canal level 073",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_178",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_178 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_074",
+  "title": "Canal level 074",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_177",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_177 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_075",
+  "title": "Canal level 075",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_conclude_gone",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_conclude_gone waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_076",
+  "title": "Canal level 076",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_234",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_234 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_077",
+  "title": "Canal level 077",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_128",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_128 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_078",
+  "title": "Canal level 078",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_100",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_100 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_079",
+  "title": "Canal level 079",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_208",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_208 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_080",
+  "title": "Canal level 080",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_151",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_151 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_081",
+  "title": "Canal level 081",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_306",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_306 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_082",
+  "title": "Canal level 082",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_221",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_221 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_083",
+  "title": "Canal level 083",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_270",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_270 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_084",
+  "title": "Canal level 084",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_010",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_010 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_085",
+  "title": "Canal level 085",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_281",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_281 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_086",
+  "title": "Canal level 086",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_223",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_223 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_087",
+  "title": "Canal level 087",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_approach_house",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_approach_house waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_088",
+  "title": "Canal level 088",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_087",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_087 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_089",
+  "title": "Canal level 089",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_128",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_128 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_090",
+  "title": "Canal level 090",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_274",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_274 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_091",
+  "title": "Canal level 091",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_cite_rule",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_cite_rule waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_092",
+  "title": "Canal level 092",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_074",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_074 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_093",
+  "title": "Canal level 093",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_conclude_gone",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_conclude_gone waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_094",
+  "title": "Canal level 094",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_139",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_139 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_095",
+  "title": "Canal level 095",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_152",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_152 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_096",
+  "title": "Canal level 096",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_210",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_210 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_097",
+  "title": "Canal level 097",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_confirm_formally",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_confirm_formally waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_098",
+  "title": "Canal level 098",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_006",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_006 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_099",
+  "title": "Canal level 099",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_333",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_333 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_100",
+  "title": "Canal level 100",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_032",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_032 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_101",
+  "title": "Canal level 101",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_109",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_109 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_102",
+  "title": "Canal level 102",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_157",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_157 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_103",
+  "title": "Canal level 103",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_029",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_029 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_104",
+  "title": "Canal level 104",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_004",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_004 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_105",
+  "title": "Canal level 105",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_257",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_257 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_106",
+  "title": "Canal level 106",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_275",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_275 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_107",
+  "title": "Canal level 107",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_110",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_110 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_108",
+  "title": "Canal level 108",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_143",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_143 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_109",
+  "title": "Canal level 109",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_account_absence",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_account_absence waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_110",
+  "title": "Canal level 110",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_271",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_271 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_111",
+  "title": "Canal level 111",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_077",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_077 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_112",
+  "title": "Canal level 112",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_195",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_195 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_113",
+  "title": "Canal level 113",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_conclude_gone",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_conclude_gone waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_114",
+  "title": "Canal level 114",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_292",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_292 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_115",
+  "title": "Canal level 115",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_334",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_334 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_116",
+  "title": "Canal level 116",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_071",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_071 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_117",
+  "title": "Canal level 117",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_145",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_145 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_118",
+  "title": "Canal level 118",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_134",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_134 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_119",
+  "title": "Canal level 119",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_213",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_213 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_120",
+  "title": "Canal level 120",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_161",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_161 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_121",
+  "title": "Canal level 121",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_reassure_fine",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_reassure_fine waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_122",
+  "title": "Canal level 122",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_092",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_092 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_123",
+  "title": "Canal level 123",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_021",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_021 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_124",
+  "title": "Canal level 124",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_175",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_175 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_125",
+  "title": "Canal level 125",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_293",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_293 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_126",
+  "title": "Canal level 126",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_123",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_123 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_127",
+  "title": "Canal level 127",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_276",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_276 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_128",
+  "title": "Canal level 128",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_258",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_258 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_129",
+  "title": "Canal level 129",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_reassure_fine",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_reassure_fine waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_130",
+  "title": "Canal level 130",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_111",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_111 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_131",
+  "title": "Canal level 131",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_104",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_104 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_132",
+  "title": "Canal level 132",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_038",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_038 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_133",
+  "title": "Canal level 133",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_159",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_159 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_134",
+  "title": "Canal level 134",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_press_decision",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_press_decision waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_135",
+  "title": "Canal level 135",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_079",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_079 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_136",
+  "title": "Canal level 136",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_264",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_264 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_137",
+  "title": "Canal level 137",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_269",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_269 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_138",
+  "title": "Canal level 138",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_020",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_020 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_139",
+  "title": "Canal level 139",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_003",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_003 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_140",
+  "title": "Canal level 140",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_022",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_022 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_141",
+  "title": "Canal level 141",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_105",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_105 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_142",
+  "title": "Canal level 142",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_226",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_226 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_143",
+  "title": "Canal level 143",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_270",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_270 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_144",
+  "title": "Canal level 144",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_what_matters",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_what_matters waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_145",
+  "title": "Canal level 145",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_099",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_099 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_146",
+  "title": "Canal level 146",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_151",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_151 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_147",
+  "title": "Canal level 147",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_303",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_303 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_148",
+  "title": "Canal level 148",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_186",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_186 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_149",
+  "title": "Canal level 149",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_ask_inside",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_ask_inside waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_150",
+  "title": "Canal level 150",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_122",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_122 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_151",
+  "title": "Canal level 151",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_admit_struggle",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_admit_struggle waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_152",
+  "title": "Canal level 152",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_118",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_118 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_153",
+  "title": "Canal level 153",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_326",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_326 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_154",
+  "title": "Canal level 154",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_322",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_322 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_155",
+  "title": "Canal level 155",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_116",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_116 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_156",
+  "title": "Canal level 156",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_cite_rule",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_cite_rule waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_157",
+  "title": "Canal level 157",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_229",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_229 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_158",
+  "title": "Canal level 158",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_300",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_300 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_159",
+  "title": "Canal level 159",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_approach_house",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_approach_house waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_160",
+  "title": "Canal level 160",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_291",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_291 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_161",
+  "title": "Canal level 161",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_183",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_183 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_162",
+  "title": "Canal level 162",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_249",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_249 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_163",
+  "title": "Canal level 163",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_194",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_194 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_164",
+  "title": "Canal level 164",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_251",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_251 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_165",
+  "title": "Canal level 165",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_099",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_099 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_166",
+  "title": "Canal level 166",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_offer_eyes",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_offer_eyes waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_167",
+  "title": "Canal level 167",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_193",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_193 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_168",
+  "title": "Canal level 168",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_248",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_248 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_sim_169",
+  "title": "Canal level 169",
+  "stub": true,
+  "acts": [
+   {
+    "tag": "tag_025",
+    "lines_before": [
+     {
+      "character": null,
+      "place": "place_pawnshop",
+      "dialogue": "The canal at low water. Somewhere a lesson in tag_025 waits to be written."
+     }
+    ],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,178 @@
+{
+ "note": "Seed progress from the attached v1 state (day 20774): cards due at demo start. Applied only when no local progress exists.",
+ "cardStats": {
+  "card-433-2.-eng-thai": {
+   "repetitions": 3,
+   "interval": 19,
+   "ef": 2.7,
+   "lastReviewed": 20767,
+   "failedToday": false
+  },
+  "card-412-19.-eng-thai": {
+   "repetitions": 3,
+   "interval": 14,
+   "ef": 2.2199999999999998,
+   "lastReviewed": 20771,
+   "failedToday": false
+  },
+  "card-439-2.-eng-thai": {
+   "repetitions": 3,
+   "interval": 15,
+   "ef": 2.36,
+   "lastReviewed": 20764,
+   "failedToday": false
+  },
+  "card-431-9.-thai-eng": {
+   "repetitions": 3,
+   "interval": 15,
+   "ef": 2.5,
+   "lastReviewed": 20759,
+   "failedToday": false
+  },
+  "card-415-10.-eng-thai": {
+   "repetitions": 2,
+   "interval": 6,
+   "ef": 2.36,
+   "lastReviewed": 20773,
+   "failedToday": false
+  },
+  "card-448-14.-thai-eng": {
+   "repetitions": 1,
+   "interval": 1,
+   "ef": 2.5,
+   "lastReviewed": 20773,
+   "failedToday": false
+  },
+  "card-433-16.-eng-thai": {
+   "repetitions": 3,
+   "interval": 10,
+   "ef": 2.2199999999999998,
+   "lastReviewed": 20764,
+   "failedToday": false
+  },
+  "card-431-19.-thai-eng": {
+   "repetitions": 1,
+   "interval": 1,
+   "ef": 2.5,
+   "lastReviewed": 20773,
+   "failedToday": false
+  },
+  "card-433-19.-eng-thai": {
+   "repetitions": 1,
+   "interval": 1,
+   "ef": 2.36,
+   "lastReviewed": 20773,
+   "failedToday": false
+  },
+  "card-446-16.-thai-eng": {
+   "repetitions": 2,
+   "interval": 8,
+   "ef": 2.7,
+   "lastReviewed": 20766,
+   "failedToday": false
+  },
+  "card-402-15.-eng-thai": {
+   "repetitions": 1,
+   "interval": 1,
+   "ef": 2.5,
+   "lastReviewed": 20773,
+   "failedToday": false
+  },
+  "card-412-12.-thai-eng": {
+   "repetitions": 1,
+   "interval": 1,
+   "ef": 2.36,
+   "lastReviewed": 20773,
+   "failedToday": false
+  },
+  "card-446-12.-thai-eng": {
+   "repetitions": 3,
+   "interval": 16,
+   "ef": 2.6,
+   "lastReviewed": 20759,
+   "failedToday": false
+  },
+  "card-409-14.-eng-thai": {
+   "repetitions": 3,
+   "interval": 9,
+   "ef": 2.0799999999999996,
+   "lastReviewed": 20764,
+   "failedToday": false
+  },
+  "card-405-6.-thai-eng": {
+   "repetitions": 2,
+   "interval": 8,
+   "ef": 2.6,
+   "lastReviewed": 20766,
+   "failedToday": false
+  },
+  "card-433-19.-thai-eng": {
+   "repetitions": 3,
+   "interval": 15,
+   "ef": 2.36,
+   "lastReviewed": 20767,
+   "failedToday": false
+  },
+  "card-412-19.-thai-eng": {
+   "repetitions": 2,
+   "interval": 6,
+   "ef": 2.5,
+   "lastReviewed": 20767,
+   "failedToday": false
+  },
+  "card-424-8.-thai-eng": {
+   "repetitions": 0,
+   "interval": 1,
+   "ef": 2.5,
+   "lastReviewed": 20773,
+   "failedToday": true
+  },
+  "card-446-2.-eng-thai": {
+   "repetitions": 1,
+   "interval": 1,
+   "ef": 2.0799999999999996,
+   "lastReviewed": 20773,
+   "failedToday": false
+  },
+  "card-405-2.-thai-eng": {
+   "repetitions": 1,
+   "interval": 1,
+   "ef": 2.5,
+   "lastReviewed": 20773,
+   "failedToday": false
+  },
+  "card-439-2.-thai-eng": {
+   "repetitions": 3,
+   "interval": 15,
+   "ef": 2.5,
+   "lastReviewed": 20758,
+   "failedToday": false
+  },
+  "card-433-15.-thai-eng": {
+   "repetitions": 2,
+   "interval": 8,
+   "ef": 2.6,
+   "lastReviewed": 20766,
+   "failedToday": false
+  },
+  "card-424-7.-eng-thai": {
+   "repetitions": 1,
+   "interval": 1,
+   "ef": 2.5,
+   "lastReviewed": 20773,
+   "failedToday": false
+  },
+  "card-405-10.-thai-eng": {
+   "repetitions": 2,
+   "interval": 6,
+   "ef": 2.6,
+   "lastReviewed": 20767,
+   "failedToday": false
+  }
+ },
+ "againQueue": [
+  "card-424-8.-thai-eng"
+ ],
+ "newCardsRatedToday": 7,
+ "newCardsRatedTodayDay": 20773
+}
