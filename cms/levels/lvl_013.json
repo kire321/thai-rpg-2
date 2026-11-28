@@ -1,0 +1,466 @@
+{
+ "id": "lvl_013",
+ "title": "two flags on one cart",
+ "location": "place_construction_camp",
+ "frc": "char_kwang",
+ "reward": null,
+ "opening": [
+  {
+   "character": null,
+   "place": "place_construction_camp",
+   "dialogue": "A life is a sending: the camp gate sends its men out at six and takes their wages back at seven. Kwang stands at the hoarding with a phone mount clamped to a fence wire, a woman running at five percent, photographing a mortar that is not hers."
+  },
+  {
+   "character": "char_kwang",
+   "place": "place_construction_camp",
+   "dialogue": "Lek. Hold the mount steady — the light here is the only honest thing on this soi. My kitchen flew two flags and neither of them was this one."
+  },
+  {
+   "character": null,
+   "place": "place_construction_camp",
+   "dialogue": "Behind her, Pa Yong's cart sits under its tarp. The new item on the page has sold out three times. Pa Yong has not spoken to her daughter since the order came in."
+  }
+ ],
+ "turns": [
+  {
+   "id": "kwang_turn_1",
+   "tag": "tag_shout_stop_it",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She raises her palm flat at the fence line, stopping a camp worker from walking through her shot."
+   ],
+   "dialogue": "Stop right there — one more step and the mortar's shadow lands on your boot. The frame is the whole argument.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "character",
+    "id": "char_ko_naing"
+   }
+  },
+  {
+   "id": "kwang_turn_2",
+   "tag": "tag_not_done_talking",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She keeps her hand up, the phone mount still level, and talks over the worker's apology."
+   ],
+   "dialogue": "I'm not finished. The caption has to say 'her mother's mortar' and mean it, or the whole page reads like a menu.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "object",
+    "id": "obj_tea_glass"
+   }
+  },
+  {
+   "id": "kwang_turn_3",
+   "tag": "tag_admitting_no_thai",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She turns the mount toward Ko Naing and waves her free hand flat, apologetic, at the tarp."
+   ],
+   "dialogue": "He can't speak Thai and I can't speak Mon, so we nod at each other like two clocks in different time zones. Ask him if the tarp can move.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "object",
+    "id": "obj_green_jacket"
+   }
+  },
+  {
+   "id": "kwang_turn_4",
+   "tag": "tag_refusing_an_offer",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "A vendor's boy holds out a tea glass; she pushes it gently back with two fingers."
+   ],
+   "dialogue": "I don't want it. If I hold a glass in the shot, the brand reads as a drink, and the mortar disappears.",
+   "uses": "obj_tea_glass",
+   "target": {
+    "type": "character",
+    "id": "char_ko_naing"
+   }
+  },
+  {
+   "id": "kwang_turn_5",
+   "tag": "tag_recognizing_surprise_visitor",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She lowers the mount and turns fully toward Lek, the charger bank in her other hand already unplugged."
+   ],
+   "dialogue": "Oh, it's you — good. The tower's laundry room is overpriced and my phone is at five percent. Hold this bank and keep the light on the mortar.",
+   "uses": "obj_charger_bank",
+   "target": {
+    "type": "character",
+    "id": "char_ko_naing"
+   }
+  },
+  {
+   "id": "kwang_turn_6",
+   "tag": "tag_asking_for_a_promise",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She hooks her pinky around the change-machine key and holds it out toward Lek."
+   ],
+   "dialogue": "Promise me you won't tell Pa Yong I was here on a Sunday. She'll say I came to photograph her mortar for the tower's brochure.",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "character",
+    "id": "char_ko_naing"
+   }
+  },
+  {
+   "id": "kwang_turn_7",
+   "tag": "tag_asking_for_directions",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She unfolds a printed map of the soi against the hoarding and taps the camp gate with the key."
+   ],
+   "dialogue": "Tell me how to get to the last rai from here without walking past the cart. I need the farmland in the background, not the tarp.",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "object",
+    "id": "obj_phone_mount"
+   }
+  },
+  {
+   "id": "kwang_turn_8",
+   "tag": "tag_confirming_list_complete",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She scrolls the shot list on the mount's screen and taps the last line with the key."
+   ],
+   "dialogue": "Mortar, tarp, farmland, daughter's hands. That's all, isn't it? Then I can send it before the battery dies.",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "object",
+    "id": "obj_charger_bank"
+   }
+  }
+ ],
+ "turnResults": {
+  "kwang_turn_1": {
+   "speaker": "char_kwang",
+   "line": "The worker steps back. The mortar's shadow falls clean across the tarp, and Kwang exhales like she has won something small.",
+   "bubble": ""
+  },
+  "kwang_turn_2": {
+   "speaker": "char_kwang",
+   "line": "She keeps talking to the fence wire. The tea glass sits untouched on the cart's edge, sweating in the heat.",
+   "bubble": ""
+  },
+  "kwang_turn_3": {
+   "speaker": "char_kwang",
+   "line": "Ko Naing nods once and drags the tarp a meter left. The mortar comes into the frame, and Kwang's thumb moves fast.",
+   "bubble": "The tarp has moved; the mortar is visible"
+  },
+  "kwang_turn_4": {
+   "speaker": "char_kwang",
+   "line": "The boy takes the glass back. Kwang's shot stays clean, and the vendor's boy watches her from the shade with no expression at all.",
+   "bubble": ""
+  },
+  "kwang_turn_5": {
+   "speaker": "char_kwang",
+   "line": "The charger bank clicks into her phone. The screen brightens, and the mortar on it looks older than the cart it sits on.",
+   "bubble": "Kwang's phone is charging"
+  },
+  "kwang_turn_6": {
+   "speaker": "char_kwang",
+   "line": "She presses the key into Lek's palm and closes his fingers over it. 'The change machine at the laundromat. If Pa Yong asks, you never saw me.'",
+   "bubble": "Received: the change-machine key",
+   "addToLek": [
+    "obj_change_key"
+   ]
+  },
+  "kwang_turn_7": {
+   "speaker": "char_kwang",
+   "line": "She traces the route with the key and folds the map. 'Past the wat, then the last rai. I'll send the shot from the tower tonight.'",
+   "bubble": ""
+  },
+  "kwang_turn_8": {
+   "speaker": "char_kwang",
+   "line": "She reads the list twice, deletes the line about the daughter's hands, and says nothing about why.",
+   "bubble": "The shot list is final"
+  }
+ },
+ "finale": [
+  {
+   "character": "char_kwang",
+   "place": "place_construction_camp",
+   "dialogue": "She unclamps the mount and walks toward the tower, the phone at five percent and climbing. 'Tell Pa Yong the mortar photographs well. That's all I'll say.'"
+  },
+  {
+   "character": null,
+   "place": "place_construction_camp",
+   "dialogue": "The tarp goes back over the cart. The camp gate sends its men out at six, and the mortar waits under the canvas for whatever the page decides it is."
+  }
+ ],
+ "lekInventory": [
+  "obj_stamp_keys",
+  "obj_biscuit_tin",
+  "obj_score_report"
+ ],
+ "objects": {
+  "obj_stamp_keys": {
+   "name": "the stamp-drawer keys",
+   "description": "Two brass keys on a wire ring, worn smooth at the bow, one of them opening the drawer where Khun Sanga keeps the date stamps and the other opening nothing anyone remembers.",
+   "picture": "/img/obj_stamp_keys.jpg"
+  },
+  "obj_biscuit_tin": {
+   "name": "the biscuit tin of ledgers",
+   "description": "A square biscuit tin, lid dented at one corner, holding three vendors' books in rubber bands and a smell of old paper and lemongrass.",
+   "picture": "/img/obj_biscuit_tin.jpg"
+  },
+  "obj_score_report": {
+   "name": "the laminated score report",
+   "description": "A laminated exam result, folded twice, the score circled in red pen: three points short, twice over, the lamination gone cloudy at the crease.",
+   "picture": "/img/obj_score_report.jpg"
+  },
+  "obj_charger_bank": {
+   "name": "the charger bank",
+   "description": "A palm-sized power bank, scuffed gray, with a strip of green tape on one side and a charge light that goes from red to white.",
+   "picture": "/img/obj_charger_bank.jpg"
+  },
+  "obj_green_jacket": {
+   "name": "the green rider jacket",
+   "description": "A green delivery jacket hung on the hoarding wire, reflective stripe peeling at the shoulder, the name of no company on the back.",
+   "picture": "/img/obj_green_jacket.jpg"
+  },
+  "obj_gimbal": {
+   "name": "the funeral gimbal",
+   "description": "A handheld gimbal with a phone clamp, one arm taped where it was dropped at a funeral livestream, the motor still whining softly when switched on.",
+   "picture": "/img/obj_gimbal.jpg"
+  },
+  "obj_change_key": {
+   "name": "the change-machine key",
+   "description": "A flat key on a plastic tag, the tag written in marker with a number that has faded to a suggestion, the key to the change machine at Saduek Sak 24.",
+   "picture": "/img/obj_change_key.jpg"
+  },
+  "obj_tea_glass": {
+   "name": "the tea-stall glass",
+   "description": "A small glass, thick-walled, with a hairline crack near the base and a ring of tea stain that never quite washes out.",
+   "picture": "/img/obj_tea_glass.jpg"
+  },
+  "obj_phone_mount": {
+   "name": "the phone mount",
+   "description": "A clamp mount with a ball joint, the rubber pad on the jaw worn through to the metal, clamped to a fence wire and holding a phone at eye level.",
+   "picture": "/img/obj_phone_mount.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_charger_bank",
+    "obj_green_jacket",
+    "obj_gimbal"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_kwang",
+   "item": "obj_stamp_keys",
+   "choice": 1,
+   "speaker": "char_kwang",
+   "line": "She takes the keys and turns them in the light. 'The copy shop's stamps. If I photograph the mortar on your counter, it reads as a document, not a menu.'",
+   "flag": "stamps_agreed",
+   "bubble": "Kwang wants the mortar photographed on the copy-shop counter"
+  },
+  {
+   "scene": "char_kwang",
+   "item": "obj_biscuit_tin",
+   "choice": 1,
+   "requiresFlag": "stamps_agreed",
+   "speaker": "char_kwang",
+   "line": "She opens the tin and reads a vendor's page upside down. 'Three ledgers and a mortar. Put the tin in the shot and the cart becomes a business, not a trend.'",
+   "flag": "level_won",
+   "bubble": "Kwang has the shot she came for"
+  }
+ ],
+ "fallbacks": {
+  "char_kwang": [
+   "She turns the {item} over once and hands it back. 'Not that. The light's moving and the battery's dying.'",
+   "She sets the {item} on the hoarding ledge between them. 'The mortar first. Everything else is a caption.'",
+   "She taps the phone mount with the {item}. 'The copy shop's stamps. If the mortar sits on your counter, the page reads as a document. That's the shot.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the heat with nothing settled. Kwang's phone ticks down a percent.",
+   "Nothing comes of the {item} yet. The camp gate opens and closes; the tarp does not move.",
+   "Kwang's gaze flicks from the {item} to the copy shop's direction and back — a counter mapped, a stamp implied."
+  ]
+ },
+ "lekPriorities": [
+  "loyalty to the registrar's nine years",
+  "duty to the stamps",
+  "the big house's small favors",
+  "his mother's pride",
+  "the exam — three points short"
+ ],
+ "choices": {
+  "char_kwang|obj_stamp_keys": [
+   {
+    "label": "Hand her the keys and say nothing",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Offer the copy-shop counter for the shot",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Ask what the tower pays for a photograph",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_kwang|obj_biscuit_tin": [
+   {
+    "label": "Open the tin and show her the ledgers",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Put the tin in the frame beside the mortar",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Ask whether Pa Yong has seen the page",
+    "priority": "his mother's pride"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Hold the mount steady and wait",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Ask about the flight on Thursday",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Say goodnight and mean it",
+    "priority": "his mother's pride"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Wait for her to finish the shot",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Offer what the shop can lend",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Walk back to the soi",
+    "priority": "his mother's pride"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "duty to the stamps"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "duty to the stamps"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "obj_charger_bank|*": [
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "duty to the stamps"
+   }
+  ],
+  "obj_green_jacket|*": [
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "his mother's pride"
+   }
+  ],
+  "obj_gimbal|*": [
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "duty to the stamps"
+   }
+  ]
+ }
+}

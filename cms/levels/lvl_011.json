@@ -1,0 +1,493 @@
+{
+ "id": "lvl_011",
+ "title": "the machine that eats coins",
+ "location": "place_last_rai",
+ "frc": "char_mae_tim",
+ "reward": "obj_change_key",
+ "opening": [
+  {
+   "character": null,
+   "place": "place_last_rai",
+   "dialogue": "A life is a sending, and the last rai sends up its smell of wet clay through the hoarding cracks. Mae Tim stands at the edge of the unbuilt field with her change-machine key in one hand and her phone in the other, thumb on the share-circle app, reading the payout number twice."
+  },
+  {
+   "character": "char_mae_tim",
+   "place": "place_last_rai",
+   "dialogue": "Machine seven ate four baht before I opened. The landlord sent a man to raise the rent, and the circle paid out the same morning — same amount, almost to the satang."
+  },
+  {
+   "character": null,
+   "place": "place_last_rai",
+   "dialogue": "Behind her, the laundromat's fan turns on its stand, sending one bench's worth of air toward the soi. The field sends back nothing but the smell of a place that has not been built on yet."
+  }
+ ],
+ "turns": [
+  {
+   "id": "mae_turn_1",
+   "tag": "tag_man_called_for_you",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She holds the change-machine key up between two fingers and taps it against the QR sign taped to the field's hoarding."
+   ],
+   "dialogue": "A man called for you at the shop. I told him you were out at the last rai, counting what the field sends up. He said he'd call back after the rent is settled.",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "object",
+    "id": "obj_qr_sign"
+   }
+  },
+  {
+   "id": "mae_turn_2",
+   "tag": "tag_must_act_now",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She sets her tea glass down on the hoarding's ledge and presses the laundry basket flat against her hip."
+   ],
+   "dialogue": "We have to do something before the Sunday wash. If machine seven eats one more coin, the bench will split into two benches, and I will have to choose which one to sit on.",
+   "uses": "obj_laundry_basket",
+   "target": {
+    "type": "object",
+    "id": "obj_tea_glass"
+   }
+  },
+  {
+   "id": "mae_turn_3",
+   "tag": "tag_heading_out_now",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She pockets the change-machine key and lifts the laundry basket onto her shoulder, turning toward the soi mouth."
+   ],
+   "dialogue": "I'm heading out now — the rider said he'd meet me at the win before his midnight charge. If he brings the green number, I'll know which way the bench is leaning.",
+   "uses": "obj_laundry_basket",
+   "target": {
+    "type": "character",
+    "id": "char_bank"
+   }
+  },
+  {
+   "id": "mae_turn_4",
+   "tag": "tag_only_cares_about_one",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She sets the tea glass on the hoarding ledge and points at the QR sign with one finger."
+   ],
+   "dialogue": "The landlord's man is only interested in one thing — the rent, paid on the first, in full. He does not care that the circle paid me the same week. He does not care that the machines are old.",
+   "uses": "obj_tea_glass",
+   "target": {
+    "type": "object",
+    "id": "obj_qr_sign"
+   }
+  },
+  {
+   "id": "mae_turn_5",
+   "tag": "tag_we_were_so_bored",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She folds the laundry basket down flat and sets it on the hoarding's ledge beside the tea glass."
+   ],
+   "dialogue": "We were so bored waiting for the repairman last time that Bank timed the machine's cycle with his phone. Forty-one minutes. He said the machine was running at five percent of what it should.",
+   "uses": "obj_laundry_basket",
+   "target": {
+    "type": "object",
+    "id": "obj_tea_glass"
+   }
+  },
+  {
+   "id": "mae_turn_6",
+   "tag": "tag_realizing_the_truth",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She snaps her fingers and picks up the change-machine key from her pocket, holding it flat on her palm."
+   ],
+   "dialogue": "Now I know — the repairman quoted me almost exactly what the circle paid out. That is not a coincidence. That is the landlord's man and the repairman drinking at the same table.",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "object",
+    "id": "obj_laundry_basket"
+   }
+  },
+  {
+   "id": "mae_turn_7",
+   "tag": "tag_declining_due_to_work",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She checks the time on her phone, then tucks it away and lifts the tea glass from the ledge."
+   ],
+   "dialogue": "I have work to do — the Sunday wash starts at six, and I need to decide before then whether to fix the machine or let it die. I can't stand here listening to the field.",
+   "uses": "obj_tea_glass",
+   "target": {
+    "type": "object",
+    "id": "obj_change_key"
+   }
+  },
+  {
+   "id": "mae_turn_8",
+   "tag": "tag_calling_out_evasion",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She points sharply at the QR sign on the hoarding, then at the change-machine key in her other hand."
+   ],
+   "dialogue": "Don't change the subject — you've been standing at this field for an hour, and you haven't told me what you think I should do. The circle paid me. The machine ate coins. Which one do I feed?",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "object",
+    "id": "obj_qr_sign"
+   }
+  }
+ ],
+ "turnResults": {
+  "mae_turn_1": {
+   "speaker": "char_mae_tim",
+   "line": "She taps the key against the QR sign twice, then tucks it back into her pocket. The sign's corner peels in the heat.",
+   "bubble": ""
+  },
+  "mae_turn_2": {
+   "speaker": "char_mae_tim",
+   "line": "She sets the basket down on the hoarding's ledge. The field sends up a smell of wet clay, and she does not look at it.",
+   "bubble": ""
+  },
+  "mae_turn_3": {
+   "speaker": "char_mae_tim",
+   "line": "She shoulders the basket and walks toward the soi mouth, leaving the tea glass on the ledge. The field stays behind her, unbuilt.",
+   "bubble": "Mae Tim has left the last rai"
+  },
+  "mae_turn_4": {
+   "speaker": "char_mae_tim",
+   "line": "She picks up the tea glass and drinks the last of it, then sets it down hard on the ledge. The QR sign flutters.",
+   "bubble": ""
+  },
+  "mae_turn_5": {
+   "speaker": "char_mae_tim",
+   "line": "She folds the basket flat and sets it on the ledge. The tea glass rocks once and settles.",
+   "bubble": ""
+  },
+  "mae_turn_6": {
+   "speaker": "char_mae_tim",
+   "line": "She holds the change-machine key flat on her palm, then closes her fist around it. The key's teeth leave marks in her skin.",
+   "bubble": "Mae Tim knows the repairman and the landlord's man are connected"
+  },
+  "mae_turn_7": {
+   "speaker": "char_mae_tim",
+   "line": "She lifts the tea glass, drinks, and sets it back down. The change-machine key stays in her pocket.",
+   "bubble": ""
+  },
+  "mae_turn_8": {
+   "speaker": "char_mae_tim",
+   "line": "She points at the QR sign, then at the key, and waits. The field sends up nothing but the smell of wet clay.",
+   "bubble": ""
+  }
+ },
+ "finale": [
+  {
+   "character": "char_mae_tim",
+   "place": "place_laundromat",
+   "dialogue": "She sets the change-machine key on the counter between them. 'The circle paid me, and the machine ate coins. I can't feed both. You keep the key — you decide which one gets fed.'"
+  },
+  {
+   "character": null,
+   "place": "place_laundromat",
+   "dialogue": "The bench under the fan holds its breath. The machine's rotation stops mid-cycle, and the room waits for someone to send it forward again."
+  }
+ ],
+ "lekInventory": [
+  "obj_stamp_keys",
+  "obj_score_report",
+  "obj_word_notebook"
+ ],
+ "objects": {
+  "obj_stamp_keys": {
+   "name": "the stamp-drawer keys",
+   "description": "Two brass keys on a wire ring, worn smooth at the bow from nine years of Khun Sanga's thumb and Lek's, opening the drawer where the stamps and the register live.",
+   "picture": "/img/obj_stamp_keys.jpg"
+  },
+  "obj_score_report": {
+   "name": "the laminated score report",
+   "description": "A4 sheet laminated at the copy shop itself, the exam score printed twice — 87, 87 — and the passing mark 90 visible in the margin, the plastic yellowed at the corners from being carried in a pocket.",
+   "picture": "/img/obj_score_report.jpg"
+  },
+  "obj_word_notebook": {
+   "name": "the word notebook",
+   "description": "Pocket notebook, cover soft from handling, pages filled with other people's words in Lek's small handwriting — phrases overheard at the counter, at the win, at the temple — none of them paid for.",
+   "picture": "/img/obj_word_notebook.jpg"
+  },
+  "obj_qr_sign": {
+   "name": "the QR sign",
+   "description": "A5 acrylic stand with a printed QR code, the corners chipped, the code still scannable, taped to the hoarding at the last rai so the field can be paid for before it is built on.",
+   "picture": "/img/obj_qr_sign.jpg"
+  },
+  "obj_mortar": {
+   "name": "the granite mortar",
+   "description": "Heavy stone mortar, the rim worn uneven from years of the pestle, the outside stained dark with tamarind and lime, sitting on the som tam cart's lower shelf.",
+   "picture": "/img/obj_mortar.jpg"
+  },
+  "obj_ring_light": {
+   "name": "the ring light",
+   "description": "A clamp-on LED ring light, one segment dimmer than the others, clamped to a shelf in Je Fah's back room and pointed at a curtain that has seen nine-minute sellouts.",
+   "picture": "/img/obj_ring_light.jpg"
+  },
+  "obj_tea_glass": {
+   "name": "the tea-stall glass",
+   "description": "Small glass, thick bottom, tea-stained brown halfway up, the rim chipped at one point from being set down too hard on a hundred ledges.",
+   "picture": "/img/obj_tea_glass.jpg"
+  },
+  "obj_change_key": {
+   "name": "the change-machine key",
+   "description": "A short brass key on a red plastic fob, the fob cracked, the key's teeth worn from opening the change machine every morning for eleven years.",
+   "picture": "/img/obj_change_key.jpg"
+  },
+  "obj_laundry_basket": {
+   "name": "the laundry basket",
+   "description": "Plastic basket, one handle cracked and repaired with wire, the bottom scuffed from being dragged across the laundromat floor on Sunday mornings.",
+   "picture": "/img/obj_laundry_basket.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_qr_sign",
+    "obj_mortar",
+    "obj_ring_light"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_mae_tim",
+   "item": "obj_stamp_keys",
+   "choice": 1,
+   "speaker": "char_mae_tim",
+   "line": "She takes the stamp-drawer keys and turns them over once. 'These open a drawer, not a machine. But they tell me you're still keeping the shop's books — so you can keep this too.' She sets the change-machine key on the counter.",
+   "flag": "key_offered",
+   "addToLek": [
+    "obj_change_key"
+   ],
+   "bubble": "Mae Tim has offered the change-machine key"
+  },
+  {
+   "scene": "char_mae_tim",
+   "item": "obj_score_report",
+   "choice": 1,
+   "requiresFlag": "key_offered",
+   "speaker": "char_mae_tim",
+   "line": "She reads the score report upside down, correctly. 'Three points short, twice. You know what it is to be almost enough. The circle paid me almost exactly the repair cost. Almost.' She taps the report against the change-machine key.",
+   "flag": "almost_enough_seen",
+   "bubble": "Mae Tim has seen the score report"
+  },
+  {
+   "scene": "char_mae_tim",
+   "item": "obj_word_notebook",
+   "choice": 1,
+   "requiresFlag": "almost_enough_seen",
+   "speaker": "char_mae_tim",
+   "line": "She opens the word notebook and reads a page without asking. 'You collect what people say. So collect this: the machine eats coins, the circle pays out, and the rent goes up. You decide which one gets fed.' She presses the change-machine key into his hand.",
+   "flag": "level_won",
+   "addToLek": [
+    "obj_change_key"
+   ],
+   "bubble": "Received: the change-machine key"
+  }
+ ],
+ "fallbacks": {
+  "char_mae_tim": [
+   "She turns the {item} over once and sets it back down between them. 'Not yet. The machine is still eating, and the circle is still paying.'",
+   "She taps the {item} against the counter. 'The repairman and the landlord's man drink at the same table. Show me something that tells me which one you're feeding.'",
+   "She sets the {item} aside and looks at the change-machine key on the counter. 'That key opens the machine that eats coins. Pick it up and tell me what you'd do with it.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the night with nothing settled. The machine's cycle stops mid-rotation, and the bench waits.",
+   "Nothing comes of the {item} yet. Mae Tim watches the change machine the way she watches the circle's app — for a number that will tell her what to do.",
+   "Mae Tim's gaze moves from the {item} to the change-machine key on the counter and back — a route mapped, a coin not yet fed."
+  ]
+ },
+ "lekPriorities": [
+  "the strip's books",
+  "the notebook of words",
+  "the voice",
+  "the unsent letter",
+  "the till vs. the free readings"
+ ],
+ "choices": {
+  "char_mae_tim|obj_stamp_keys": [
+   {
+    "label": "Hand her the keys and say nothing",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask what the circle's payout was meant to cover",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Tell her the drawer is not the machine",
+    "priority": "the notebook of words"
+   }
+  ],
+  "char_mae_tim|obj_score_report": [
+   {
+    "label": "Show her the score and the passing mark",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Say you know what almost enough costs",
+    "priority": "the voice"
+   },
+   {
+    "label": "Fold the report and put it away",
+    "priority": "the strip's books"
+   }
+  ],
+  "char_mae_tim|obj_word_notebook": [
+   {
+    "label": "Open the notebook to a page of her words",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Ask her what to write down about the machine",
+    "priority": "the voice"
+   },
+   {
+    "label": "Close the notebook and wait",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Ask which bench she will sit on",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Offer to read the repairman's quote aloud",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Say goodnight and mean it",
+    "priority": "the unsent letter"
+   }
+  ],
+  "obj_qr_sign|*": [
+   {
+    "label": "Scan the code and see where it sends",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Peel the sign off the hoarding",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Leave it and walk back to the soi",
+    "priority": "the unsent letter"
+   }
+  ],
+  "obj_mortar|*": [
+   {
+    "label": "Ask Pa Yong what the mortar has seen",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Lift the pestle and feel its weight",
+    "priority": "the voice"
+   },
+   {
+    "label": "Set it back on the cart's shelf",
+    "priority": "the strip's books"
+   }
+  ],
+  "obj_ring_light|*": [
+   {
+    "label": "Ask Je Fah what the light is pointed at",
+    "priority": "the voice"
+   },
+   {
+    "label": "Clamp it tighter to the shelf",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Turn it off and let the room go dark",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the strip's books"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the notebook of words"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the notebook of words"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the notebook of words"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the voice"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the voice"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   }
+  ]
+ }
+}

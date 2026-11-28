@@ -1,0 +1,466 @@
+{
+ "id": "lvl_018",
+ "title": "the multiplying pegs",
+ "location": "place_laundromat",
+ "frc": "char_ko_naing",
+ "reward": null,
+ "opening": [
+  {
+   "character": null,
+   "place": "place_laundromat",
+   "dialogue": "A life is a sending. The pegs on the last rai are bright orange and new, and there are more of them every morning, and nobody sent them."
+  },
+  {
+   "character": "char_ko_naing",
+   "place": "place_laundromat",
+   "dialogue": "Ko Naing folds his one good shirt on the bench under the fan, first slot, exact change. He keeps his name in a plastic sleeve, and the sleeve is damp from the machine."
+  },
+  {
+   "character": "char_mae_tim",
+   "place": "place_laundromat",
+   "dialogue": "Mae Tim counts the circle envelope twice and sets it under the counter. 'Ta Bunma's deed is in a rice bag inside a rice bag,' she says. 'Friday is close.'"
+  }
+ ],
+ "turns": [
+  {
+   "id": "ko_turn_1",
+   "tag": "tag_guess_thats_right",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He taps the laminated score report on the bench between them, then points at the orange pegs through the glass."
+   ],
+   "dialogue": "The surveyor's marks — I counted them again this morning. More than yesterday. That's probably right, isn't it. The same as the tower.",
+   "uses": "obj_score_report",
+   "target": {
+    "type": "object",
+    "id": "obj_coin_stack"
+   }
+  },
+  {
+   "id": "ko_turn_2",
+   "tag": "tag_why_gone_so_long",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He holds the orange queue vest up to the fan and turns it, looking for the torn seam, then glances at Lek over the collar."
+   ],
+   "dialogue": "You went to the camp gate and came back slow. What took so long? The broker's fee went up again, and I have the clinic letter to send.",
+   "uses": "obj_vest_orange",
+   "target": {
+    "type": "character",
+    "id": "char_ko_naing"
+   }
+  },
+  {
+   "id": "ko_turn_3",
+   "tag": "tag_please_write_it_down",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He slides the phone mount across the bench and sets a pen on top of it, then waits with his hands flat on his knees."
+   ],
+   "dialogue": "The agent's name and the number he offered — could you please write it down for me? I read no Thai, and a man at the camp will ask me by Friday.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "object",
+    "id": "obj_word_notebook"
+   }
+  },
+  {
+   "id": "ko_turn_4",
+   "tag": "tag_everything_under_control",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He lifts the circle envelope an inch off the counter and sets it back down squarely, aligning its edge with the seam."
+   ],
+   "dialogue": "Mae Tim says the circle holds. Is everything under control — the deed, the agent, the pegs? I only ask because I build the thing that is coming.",
+   "uses": "obj_share_envelope",
+   "target": {
+    "type": "object",
+    "id": "obj_mattress_ad"
+   }
+  },
+  {
+   "id": "ko_turn_5",
+   "tag": "tag_still_not_finished",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He presses the score report flat against the bench with one thumb and does not let go."
+   ],
+   "dialogue": "I am not finished yet. The tower has eleven floors to go, and Ta Bunma has not said yes or no, and I have not sent the clinic letter.",
+   "uses": "obj_score_report",
+   "target": {
+    "type": "object",
+    "id": "obj_word_notebook"
+   }
+  },
+  {
+   "id": "ko_turn_6",
+   "tag": "tag_you_look_worn_out",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He studies Lek's face over the top of the orange vest, then folds the vest small and sets it on the bench."
+   ],
+   "dialogue": "You look run down. The soi's books and the deed and the pegs — you carry all of them at once. Sit. The fan is paid for.",
+   "uses": "obj_vest_orange",
+   "target": {
+    "type": "character",
+    "id": "char_ko_naing"
+   }
+  },
+  {
+   "id": "ko_turn_7",
+   "tag": "tag_asking_which_province",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He turns the mattress ad printout over and taps a beach photograph on the back, then looks at Lek."
+   ],
+   "dialogue": "My daughter's clinic is near the coast. Which province is that — do you know? I have the address in my plastic sleeve but not the map.",
+   "uses": "obj_mattress_ad",
+   "target": {
+    "type": "object",
+    "id": "obj_word_notebook"
+   }
+  },
+  {
+   "id": "ko_turn_8",
+   "tag": "tag_guessing_and_agreeing",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He counts the coin stack into two equal piles and pushes one pile toward Lek, nodding at the phone mount."
+   ],
+   "dialogue": "I think that's the one — the province on the letter. I think so. Take the coins for the copy; the reading is yours.",
+   "uses": "obj_coin_stack",
+   "target": {
+    "type": "object",
+    "id": "obj_phone_mount"
+   }
+  }
+ ],
+ "turnResults": {
+  "ko_turn_1": {
+   "speaker": "char_ko_naing",
+   "line": "He counts the pegs through the glass again and holds up two fingers, then three. The count is not the same twice.",
+   "bubble": ""
+  },
+  "ko_turn_2": {
+   "speaker": "char_ko_naing",
+   "line": "He shows the torn seam in the vest and the clinic letter folded inside his plastic sleeve. The letter has been opened and refolded many times.",
+   "bubble": ""
+  },
+  "ko_turn_3": {
+   "speaker": "char_ko_naing",
+   "line": "He watches Lek write the agent's name and number into the word notebook, and asks that the page be folded so it fits the sleeve.",
+   "bubble": "The agent's name is now in Lek's notebook"
+  },
+  "ko_turn_4": {
+   "speaker": "char_ko_naing",
+   "line": "He holds the envelope up to the fan light: the payout is short by one member's share. Mae Tim has not said whose.",
+   "bubble": "The circle envelope is short"
+  },
+  "ko_turn_5": {
+   "speaker": "char_ko_naing",
+   "line": "He takes the score report back and reads the numbers as if they were a floor plan, then sets it down with the scores facing Lek.",
+   "bubble": ""
+  },
+  "ko_turn_6": {
+   "speaker": "char_ko_naing",
+   "line": "He moves his vest so Lek can sit on the bench under the fan. The machine beside them clicks over to the rinse cycle.",
+   "bubble": ""
+  },
+  "ko_turn_7": {
+   "speaker": "char_ko_naing",
+   "line": "He copies the province name from the letter into the margin of the mattress ad, spelling it the way the clinic spelled it.",
+   "bubble": ""
+  },
+  "ko_turn_8": {
+   "speaker": "char_ko_naing",
+   "line": "He pushes the coins across and keeps his hand on the phone mount, waiting for Lek to take it or refuse it.",
+   "bubble": ""
+  }
+ },
+ "finale": [
+  {
+   "character": "char_ko_naing",
+   "place": "place_laundromat",
+   "dialogue": "He folds the word notebook page into his plastic sleeve beside the birth certificate with his name spelled three ways, and the sleeve is a little fuller."
+  },
+  {
+   "character": null,
+   "place": "place_laundromat",
+   "dialogue": "The pegs on the last rai are still orange and still multiplying. The machine finishes its rotation, and the bench under the fan holds one more name."
+  }
+ ],
+ "lekInventory": [
+  "obj_score_report",
+  "obj_word_notebook",
+  "obj_stamp_keys"
+ ],
+ "objects": {
+  "obj_score_report": {
+   "name": "the laminated score report",
+   "description": "Exam score slip, laminated against rain, three points short in red, kept in Lek's breast pocket since the second failure.",
+   "picture": "/img/obj_score_report.jpg"
+  },
+  "obj_word_notebook": {
+   "name": "the word notebook",
+   "description": "Squared-paper notebook, spine taped twice, filled with other people's words in Lek's small handwriting and a few pages left blank.",
+   "picture": "/img/obj_word_notebook.jpg"
+  },
+  "obj_stamp_keys": {
+   "name": "the stamp-drawer keys",
+   "description": "Two brass keys on a wire ring, worn smooth, for the stamp drawer at Khun Sanga's shop; the wire has been bent back into shape many times.",
+   "picture": "/img/obj_stamp_keys.jpg"
+  },
+  "obj_coin_stack": {
+   "name": "the stack of ten-baht coins",
+   "description": "Ten coins stacked on the bench, counted into two piles, one for the copy and one for the reading.",
+   "picture": "/img/obj_coin_stack.jpg"
+  },
+  "obj_mortar": {
+   "name": "the granite mortar",
+   "description": "Heavy granite mortar, chipped at the rim, used at the som tam cart to pound the day's first chilies before the soi wakes.",
+   "picture": "/img/obj_mortar.jpg"
+  },
+  "obj_mattress_ad": {
+   "name": "the mattress ad printout",
+   "description": "Glossy printout of a mattress advertisement, a beach photograph on the back, creased where it was folded to fit a pocket.",
+   "picture": "/img/obj_mattress_ad.jpg"
+  },
+  "obj_share_envelope": {
+   "name": "the circle envelope",
+   "description": "Brown paper envelope with the share circle's payout inside, counted twice, short by one member's share, kept under Mae Tim's counter.",
+   "picture": "/img/obj_share_envelope.jpg"
+  },
+  "obj_vest_orange": {
+   "name": "the orange queue vest",
+   "description": "Orange safety vest with a torn shoulder seam, worn over the one good shirt, washed on Sundays in the first slot.",
+   "picture": "/img/obj_vest_orange.jpg"
+  },
+  "obj_phone_mount": {
+   "name": "the phone mount",
+   "description": "Handlebar phone mount, clamp stiff with road dust, holding a cracked phone that still shows the camp-gate broker's number.",
+   "picture": "/img/obj_phone_mount.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_coin_stack",
+    "obj_mortar",
+    "obj_mattress_ad"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_ko_naing",
+   "item": "obj_score_report",
+   "choice": 1,
+   "speaker": "char_ko_naing",
+   "line": "He reads the three points short and sets the report down carefully. 'You failed by the width of a peg. Then you know what the deed is worth to a man who cannot read it.'",
+   "flag": "score_shown",
+   "bubble": "Ko Naing has seen the score report"
+  },
+  {
+   "scene": "char_ko_naing",
+   "item": "obj_word_notebook",
+   "choice": 0,
+   "requiresFlag": "score_shown",
+   "speaker": "char_ko_naing",
+   "line": "He opens the notebook to the blank pages and writes his daughter's name in Mon script, then asks Lek to write it in Thai beneath. 'Two tongues, one name. Now the sleeve is full.'",
+   "addToLek": [
+    "obj_share_envelope"
+   ],
+   "flag": "level_won",
+   "bubble": "Received: the circle envelope"
+  }
+ ],
+ "fallbacks": {
+  "char_ko_naing": [
+   "He turns the {item} over once and sets it back on the bench. 'Not yet. The shirt is still damp and the fan is paid for.'",
+   "He looks from the {item} to the orange pegs through the glass and back. 'The pegs multiply faster than the words. Show me something that counts.'",
+   "He taps the {item} against the score report in Lek's pocket. 'That first. The three points short. Then we talk about the deed.'"
+  ],
+  "narrator": [
+   "The {item} stays on the bench between them. The machine clicks over; the pegs outside hold their orange.",
+   "Nothing comes of the {item} yet. Ko Naing watches the fan turn the way he watches a floor rise.",
+   "Ko Naing's gaze goes from the {item} to the plastic sleeve at his chest and back — a name spelled three ways, a page not yet written."
+  ]
+ },
+ "lekPriorities": [
+  "the big house's small favors",
+  "his mother's pride",
+  "the exam — three points short",
+  "the strip's books",
+  "the notebook of words"
+ ],
+ "choices": {
+  "char_ko_naing|obj_score_report": [
+   {
+    "label": "Show him the three points short",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Ask what the deed is worth to him",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Fold the report and put it away",
+    "priority": "his mother's pride"
+   }
+  ],
+  "char_ko_naing|obj_word_notebook": [
+   {
+    "label": "Write his daughter's name in Thai",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Write the agent's number instead",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Close the notebook and say nothing",
+    "priority": "his mother's pride"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask about the pegs through the glass",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Offer to read the clinic letter aloud",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Say the fan is paid for and sit",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "his mother's pride"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "his mother's pride"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the exam — three points short"
+   }
+  ],
+  "obj_coin_stack|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "his mother's pride"
+   }
+  ],
+  "obj_mortar|*": [
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the exam — three points short"
+   }
+  ],
+  "obj_mattress_ad|*": [
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the strip's books"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the strip's books"
+   }
+  ]
+ }
+}

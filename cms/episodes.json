@@ -1,0 +1,992 @@
+[
+ {
+  "id": "lvl_001",
+  "title": "the retender",
+  "level": "lvl_001",
+  "acts": [
+   {
+    "tag": "tag_join_group_photo",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_advise_some_rest",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_pressing_for_yes_or_no",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_noticing_someone_aged",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_claiming_public_knowledge",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_announcing_upcoming_graduation",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_encouraging_to_ask",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_offering_to_inspect",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_002",
+  "title": "the broker's new fee",
+  "level": "lvl_002",
+  "acts": [
+   {
+    "tag": "tag_voice_deep_curiosity",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_buffalo_grazes_constantly",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_pressing_for_yes_or_no",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_announcing_news_to_share",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_voicing_disagreement",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_declining_due_to_work",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_dismissing_fear",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_hearing_stomach_growl",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_003",
+  "title": "the dress that came back",
+  "level": "lvl_003",
+  "acts": [
+   {
+    "tag": "tag_reassure_no_problem",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_guessing_and_agreeing",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_admitting_no_thai",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_agreeing_to_try_food",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_warning_about_changing_mind",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_revealing_overheard_everything",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_reflecting_on_good_experience",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_buffalo_grazes_constantly",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_004",
+  "title": "the stream that cut",
+  "level": "lvl_004",
+  "acts": [
+   {
+    "tag": "tag_call_for_adventurers",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_voice_deep_curiosity",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_join_group_photo",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_sprained_ankle_ouch",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_lost_contact_drift",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_swear_keep_secret",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_warning_about_changing_mind",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_checking_if_tired",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_005",
+  "title": "the stolen voice",
+  "level": "lvl_005",
+  "acts": [
+   {
+    "tag": "tag_predict_she_wont_come",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_urge_walk_further",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_advise_some_rest",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_why_no_call_first",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_just_heartbroken",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_announcing_news_to_share",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_claiming_public_knowledge",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_voicing_disagreement",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_006",
+  "title": "Two Flags on One Cart",
+  "level": "lvl_006",
+  "acts": [
+   {
+    "tag": "tag_invite_to_the_beach",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_reassure_no_problem",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_buffalo_grazes_constantly",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_girlfriend_gets_jealous",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_ask_their_opinion",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_ask_what_its_called",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_agreeing_to_try_food",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_lost_contact_drift",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_007",
+  "title": "the washed letter",
+  "level": "lvl_007",
+  "acts": [
+   {
+    "tag": "tag_why_no_call_first",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_sprained_ankle_ouch",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_lost_contact_drift",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_ask_what_its_called",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_man_called_for_you",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_thought_it_was_fine",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_whats_in_there",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_heading_out_now",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_008",
+  "title": "The Late Member",
+  "level": "lvl_008",
+  "acts": [
+   {
+    "tag": "tag_girlfriend_gets_jealous",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_ask_their_opinion",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_just_heartbroken",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_swear_keep_secret",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_home_so_late",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_must_act_now",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_heading_out_now",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_checking_if_tired",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_009",
+  "title": "the night the soi went dark",
+  "level": "lvl_009",
+  "acts": [
+   {
+    "tag": "tag_invite_to_the_beach",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_home_so_late",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_whats_in_there",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_not_done_talking",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_declaring_best_approach",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_admitting_feelings_changed",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_asking_for_a_promise",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_praising_someones_character",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_010",
+  "title": "the machine that takes only QR",
+  "level": "lvl_010",
+  "acts": [
+   {
+    "tag": "tag_urge_walk_further",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_thought_it_was_fine",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_shout_stop_it",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_cant_make_it_back",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_recognizing_surprise_visitor",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_estimating_high_odds",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_confirming_answer_found",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_rubbing_something_in_eye",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_011",
+  "title": "the machine that eats coins",
+  "level": "lvl_011",
+  "acts": [
+   {
+    "tag": "tag_man_called_for_you",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_must_act_now",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_heading_out_now",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_only_cares_about_one",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_we_were_so_bored",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_realizing_the_truth",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_declining_due_to_work",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_calling_out_evasion",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_012",
+  "title": "the multiplying pegs",
+  "level": "lvl_012",
+  "acts": [
+   {
+    "tag": "tag_only_cares_about_one",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_cant_make_it_back",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_we_were_so_bored",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_noticing_someone_aged",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_refusing_an_offer",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_realizing_the_truth",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_offering_food_for_thought",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_whats_in_there",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_013",
+  "title": "two flags on one cart",
+  "level": "lvl_013",
+  "acts": [
+   {
+    "tag": "tag_shout_stop_it",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_not_done_talking",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_admitting_no_thai",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_refusing_an_offer",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_recognizing_surprise_visitor",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_asking_for_a_promise",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_asking_for_directions",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_confirming_list_complete",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_014",
+  "title": "the machine that takes only QR",
+  "level": "lvl_014",
+  "acts": [
+   {
+    "tag": "tag_predict_she_wont_come",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_please_write_it_down",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_everything_under_control",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_you_look_worn_out",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_asking_which_province",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_estimating_high_odds",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_checking_relationship_status",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_asking_preferred_style",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_015",
+  "title": "the dress that came back",
+  "level": "lvl_015",
+  "acts": [
+   {
+    "tag": "tag_youll_regret_leaving",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_he_really_means_it",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_we_live_nearby",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_can_you_follow",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_he_hung_up",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_admitting_feelings_changed",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_confessing_total_confusion",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_warning_to_hide",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_016",
+  "title": "the stolen voice",
+  "level": "lvl_016",
+  "acts": [
+   {
+    "tag": "tag_guess_thats_right",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_why_gone_so_long",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_still_not_finished",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_no_need_for_that",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_declaring_best_approach",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_confirming_answer_found",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_urging_self_care",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_confirming_already_known",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_017",
+  "title": "the broker's new fee",
+  "level": "lvl_017",
+  "acts": [
+   {
+    "tag": "tag_call_for_adventurers",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_youll_regret_leaving",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_he_really_means_it",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_we_live_nearby",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_no_need_for_that",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_can_you_follow",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_he_hung_up",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_failing_to_recall_password",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ },
+ {
+  "id": "lvl_018",
+  "title": "the multiplying pegs",
+  "level": "lvl_018",
+  "acts": [
+   {
+    "tag": "tag_guess_thats_right",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_why_gone_so_long",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_please_write_it_down",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_everything_under_control",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_still_not_finished",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_you_look_worn_out",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_asking_which_province",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   },
+   {
+    "tag": "tag_guessing_and_agreeing",
+    "lines_before": [],
+    "lines_after": [],
+    "decision": null
+   }
+  ]
+ }
+]

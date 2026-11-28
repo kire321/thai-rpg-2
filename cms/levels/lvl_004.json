@@ -1,0 +1,545 @@
+{
+ "id": "lvl_004",
+ "title": "the stream that cut",
+ "location": "place_somtam_cart",
+ "frc": "char_note",
+ "reward": "obj_gimbal",
+ "opening": [
+  {
+   "character": null,
+   "place": "place_somtam_cart",
+   "dialogue": "A life is a sending, and tonight the sending is a funeral stream frozen on a phone propped against a som tam cart. Note holds the screen up to the light of the cart's bulb as if the angle could unstick it."
+  },
+  {
+   "character": "char_note",
+   "place": "place_somtam_cart",
+   "dialogue": "Three time zones are watching a picture that doesn't move. The bot heard the song and decided the song was somebody's property."
+  },
+  {
+   "character": null,
+   "place": "place_somtam_cart",
+   "dialogue": "Pa Yong keeps pounding the papaya. The mortar's rhythm is the only thing on the soi still running on time."
+  }
+ ],
+ "turns": [
+  {
+   "id": "note_turn_1",
+   "tag": "tag_call_for_adventurers",
+   "speaker": "char_note",
+   "stage_directions": [
+    "Note tilts the phone toward Lek, thumb hovering over the frozen frame, then taps the gimbal's clamp with his knuckle."
+   ],
+   "dialogue": "For anyone who likes an adventure — the wat's stream is dead and the hour is coming. I need a second pair of hands on this clamp.",
+   "uses": "obj_gimbal",
+   "target": {
+    "type": "object",
+    "id": "obj_score_report"
+   }
+  },
+  {
+   "id": "note_turn_2",
+   "tag": "tag_voice_deep_curiosity",
+   "speaker": "char_note",
+   "stage_directions": [
+    "He scrolls the phone with one finger, squinting at a line of small grey text, and holds the screen out so Lek can see the error code."
+   ],
+   "dialogue": "I really wonder what the bot heard that I didn't. It says the song belongs to someone. The song is older than the phone.",
+   "uses": "obj_gimbal",
+   "target": {
+    "type": "character",
+    "id": "char_note"
+   }
+  },
+  {
+   "id": "note_turn_3",
+   "tag": "tag_join_group_photo",
+   "speaker": "char_note",
+   "stage_directions": [
+    "Note waves Lek in close behind the cart's bulb and angles the phone so the som tam cart and the wat's roofline both fit the frame."
+   ],
+   "dialogue": "Come and take a picture with us — if the stream won't run, at least the relatives get one still frame that proves we were here.",
+   "uses": "obj_gimbal",
+   "target": {
+    "type": "object",
+    "id": "obj_qr_sign"
+   }
+  },
+  {
+   "id": "note_turn_4",
+   "tag": "tag_sprained_ankle_ouch",
+   "speaker": "char_note",
+   "stage_directions": [
+    "He shifts his weight off one foot and leans the gimbal against the cart's wheel, rubbing his ankle through the sock."
+   ],
+   "dialogue": "I sprained my ankle running the cable from the sala to the cart. The wat's Wi-Fi doesn't reach past the bodhi tree.",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "object",
+    "id": "obj_gimbal"
+   }
+  },
+  {
+   "id": "note_turn_5",
+   "tag": "tag_lost_contact_drift",
+   "speaker": "char_note",
+   "stage_directions": [
+    "He turns the phone face-down on the cart's cutting board and presses the change-machine key flat with his palm."
+   ],
+   "dialogue": "The cousins abroad — we don't stay in touch except for funerals. Now the one time they're watching, the picture quits.",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "character",
+    "id": "char_note"
+   }
+  },
+  {
+   "id": "note_turn_6",
+   "tag": "tag_swear_keep_secret",
+   "speaker": "char_note",
+   "stage_directions": [
+    "Note glances toward the shophouse strip and lowers his voice, one hand cupped near the gimbal's microphone."
+   ],
+   "dialogue": "Don't tell my grandmother about the phone business — she thinks I'm at the wat for the merit. The merit is real. The business is also real.",
+   "uses": "obj_gimbal",
+   "target": {
+    "type": "object",
+    "id": "obj_biscuit_tin"
+   }
+  },
+  {
+   "id": "note_turn_7",
+   "tag": "tag_warning_about_changing_mind",
+   "speaker": "char_note",
+   "stage_directions": [
+    "He wags a finger at the frozen screen, then taps the gimbal's record button twice, watching the red dot not appear."
+   ],
+   "dialogue": "You might change your mind about helping when you hear the hour. The astrologer gave us until the incense burns down.",
+   "uses": "obj_vest_orange",
+   "target": {
+    "type": "object",
+    "id": "obj_gimbal"
+   }
+  },
+  {
+   "id": "note_turn_8",
+   "tag": "tag_checking_if_tired",
+   "speaker": "char_note",
+   "stage_directions": [
+    "Note looks at Lek's shoulders, then at the tea-stall glass sweating on the cart, and pushes the glass a few inches closer."
+   ],
+   "dialogue": "Aren't you tired? You've been reading forms all day. This is just a phone and a song and a family three time zones away.",
+   "uses": "obj_tea_glass",
+   "target": {
+    "type": "character",
+    "id": "char_note"
+   }
+  }
+ ],
+ "turnResults": {
+  "note_turn_1": {
+   "speaker": "char_note",
+   "line": "Note unclamps the gimbal and hands Lek the phone end. The frozen frame shows the sala's candle and a row of monks' feet. The clamp's screw is stripped and turns without biting.",
+   "bubble": "The gimbal is loose in Note's hands"
+  },
+  "note_turn_2": {
+   "speaker": "char_note",
+   "line": "He reads the error code aloud twice, then writes it on the back of his hand with a pen from behind his ear. 'It's a claim,' he says. 'Somebody filed a claim on the song.'",
+   "bubble": "A copyright claim is blocking the stream"
+  },
+  "note_turn_3": {
+   "speaker": "char_note",
+   "line": "Note takes the still frame and sends it to the relatives' group. Three grey ticks appear, then a blue one. Somewhere a phone buzzes in another time zone.",
+   "bubble": "The relatives have seen one still frame"
+  },
+  "note_turn_4": {
+   "speaker": "char_note",
+   "line": "He digs the change-machine key from his pocket and pries the gimbal's battery door open with it. The battery is warm and swollen at one corner.",
+   "bubble": "The gimbal battery is swollen"
+  },
+  "note_turn_5": {
+   "speaker": "char_note",
+   "line": "Note sets the key down and looks at the frozen screen a long moment. 'The cousins sent money for the cremation,' he says. 'The money arrived. The picture didn't.'",
+   "bubble": ""
+  },
+  "note_turn_6": {
+   "speaker": "char_note",
+   "line": "He pockets the key and straightens his uniform collar. The gimbal's red dot stays dark. 'The wat's account is under Novice Toy's name,' he says. 'The claim came in on his name.'",
+   "bubble": "The claim is on Novice Toy's account"
+  },
+  "note_turn_7": {
+   "speaker": "char_note",
+   "line": "Note turns the orange vest over in his hands — the queue vest from the win, borrowed for the ceremony. 'If we don't fix it before the incense, the relatives watch a candle burn down on a still picture.'",
+   "bubble": ""
+  },
+  "note_turn_8": {
+   "speaker": "char_note",
+   "line": "He drinks the tea in two swallows and sets the glass down. 'I'm not tired,' he says. 'I'm just the only one here who knows which button does what, and the button isn't working.'",
+   "bubble": ""
+  }
+ },
+ "finale": [
+  {
+   "character": "char_note",
+   "place": "place_somtam_cart",
+   "dialogue": "The stream comes back on a different account, and the sala's candle moves. Note holds the gimbal steady with both hands, his ankle forgotten."
+  },
+  {
+   "character": null,
+   "place": "place_somtam_cart",
+   "dialogue": "Three time zones lean toward their phones. The incense has a quarter left. The mortar keeps its rhythm, and the song goes out again, quieter this time, on a name that isn't in dispute."
+  }
+ ],
+ "lekInventory": [
+  "obj_score_report",
+  "obj_word_notebook",
+  "obj_biscuit_tin"
+ ],
+ "objects": {
+  "obj_score_report": {
+   "name": "the laminated score report",
+   "description": "Exam result folded once and laminated at the copy shop, the laminate yellowing at the crease, three points short in a column of numbers.",
+   "picture": "/img/obj_score_report.jpg"
+  },
+  "obj_word_notebook": {
+   "name": "the word notebook",
+   "description": "Pocket notebook with a rubber band, pages filled with other people's words in Lek's small hand, a few pages stuck together from rain.",
+   "picture": "/img/obj_word_notebook.jpg"
+  },
+  "obj_biscuit_tin": {
+   "name": "the biscuit tin of ledgers",
+   "description": "Biscuit tin with a dented lid, three vendors' books inside, the hinge loose and the paint worn to grey at the corners.",
+   "picture": "/img/obj_biscuit_tin.jpg"
+  },
+  "obj_qr_sign": {
+   "name": "the QR sign",
+   "description": "Laminated QR code on a stick, the corners curled from heat, propped against the som tam cart's chili jar.",
+   "picture": "/img/obj_qr_sign.jpg"
+  },
+  "obj_gimbal": {
+   "name": "the funeral gimbal",
+   "description": "Secondhand phone gimbal with a stripped clamp screw, a swollen battery, and a strip of monks' orange cloth tied to the handle for luck.",
+   "picture": "/img/obj_gimbal.jpg"
+  },
+  "obj_deed_bag": {
+   "name": "the deed in the rice bag",
+   "description": "Land deed folded into a rice bag and knotted at the top, the bag's printing faded, kept under the cart's cutting board against the rain.",
+   "picture": "/img/obj_deed_bag.jpg"
+  },
+  "obj_tea_glass": {
+   "name": "the tea-stall glass",
+   "description": "Small glass with a hairline crack near the rim, tea leaves settled at the bottom, condensation running down the side.",
+   "picture": "/img/obj_tea_glass.jpg"
+  },
+  "obj_change_key": {
+   "name": "the change-machine key",
+   "description": "Brass key on a red plastic fob, worn smooth, opens the coin machine at Saduek Sak 24 and, lately, whatever else needs prying.",
+   "picture": "/img/obj_change_key.jpg"
+  },
+  "obj_vest_orange": {
+   "name": "the orange queue vest",
+   "description": "Orange vest borrowed from the win's queue, reflective strip peeling at one shoulder, smelling of rain and motorcycle exhaust.",
+   "picture": "/img/obj_vest_orange.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_qr_sign",
+    "obj_gimbal",
+    "obj_deed_bag"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_note",
+   "item": "obj_score_report",
+   "choice": 1,
+   "speaker": "char_note",
+   "line": "Note reads the laminated report upside down, the way he reads everything. 'Three points,' he says. 'You know what three points is? It's a bus that left while you were tying your shoe.' He takes the report and studies the seal.",
+   "flag": "note_saw_report",
+   "bubble": "Note has seen the exam report"
+  },
+  {
+   "scene": "char_note",
+   "item": "obj_word_notebook",
+   "choice": 1,
+   "requiresFlag": "note_saw_report",
+   "speaker": "char_note",
+   "line": "Note flips the notebook to a blank page and writes the error code in it, then draws an arrow to the word 'claim.' 'The song's claim is on Novice Toy's account,' he says. 'I can file a counter-notice from the copy shop's computer. But the counter-notice needs a name that isn't the dead man's.' He looks at Lek. 'Yours.'",
+   "addToLek": [
+    "obj_gimbal"
+   ],
+   "flag": "level_won",
+   "bubble": "Received: the funeral gimbal"
+  },
+  {
+   "scene": "char_note",
+   "item": "obj_gimbal",
+   "choice": 0,
+   "speaker": "char_note",
+   "line": "Note watches Lek turn the gimbal over. 'The clamp's stripped,' he says. 'Hold it steady by the battery door and I'll file the counter-notice. The incense is half gone.'",
+   "flag": "gimbal_held",
+   "bubble": ""
+  }
+ ],
+ "fallbacks": {
+  "char_note": [
+   "Note turns the {item} over once and hands it back. 'The stream's still frozen,' he says. 'The incense doesn't care about that.'",
+   "He sets the {item} on the cart's cutting board between them. 'The claim is on Novice Toy's account,' he says. 'That's the thing that needs a name on it.'",
+   "Note taps the {item} against the gimbal's stripped clamp. 'Show me something with a seal on it,' he says. 'The counter-notice needs a name the bot will believe.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the night with nothing settled. The frozen frame holds its candle; the mortar keeps its rhythm.",
+   "Nothing comes of the {item} yet. Note watches the phone the way the soi watches the incense burn.",
+   "Note's gaze flicks from the {item} to the gimbal's dark red dot and back — a route mapped, a name needed."
+  ]
+ },
+ "lekPriorities": [
+  "his mother's pride",
+  "the exam — three points short",
+  "the strip's books",
+  "the notebook of words",
+  "the voice"
+ ],
+ "choices": {
+  "char_note|obj_score_report": [
+   {
+    "label": "Show him the report and say nothing",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Let him read the seal upside down",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Ask what three points is worth here",
+    "priority": "the strip's books"
+   }
+  ],
+  "char_note|obj_word_notebook": [
+   {
+    "label": "Open the notebook to a blank page",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Write the error code down for him",
+    "priority": "the voice"
+   },
+   {
+    "label": "Ask if the counter-notice needs a witness",
+    "priority": "the strip's books"
+   }
+  ],
+  "char_note|obj_gimbal": [
+   {
+    "label": "Hold the gimbal steady by the battery door",
+    "priority": "the voice"
+   },
+   {
+    "label": "Ask whose name the counter-notice takes",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Set the gimbal down and check the incense",
+    "priority": "the strip's books"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Ask what the bot heard in the song",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Offer to read the claim aloud",
+    "priority": "the voice"
+   },
+   {
+    "label": "Say the hour is close and mean it",
+    "priority": "the exam — three points short"
+   }
+  ],
+  "obj_score_report|*": [
+   {
+    "label": "Fold the report back into your pocket",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Lay it flat on the cart for Note",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Ask what a seal is worth to a bot",
+    "priority": "the strip's books"
+   }
+  ],
+  "obj_word_notebook|*": [
+   {
+    "label": "Flip to the page of other people's words",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Read the error code aloud from the page",
+    "priority": "the voice"
+   },
+   {
+    "label": "Ask Note to spell the claim number",
+    "priority": "the strip's books"
+   }
+  ],
+  "obj_gimbal|*": [
+   {
+    "label": "Turn the gimbal over and check the battery",
+    "priority": "the voice"
+   },
+   {
+    "label": "Hold it steady and let Note work",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Ask how long the battery has left",
+    "priority": "the exam — three points short"
+   }
+  ],
+  "obj_biscuit_tin|*": [
+   {
+    "label": "Open the tin and show the ledgers",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask if a ledger name will satisfy the bot",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Close the tin and keep it out of it",
+    "priority": "his mother's pride"
+   }
+  ],
+  "obj_qr_sign|*": [
+   {
+    "label": "Turn the QR sign toward the phone",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask if the wat takes donations by code",
+    "priority": "the voice"
+   },
+   {
+    "label": "Prop the sign against the gimbal",
+    "priority": "the notebook of words"
+   }
+  ],
+  "obj_deed_bag|*": [
+   {
+    "label": "Lift the rice bag and feel its weight",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask whose name is on the deed",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Set the bag back under the board",
+    "priority": "the exam — three points short"
+   }
+  ],
+  "narrator|*": [
+   {
+    "label": "Watch the incense burn down",
+    "priority": "the voice"
+   },
+   {
+    "label": "Listen to the mortar keep its rhythm",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Look at the frozen frame and wait",
+    "priority": "the notebook of words"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the voice"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "his mother's pride"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the voice"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "his mother's pride"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the voice"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the exam — three points short"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the voice"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the exam — three points short"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the voice"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the exam — three points short"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the notebook of words"
+   }
+  ]
+ }
+}

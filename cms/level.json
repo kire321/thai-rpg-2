@@ -1,0 +1,401 @@
+{
+ "levels": [
+  "lvl_001",
+  "lvl_002",
+  "lvl_003",
+  "lvl_004",
+  "lvl_005",
+  "lvl_006",
+  "lvl_007",
+  "lvl_008",
+  "lvl_009",
+  "lvl_010",
+  "lvl_011",
+  "lvl_012",
+  "lvl_013",
+  "lvl_014",
+  "lvl_015",
+  "lvl_016",
+  "lvl_017",
+  "lvl_018"
+ ],
+ "note": "Pak Soi beta week — 18 level episodes, one per play session.",
+ "seedProgress": {
+  "cardStats": {
+   "card-405-12.-thai-eng": {
+    "repetitions": 3,
+    "interval": 19,
+    "ef": 2.7,
+    "lastReviewed": 20764,
+    "failedToday": false
+   },
+   "card-429-15.-eng-thai": {
+    "repetitions": 3,
+    "interval": 12,
+    "ef": 2.36,
+    "lastReviewed": 20770,
+    "failedToday": false
+   },
+   "card-446-2.-eng-thai": {
+    "repetitions": 2,
+    "interval": 6,
+    "ef": 1.9399999999999997,
+    "lastReviewed": 20779,
+    "failedToday": false
+   },
+   "card-446-10.-eng-thai": {
+    "repetitions": 3,
+    "interval": 10,
+    "ef": 1.9399999999999997,
+    "lastReviewed": 20770,
+    "failedToday": false
+   },
+   "card-412-14.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.5,
+    "lastReviewed": 20771,
+    "failedToday": false
+   },
+   "card-412-15.-eng-thai": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.36,
+    "lastReviewed": 20770,
+    "failedToday": false
+   },
+   "card-412-12.-thai-eng": {
+    "repetitions": 2,
+    "interval": 6,
+    "ef": 2.36,
+    "lastReviewed": 20777,
+    "failedToday": false
+   },
+   "card-433-20.-eng-thai": {
+    "repetitions": 3,
+    "interval": 12,
+    "ef": 1.9399999999999997,
+    "lastReviewed": 20770,
+    "failedToday": false
+   },
+   "card-448-9.-eng-thai": {
+    "repetitions": 3,
+    "interval": 9,
+    "ef": 2.0799999999999996,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-424-8.-thai-eng": {
+    "repetitions": 2,
+    "interval": 6,
+    "ef": 2.5,
+    "lastReviewed": 20779,
+    "failedToday": false
+   },
+   "card-412-10.-eng-thai": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.5,
+    "lastReviewed": 20779,
+    "failedToday": false
+   },
+   "card-439-2.-thai-eng": {
+    "repetitions": 4,
+    "interval": 38,
+    "ef": 2.5,
+    "lastReviewed": 20777,
+    "failedToday": false
+   },
+   "card-431-18.-eng-thai": {
+    "repetitions": 3,
+    "interval": 12,
+    "ef": 2.36,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-402-15.-eng-thai": {
+    "repetitions": 2,
+    "interval": 5,
+    "ef": 2.36,
+    "lastReviewed": 20777,
+    "failedToday": false
+   },
+   "card-431-19.-thai-eng": {
+    "repetitions": 2,
+    "interval": 8,
+    "ef": 2.6,
+    "lastReviewed": 20777,
+    "failedToday": false
+   },
+   "card-415-17.-eng-thai": {
+    "repetitions": 3,
+    "interval": 12,
+    "ef": 2.36,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-446-20.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.5,
+    "lastReviewed": 20766,
+    "failedToday": false
+   },
+   "card-441-16.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.36,
+    "lastReviewed": 20766,
+    "failedToday": false
+   },
+   "card-446-3.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.5,
+    "lastReviewed": 20766,
+    "failedToday": false
+   },
+   "card-415-13.-thai-eng": {
+    "repetitions": 3,
+    "interval": 13,
+    "ef": 2.0799999999999996,
+    "lastReviewed": 20770,
+    "failedToday": false
+   },
+   "card-412-19.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.5,
+    "lastReviewed": 20777,
+    "failedToday": false
+   },
+   "card-429-18.-thai-eng": {
+    "repetitions": 2,
+    "interval": 6,
+    "ef": 2.5,
+    "lastReviewed": 20779,
+    "failedToday": false
+   },
+   "card-450-4.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.36,
+    "lastReviewed": 20770,
+    "failedToday": false
+   },
+   "card-448-14.-thai-eng": {
+    "repetitions": 2,
+    "interval": 6,
+    "ef": 2.5,
+    "lastReviewed": 20779,
+    "failedToday": false
+   },
+   "card-441-12.-eng-thai": {
+    "repetitions": 3,
+    "interval": 12,
+    "ef": 2.2199999999999998,
+    "lastReviewed": 20767,
+    "failedToday": false
+   },
+   "card-409-1.-eng-thai": {
+    "repetitions": 3,
+    "interval": 9,
+    "ef": 2.0799999999999996,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-429-20.-eng-thai": {
+    "repetitions": 2,
+    "interval": 8,
+    "ef": 2.7,
+    "lastReviewed": 20778,
+    "failedToday": false
+   },
+   "card-441-15.-eng-thai": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.36,
+    "lastReviewed": 20767,
+    "failedToday": false
+   },
+   "card-433-19.-eng-thai": {
+    "repetitions": 2,
+    "interval": 5,
+    "ef": 2.2199999999999998,
+    "lastReviewed": 20777,
+    "failedToday": false
+   },
+   "card-433-2.-eng-thai": {
+    "repetitions": 3,
+    "interval": 19,
+    "ef": 2.7,
+    "lastReviewed": 20767,
+    "failedToday": false
+   },
+   "card-444-2.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.5,
+    "lastReviewed": 20771,
+    "failedToday": false
+   },
+   "card-441-19.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.5,
+    "lastReviewed": 20770,
+    "failedToday": false
+   },
+   "card-441-19.-eng-thai": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.36,
+    "lastReviewed": 20777,
+    "failedToday": false
+   },
+   "card-435-15.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.5,
+    "lastReviewed": 20770,
+    "failedToday": false
+   },
+   "card-433-19.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.36,
+    "lastReviewed": 20767,
+    "failedToday": false
+   },
+   "card-405-12.-eng-thai": {
+    "repetitions": 4,
+    "interval": 32,
+    "ef": 2.46,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-412-19.-eng-thai": {
+    "repetitions": 3,
+    "interval": 14,
+    "ef": 2.2199999999999998,
+    "lastReviewed": 20771,
+    "failedToday": false
+   },
+   "card-412-10.-thai-eng": {
+    "repetitions": 2,
+    "interval": 8,
+    "ef": 2.6,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-424-7.-eng-thai": {
+    "repetitions": 2,
+    "interval": 8,
+    "ef": 2.6,
+    "lastReviewed": 20777,
+    "failedToday": false
+   },
+   "card-448-5.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.5,
+    "lastReviewed": 20766,
+    "failedToday": false
+   },
+   "card-431-17.-thai-eng": {
+    "repetitions": 3,
+    "interval": 26,
+    "ef": 2.8000000000000003,
+    "lastReviewed": 20777,
+    "failedToday": false
+   },
+   "card-405-2.-thai-eng": {
+    "repetitions": 2,
+    "interval": 6,
+    "ef": 2.5,
+    "lastReviewed": 20777,
+    "failedToday": false
+   },
+   "card-439-4.-eng-thai": {
+    "repetitions": 3,
+    "interval": 10,
+    "ef": 2.2199999999999998,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-409-4.-thai-eng": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.36,
+    "lastReviewed": 20766,
+    "failedToday": false
+   },
+   "card-439-2.-eng-thai": {
+    "repetitions": 3,
+    "interval": 15,
+    "ef": 2.36,
+    "lastReviewed": 20764,
+    "failedToday": false
+   },
+   "card-431-8.-eng-thai": {
+    "repetitions": 2,
+    "interval": 6,
+    "ef": 2.5,
+    "lastReviewed": 20773,
+    "failedToday": false
+   },
+   "card-409-6.-eng-thai": {
+    "repetitions": 3,
+    "interval": 10,
+    "ef": 2.2199999999999998,
+    "lastReviewed": 20770,
+    "failedToday": false
+   },
+   "card-441-15.-thai-eng": {
+    "repetitions": 2,
+    "interval": 8,
+    "ef": 2.7,
+    "lastReviewed": 20771,
+    "failedToday": false
+   },
+   "card-415-14.-eng-thai": {
+    "repetitions": 1,
+    "interval": 1,
+    "ef": 2.36,
+    "lastReviewed": 20779,
+    "failedToday": false
+   },
+   "card-450-14.-eng-thai": {
+    "repetitions": 1,
+    "interval": 1,
+    "ef": 2.5,
+    "lastReviewed": 20779,
+    "failedToday": false
+   },
+   "card-443-1.-thai-eng": {
+    "repetitions": 1,
+    "interval": 2,
+    "ef": 2.6,
+    "lastReviewed": 20779,
+    "failedToday": false
+   },
+   "card-439-19.-eng-thai": {
+    "repetitions": 0,
+    "interval": 1,
+    "ef": 2.5,
+    "lastReviewed": 20779,
+    "failedToday": true
+   },
+   "card-431-17.-eng-thai": {
+    "repetitions": 1,
+    "interval": 2,
+    "ef": 2.6,
+    "lastReviewed": 20779,
+    "failedToday": false
+   }
+  },
+  "againQueue": [
+   "card-439-19.-eng-thai"
+  ]
+ }
+}

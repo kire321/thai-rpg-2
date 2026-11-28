@@ -1,0 +1,490 @@
+{
+ "id": "lvl_006",
+ "title": "Two Flags on One Cart",
+ "location": "place_last_rai",
+ "frc": "char_kwang",
+ "reward": "obj_gimbal",
+ "opening": [
+  {
+   "character": null,
+   "place": "place_last_rai",
+   "dialogue": "A life is a sending, and the last rai sends up its smell of wet clay and diesel. Kwang stands at the edge of the unbuilt field with a phone mount clamped to a fence post, a woman running at five percent, filming a mortar that has not yet been sold."
+  },
+  {
+   "character": "char_kwang",
+   "place": "place_last_rai",
+   "dialogue": "The light is better here than at the cart. Pa Yong's mortar on the last rai — that's the whole campaign in one frame."
+  },
+  {
+   "character": null,
+   "place": "place_last_rai",
+   "dialogue": "The granite mortar sits on a plastic stool where the field meets the soi. Mint's laminated menu is taped to its side. Nobody has pounded anything in it since the order came in."
+  }
+ ],
+ "turns": [
+  {
+   "id": "kwang_turn_1",
+   "tag": "tag_invite_to_the_beach",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She tilts the phone mount toward the mortar and taps the screen with one finger."
+   ],
+   "dialogue": "I told my team this was a beach shoot. Sand, salt, a mortar — they believed me. Nobody checks a background twice when the light is good.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "object",
+    "id": "obj_mortar"
+   }
+  },
+  {
+   "id": "kwang_turn_2",
+   "tag": "tag_reassure_no_problem",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She lifts the laundry basket off the stool and sets it on the grass, then brushes a leaf from the rim."
+   ],
+   "dialogue": "Pa Yong thinks I'm stealing something. I'm not. The mortar stays hers. I just need it to look like it belongs to everyone.",
+   "uses": "obj_laundry_basket",
+   "target": {
+    "type": "object",
+    "id": "obj_mortar"
+   }
+  },
+  {
+   "id": "kwang_turn_3",
+   "tag": "tag_buffalo_grazes_constantly",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She points the phone mount at a water buffalo grazing at the field's far edge, then pans back to the mortar."
+   ],
+   "dialogue": "That buffalo has been eating since I got here. No stopping, no posing. If I could sell that kind of patience, I'd be finished by noon.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "character",
+    "id": "char_kwang"
+   }
+  },
+  {
+   "id": "kwang_turn_4",
+   "tag": "tag_girlfriend_gets_jealous",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She checks the phone mount's clamp, then glances at the orange queue vest folded on the basket."
+   ],
+   "dialogue": "My mother thinks I work in a bank. If she saw me photographing a mortar for a brand, she'd ask why I can't just come home and pound som tam like a normal daughter.",
+   "uses": "obj_vest_orange",
+   "target": {
+    "type": "object",
+    "id": "obj_phone_mount"
+   }
+  },
+  {
+   "id": "kwang_turn_5",
+   "tag": "tag_ask_their_opinion",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She turns the phone mount toward Lek and holds it steady, waiting."
+   ],
+   "dialogue": "You read documents for people. You know what a thing means before it's said. Tell me — does this mortar look like a memory or a product?",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "character",
+    "id": "char_kwang"
+   }
+  },
+  {
+   "id": "kwang_turn_6",
+   "tag": "tag_ask_what_its_called",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She taps the laminated menu taped to the mortar's side, then looks at Lek."
+   ],
+   "dialogue": "Mint calls it 'Heritage Fusion.' Pa Yong calls it nothing. I need a name that sells without lying. What would you call it?",
+   "uses": "obj_mortar",
+   "target": {
+    "type": "character",
+    "id": "char_kwang"
+   }
+  },
+  {
+   "id": "kwang_turn_7",
+   "tag": "tag_agreeing_to_try_food",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She opens the laundry basket and takes out a small plastic container of som tam, holding it toward Lek."
+   ],
+   "dialogue": "Mint's new recipe. I'm supposed to taste it before I photograph it. I'll try it if you will — one bite each, and then we decide.",
+   "uses": "obj_laundry_basket",
+   "target": {
+    "type": "object",
+    "id": "obj_mortar"
+   }
+  },
+  {
+   "id": "kwang_turn_8",
+   "tag": "tag_lost_contact_drift",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She lowers the phone mount and sets it on the stool beside the mortar."
+   ],
+   "dialogue": "Pa Yong and I used to talk every week. Now she sends the order through Mint. We don't stay in touch — we just send things and hope they arrive.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "object",
+    "id": "obj_mortar"
+   }
+  }
+ ],
+ "turnResults": {
+  "kwang_turn_1": {
+   "speaker": "char_kwang",
+   "line": "She frames the mortar against the field and the buffalo, and the shot looks like a postcard from a place that no longer exists.",
+   "bubble": ""
+  },
+  "kwang_turn_2": {
+   "speaker": "char_kwang",
+   "line": "She folds the basket's rim and sets it beside the mortar. The two objects sit together like a before and after.",
+   "bubble": ""
+  },
+  "kwang_turn_3": {
+   "speaker": "char_kwang",
+   "line": "The buffalo keeps eating. Kwang keeps filming. Neither of them stops for the other.",
+   "bubble": ""
+  },
+  "kwang_turn_4": {
+   "speaker": "char_kwang",
+   "line": "She smooths the orange vest flat on the basket and says nothing about her mother for a long moment.",
+   "bubble": ""
+  },
+  "kwang_turn_5": {
+   "speaker": "char_kwang",
+   "line": "She waits. The phone mount trembles slightly in her hand, the way a hand does when it has been holding a question too long.",
+   "bubble": ""
+  },
+  "kwang_turn_6": {
+   "speaker": "char_kwang",
+   "line": "She peels back the tape on the menu and reads Mint's handwriting aloud, then laughs once, without humor.",
+   "bubble": ""
+  },
+  "kwang_turn_7": {
+   "speaker": "char_kwang",
+   "line": "She takes a bite, chews, and sets the container down. 'It's good,' she says. 'That's the problem.'",
+   "bubble": "Kwang has tasted Mint's fusion som tam"
+  },
+  "kwang_turn_8": {
+   "speaker": "char_kwang",
+   "line": "She picks up the phone mount and turns it off. The screen goes dark; the mortar sits in the last daylight like something waiting to be claimed.",
+   "bubble": ""
+  }
+ },
+ "finale": [
+  {
+   "character": "char_kwang",
+   "place": "place_last_rai",
+   "dialogue": "She hands Lek the funeral gimbal — the one from the wat, still scuffed from Novice Toy's livestream. 'For your shop,' she says. 'You read things for people. Maybe you can read this.'"
+  },
+  {
+   "character": null,
+   "place": "place_last_rai",
+   "dialogue": "The mortar stays on the last rai. The buffalo keeps eating. Kwang walks back toward the tower with her phone dark in her hand, a woman running at five percent, and the field sends up its smell of clay and diesel into the night."
+  }
+ ],
+ "lekInventory": [
+  "obj_stamp_keys",
+  "obj_biscuit_tin",
+  "obj_word_notebook"
+ ],
+ "objects": {
+  "obj_stamp_keys": {
+   "name": "the stamp-drawer keys",
+   "description": "Two brass keys on a wire ring, worn smooth at the bow, one stamped with a number Lek has never needed to read.",
+   "picture": "/img/obj_stamp_keys.jpg"
+  },
+  "obj_biscuit_tin": {
+   "name": "the biscuit tin of ledgers",
+   "description": "A Khun Sanga's biscuit tin, lid dented at one corner, holding three vendors' books in rubber-banded stacks and a smell of old paper and sweet crumbs.",
+   "picture": "/img/obj_biscuit_tin.jpg"
+  },
+  "obj_word_notebook": {
+   "name": "the word notebook",
+   "description": "A pocket notebook with a cracked spine, half-filled with other people's words in Lek's small hand, no page numbered.",
+   "picture": "/img/obj_word_notebook.jpg"
+  },
+  "obj_coin_stack": {
+   "name": "the stack of ten-baht coins",
+   "description": "Ten coins stacked on the stool, counted twice, the top one warm from someone's pocket.",
+   "picture": "/img/obj_coin_stack.jpg"
+  },
+  "obj_gimbal": {
+   "name": "the funeral gimbal",
+   "description": "A handheld gimbal with a scuffed grip and a wat sticker half-peeled from its arm, used for Novice Toy's livestream and now for whatever comes next.",
+   "picture": "/img/obj_gimbal.jpg"
+  },
+  "obj_mortar": {
+   "name": "the granite mortar",
+   "description": "A heavy granite mortar, rim chipped at one edge, with a laminated menu taped to its side and a faint smell of lime and fish sauce in the stone.",
+   "picture": "/img/obj_mortar.jpg"
+  },
+  "obj_laundry_basket": {
+   "name": "the laundry basket",
+   "description": "A plastic laundry basket with one cracked rib, holding a folded orange vest and a small container of som tam wrapped in a plastic bag.",
+   "picture": "/img/obj_laundry_basket.jpg"
+  },
+  "obj_phone_mount": {
+   "name": "the phone mount",
+   "description": "A clamp-style phone mount with a rubber jaw and a tripod thread, the clamp face scratched from fence posts and cart edges.",
+   "picture": "/img/obj_phone_mount.jpg"
+  },
+  "obj_vest_orange": {
+   "name": "the orange queue vest",
+   "description": "A high-visibility orange vest, folded small, the reflective strips gone gray at the seams from too many washes.",
+   "picture": "/img/obj_vest_orange.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_coin_stack",
+    "obj_gimbal",
+    "obj_mortar"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_kwang",
+   "item": "obj_stamp_keys",
+   "choice": 1,
+   "speaker": "char_kwang",
+   "line": "She turns the keys over in her palm and reads the stamped number. 'You keep other people's drawers. So you know what it costs to open one that isn't yours.'",
+   "flag": "kwang_saw_keys",
+   "bubble": "Kwang has seen the stamp-drawer keys"
+  },
+  {
+   "scene": "char_kwang",
+   "item": "obj_biscuit_tin",
+   "choice": 1,
+   "requiresFlag": "kwang_saw_keys",
+   "speaker": "char_kwang",
+   "line": "She opens the tin and reads a page of Pa Yong's ledger upside down, correctly. 'Three vendors' books in one tin. That's the whole soi in a biscuit box.'",
+   "flag": "kwang_read_tin",
+   "bubble": "Kwang has read the biscuit tin's ledgers"
+  },
+  {
+   "scene": "char_kwang",
+   "item": "obj_word_notebook",
+   "choice": 1,
+   "requiresFlag": "kwang_read_tin",
+   "speaker": "char_kwang",
+   "line": "She flips through the notebook and stops at a page where Lek has written 'Heritage Fusion' in the margin. 'You already named it,' she says. 'You just didn't send it.' She presses the gimbal into his hands.",
+   "addToLek": [
+    "obj_gimbal"
+   ],
+   "flag": "level_won",
+   "bubble": "Received: the funeral gimbal"
+  }
+ ],
+ "fallbacks": {
+  "char_kwang": [
+   "She glances at the {item} and shakes her head, once, as if the light had changed. 'Not that. Not yet.'",
+   "She sets the {item} down on the stool between them. 'Pa Yong's mortar is the whole question. Everything else is after the question.'",
+   "She taps the {item} against her palm and looks at the mortar. 'Open something of yours first. Then ask me about mine.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the night with nothing settled. The buffalo keeps eating; the field keeps sending up its smell.",
+   "Nothing comes of the {item} yet. Kwang watches the mortar the way a clerk watches a clock.",
+   "Kwang's gaze flicks from the {item} to the keys in Lek's pocket and back — a drawer mapped, a toll implied."
+  ]
+ },
+ "lekPriorities": [
+  "the unsent letter",
+  "the till vs. the free readings",
+  "loyalty to the registrar's nine years",
+  "duty to the stamps",
+  "the big house's small favors"
+ ],
+ "choices": {
+  "char_kwang|obj_stamp_keys": [
+   {
+    "label": "Hand her the keys and say nothing",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Show her the stamped number on the bow",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Ask what a drawer is worth to her",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_kwang|obj_biscuit_tin": [
+   {
+    "label": "Open the tin and let her read",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Show her Pa Yong's page, folded small",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Keep the tin shut and ask about Seoul",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_kwang|obj_word_notebook": [
+   {
+    "label": "Give her the notebook to read",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Show her the page where he wrote her name",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Ask what she would send if she could",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Ask about the flight on Thursday",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Offer to read the menu aloud",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Say nothing and let her film",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "obj_coin_stack|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "obj_gimbal|*": [
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "obj_mortar|*": [
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "duty to the stamps"
+   }
+  ]
+ }
+}

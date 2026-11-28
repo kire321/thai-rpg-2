@@ -1,0 +1,722 @@
+[
+ {
+  "id": "tag_admitting_feelings_changed",
+  "name": "admitting feelings changed",
+  "description": "Said when looking away quietly to admit the feelings are no longer the same.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-14."
+  ]
+ },
+ {
+  "id": "tag_admitting_no_thai",
+  "name": "admitting no thai",
+  "description": "Said when waving hands apologetically to explain someone cannot speak Thai.",
+  "picture": null,
+  "vocab_item_ids": [
+   "433-2."
+  ]
+ },
+ {
+  "id": "tag_advise_some_rest",
+  "name": "rest advice",
+  "description": "Said when gently telling a tired friend they ought to lie down.",
+  "picture": null,
+  "vocab_item_ids": [
+   "439-19."
+  ]
+ },
+ {
+  "id": "tag_agreeing_to_try_food",
+  "name": "agreeing to try food",
+  "description": "Said when reaching for an unfamiliar dish and promising to give it a try.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-2."
+  ]
+ },
+ {
+  "id": "tag_announcing_news_to_share",
+  "name": "announcing news to share",
+  "description": "Said when leaning in close to signal that something important must be told.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-1."
+  ]
+ },
+ {
+  "id": "tag_announcing_upcoming_graduation",
+  "name": "announcing upcoming graduation",
+  "description": "Said when flipping through a photo album and noting someone graduates soon.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-3."
+  ]
+ },
+ {
+  "id": "tag_ask_their_opinion",
+  "name": "ask opinion",
+  "description": "Said when turning to someone to hear their view on a matter.",
+  "picture": null,
+  "vocab_item_ids": [
+   "412-10."
+  ]
+ },
+ {
+  "id": "tag_ask_what_its_called",
+  "name": "what's it called",
+  "description": "Said when pointing at an unfamiliar object and asking its name.",
+  "picture": null,
+  "vocab_item_ids": [
+   "443-1."
+  ]
+ },
+ {
+  "id": "tag_asking_for_a_promise",
+  "name": "asking for a promise",
+  "description": "Said when holding out a pinky and asking the other person to promise.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-18."
+  ]
+ },
+ {
+  "id": "tag_asking_for_directions",
+  "name": "asking for directions",
+  "description": "Said when unfolding a map on the street to ask the way to a hotel.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-5."
+  ]
+ },
+ {
+  "id": "tag_asking_preferred_style",
+  "name": "asking preferred style",
+  "description": "Said when holding up two shirts to ask which kind the other prefers.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-20."
+  ]
+ },
+ {
+  "id": "tag_asking_which_province",
+  "name": "asking which province",
+  "description": "Said when pointing at a map and asking which province a beach town belongs to.",
+  "picture": null,
+  "vocab_item_ids": [
+   "424-7."
+  ]
+ },
+ {
+  "id": "tag_buffalo_grazes_constantly",
+  "name": "grazing buffalo",
+  "description": "Said when observing a water buffalo munching grass without ever stopping.",
+  "picture": null,
+  "vocab_item_ids": [
+   "450-14."
+  ]
+ },
+ {
+  "id": "tag_call_for_adventurers",
+  "name": "adventurer call",
+  "description": "Said when pitching a daring activity to friends who crave excitement.",
+  "picture": null,
+  "vocab_item_ids": [
+   "441-15."
+  ]
+ },
+ {
+  "id": "tag_calling_out_evasion",
+  "name": "calling out evasion",
+  "description": "Said when pointing sharply because someone keeps dodging the question.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-19."
+  ]
+ },
+ {
+  "id": "tag_can_you_follow",
+  "name": "can you follow",
+  "description": "Said when checking whether someone is keeping up with what was said.",
+  "picture": null,
+  "vocab_item_ids": [
+   "441-19."
+  ]
+ },
+ {
+  "id": "tag_cant_make_it_back",
+  "name": "can't get home",
+  "description": "Said when calling to say you are too drunk to drive home.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-2."
+  ]
+ },
+ {
+  "id": "tag_checking_if_tired",
+  "name": "checking if tired",
+  "description": "Said when noticing drooping shoulders and asking whether the other person is tired.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-6."
+  ]
+ },
+ {
+  "id": "tag_checking_relationship_status",
+  "name": "checking relationship status",
+  "description": "Said when glancing sideways to ask whether someone is still single.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-13."
+  ]
+ },
+ {
+  "id": "tag_claiming_public_knowledge",
+  "name": "claiming public knowledge",
+  "description": "Said when throwing up hands because a famous fact is already known by everyone.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-3."
+  ]
+ },
+ {
+  "id": "tag_confessing_total_confusion",
+  "name": "confessing total confusion",
+  "description": "Said when throwing up both hands in frustration at understanding nothing at all.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-4."
+  ]
+ },
+ {
+  "id": "tag_confirming_already_known",
+  "name": "confirming already known",
+  "description": "Said when waving a hand dismissively because that fact is already known.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-14."
+  ]
+ },
+ {
+  "id": "tag_confirming_answer_found",
+  "name": "confirming answer found",
+  "description": "Said when closing the notebook with satisfaction that the answer is now clear.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-17."
+  ]
+ },
+ {
+  "id": "tag_confirming_list_complete",
+  "name": "confirming list complete",
+  "description": "Said when scanning the checklist and asking whether that is everything.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-8."
+  ]
+ },
+ {
+  "id": "tag_declaring_best_approach",
+  "name": "declaring best approach",
+  "description": "Said when tapping the table to declare that this is the best way to do it.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-10."
+  ]
+ },
+ {
+  "id": "tag_declining_due_to_work",
+  "name": "declining due to work",
+  "description": "Said when checking the clock and declining an invitation because work awaits.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-16."
+  ]
+ },
+ {
+  "id": "tag_dismissing_fear",
+  "name": "dismissing fear",
+  "description": "Said when laughing off a scary movie and insisting it is not scary at all.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-16."
+  ]
+ },
+ {
+  "id": "tag_encouraging_to_ask",
+  "name": "encouraging to ask",
+  "description": "Said when nudging someone forward to go ahead and ask him directly.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-11."
+  ]
+ },
+ {
+  "id": "tag_estimating_high_odds",
+  "name": "estimating high odds",
+  "description": "Said when weighing two options and judging that one has a high chance.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-12."
+  ]
+ },
+ {
+  "id": "tag_everything_under_control",
+  "name": "under control",
+  "description": "Said when checking in that a chaotic situation is being handled.",
+  "picture": null,
+  "vocab_item_ids": [
+   "415-17."
+  ]
+ },
+ {
+  "id": "tag_failing_to_recall_password",
+  "name": "failing to recall password",
+  "description": "Said when staring at the login screen and groaning that the password is forgotten.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-18."
+  ]
+ },
+ {
+  "id": "tag_girlfriend_gets_jealous",
+  "name": "jealous girlfriend",
+  "description": "Said when explaining why you must be careful around a jealous partner.",
+  "picture": null,
+  "vocab_item_ids": [
+   "446-20."
+  ]
+ },
+ {
+  "id": "tag_guess_thats_right",
+  "name": "guess so",
+  "description": "Said when nodding along that something is probably correct.",
+  "picture": null,
+  "vocab_item_ids": [
+   "446-2."
+  ]
+ },
+ {
+  "id": "tag_guessing_and_agreeing",
+  "name": "guessing and agreeing",
+  "description": "Said when nodding at a guess and confirming that it seems correct.",
+  "picture": null,
+  "vocab_item_ids": [
+   "412-14."
+  ]
+ },
+ {
+  "id": "tag_he_hung_up",
+  "name": "he hung up",
+  "description": "Said when reporting that the caller abruptly ended the phone call.",
+  "picture": null,
+  "vocab_item_ids": [
+   "412-19."
+  ]
+ },
+ {
+  "id": "tag_he_really_means_it",
+  "name": "he means it",
+  "description": "Said when confirming that someone is completely serious about their words.",
+  "picture": null,
+  "vocab_item_ids": [
+   "431-19."
+  ]
+ },
+ {
+  "id": "tag_heading_out_now",
+  "name": "heading out",
+  "description": "Said when announcing you are about to leave the house.",
+  "picture": null,
+  "vocab_item_ids": [
+   "409-1."
+  ]
+ },
+ {
+  "id": "tag_hearing_stomach_growl",
+  "name": "hearing stomach growl",
+  "description": "Said when clutching the belly as it starts to growl from hunger.",
+  "picture": null,
+  "vocab_item_ids": [
+   "409-7."
+  ]
+ },
+ {
+  "id": "tag_home_so_late",
+  "name": "late homecoming",
+  "description": "Said when greeting someone who walks in long after dark.",
+  "picture": null,
+  "vocab_item_ids": [
+   "433-20."
+  ]
+ },
+ {
+  "id": "tag_invite_to_the_beach",
+  "name": "beach invitation",
+  "description": "Said when inviting a friend to spend the day together by the sea.",
+  "picture": null,
+  "vocab_item_ids": [
+   "441-12."
+  ]
+ },
+ {
+  "id": "tag_join_group_photo",
+  "name": "join the photo",
+  "description": "Said when waving a friend over to squeeze into a group picture.",
+  "picture": null,
+  "vocab_item_ids": [
+   "415-14."
+  ]
+ },
+ {
+  "id": "tag_just_heartbroken",
+  "name": "fresh heartbreak",
+  "description": "Said when explaining why a friend is moping after a breakup.",
+  "picture": null,
+  "vocab_item_ids": [
+   "448-5."
+  ]
+ },
+ {
+  "id": "tag_lost_contact_drift",
+  "name": "out of touch",
+  "description": "Said when admitting you and an old friend no longer talk.",
+  "picture": null,
+  "vocab_item_ids": [
+   "409-4."
+  ]
+ },
+ {
+  "id": "tag_man_called_for_you",
+  "name": "man called",
+  "description": "Said when relaying that a man phoned looking for someone.",
+  "picture": null,
+  "vocab_item_ids": [
+   "429-15."
+  ]
+ },
+ {
+  "id": "tag_must_act_now",
+  "name": "must do something",
+  "description": "Said when urging everyone that action is needed right away.",
+  "picture": null,
+  "vocab_item_ids": [
+   "448-9."
+  ]
+ },
+ {
+  "id": "tag_no_need_for_that",
+  "name": "no need",
+  "description": "Said when waving off a suggestion because it is simply unnecessary.",
+  "picture": null,
+  "vocab_item_ids": [
+   "448-14."
+  ]
+ },
+ {
+  "id": "tag_not_done_talking",
+  "name": "not finished",
+  "description": "Said when holding up a hand because your story is not over.",
+  "picture": null,
+  "vocab_item_ids": [
+   "415-13."
+  ]
+ },
+ {
+  "id": "tag_noticing_someone_aged",
+  "name": "noticing someone aged",
+  "description": "Said when greeting an old friend after years and remarking how much older he looks.",
+  "picture": null,
+  "vocab_item_ids": [
+   "444-2."
+  ]
+ },
+ {
+  "id": "tag_offering_food_for_thought",
+  "name": "offering food for thought",
+  "description": "Said when pausing mid-conversation to note that this deserves some thought.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-7."
+  ]
+ },
+ {
+  "id": "tag_offering_to_inspect",
+  "name": "offering to inspect",
+  "description": "Said when reaching for a broken item to offer to take a look.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-19."
+  ]
+ },
+ {
+  "id": "tag_only_cares_about_one",
+  "name": "only into that",
+  "description": "Said when noting someone cares solely about one single thing.",
+  "picture": null,
+  "vocab_item_ids": [
+   "412-12."
+  ]
+ },
+ {
+  "id": "tag_please_write_it_down",
+  "name": "write it down",
+  "description": "Said when handing over a pen and asking for the details in writing.",
+  "picture": null,
+  "vocab_item_ids": [
+   "431-18."
+  ]
+ },
+ {
+  "id": "tag_praising_someones_character",
+  "name": "praising someone's character",
+  "description": "Said when smiling warmly while describing someone as a genuinely nice person.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-20."
+  ]
+ },
+ {
+  "id": "tag_predict_she_wont_come",
+  "name": "doubtful no-show",
+  "description": "Said when guessing aloud that a friend will skip the gathering.",
+  "picture": null,
+  "vocab_item_ids": [
+   "439-2."
+  ]
+ },
+ {
+  "id": "tag_pressing_for_yes_or_no",
+  "name": "pressing for yes or no",
+  "description": "Said when standing at the door demanding a clear yes or no answer.",
+  "picture": null,
+  "vocab_item_ids": [
+   "429-20."
+  ]
+ },
+ {
+  "id": "tag_realizing_the_truth",
+  "name": "realizing the truth",
+  "description": "Said when snapping fingers as the missing piece finally clicks into place.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-11."
+  ]
+ },
+ {
+  "id": "tag_reassure_no_problem",
+  "name": "no problem",
+  "description": "Said when waving off someone's apology to show it truly does not matter.",
+  "picture": null,
+  "vocab_item_ids": [
+   "409-6."
+  ]
+ },
+ {
+  "id": "tag_recognizing_surprise_visitor",
+  "name": "recognizing surprise visitor",
+  "description": "Said when opening the door and exclaiming in surprise that it is you.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-9."
+  ]
+ },
+ {
+  "id": "tag_reflecting_on_good_experience",
+  "name": "reflecting on good experience",
+  "description": "Said when smiling at photos and recalling that the trip was a good experience.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-17."
+  ]
+ },
+ {
+  "id": "tag_refusing_an_offer",
+  "name": "refusing an offer",
+  "description": "Said when pushing away a offered item to politely decline wanting it.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-8."
+  ]
+ },
+ {
+  "id": "tag_revealing_overheard_everything",
+  "name": "revealing overheard everything",
+  "description": "Said when stepping out from behind a door to reveal everything was overheard.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-1."
+  ]
+ },
+ {
+  "id": "tag_rubbing_something_in_eye",
+  "name": "rubbing something in eye",
+  "description": "Said when blinking hard and rubbing an eye because something got in.",
+  "picture": null,
+  "vocab_item_ids": [
+   "409-5."
+  ]
+ },
+ {
+  "id": "tag_shout_stop_it",
+  "name": "stop right there",
+  "description": "Said when sharply halting someone mid-action with a raised hand.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-12."
+  ]
+ },
+ {
+  "id": "tag_sprained_ankle_ouch",
+  "name": "sprained ankle",
+  "description": "Said when limping in and explaining how your ankle twisted badly.",
+  "picture": null,
+  "vocab_item_ids": [
+   "446-3."
+  ]
+ },
+ {
+  "id": "tag_still_not_finished",
+  "name": "still not done",
+  "description": "Said when insisting you have not yet completed what you started.",
+  "picture": null,
+  "vocab_item_ids": [
+   "450-4."
+  ]
+ },
+ {
+  "id": "tag_swear_keep_secret",
+  "name": "keep it secret",
+  "description": "Said when warning a friend not to breathe a word to him.",
+  "picture": null,
+  "vocab_item_ids": [
+   "431-17."
+  ]
+ },
+ {
+  "id": "tag_thought_it_was_fine",
+  "name": "thought it fine",
+  "description": "Said when recalling you assumed something was perfectly acceptable.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-15."
+  ]
+ },
+ {
+  "id": "tag_urge_walk_further",
+  "name": "walk further",
+  "description": "Said when directing someone to keep walking a little more ahead.",
+  "picture": null,
+  "vocab_item_ids": [
+   "431-8."
+  ]
+ },
+ {
+  "id": "tag_urging_self_care",
+  "name": "urging self care",
+  "description": "Said when patting a friend's shoulder to insist they must love themselves.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-9."
+  ]
+ },
+ {
+  "id": "tag_voice_deep_curiosity",
+  "name": "burning wonder",
+  "description": "Said when musing aloud about something you truly cannot figure out.",
+  "picture": null,
+  "vocab_item_ids": [
+   "446-10."
+  ]
+ },
+ {
+  "id": "tag_voicing_disagreement",
+  "name": "voicing disagreement",
+  "description": "Said when shaking the head firmly to disagree with what someone just proposed.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-5."
+  ]
+ },
+ {
+  "id": "tag_warning_about_changing_mind",
+  "name": "warning about changing mind",
+  "description": "Said when wagging a finger to warn that someone might change their mind later.",
+  "picture": null,
+  "vocab_item_ids": [
+   "402-4."
+  ]
+ },
+ {
+  "id": "tag_warning_to_hide",
+  "name": "warning to hide",
+  "description": "Said when pulling someone behind a pillar so they are not seen.",
+  "picture": null,
+  "vocab_item_ids": [
+   "405-15."
+  ]
+ },
+ {
+  "id": "tag_we_live_nearby",
+  "name": "live nearby",
+  "description": "Said when explaining that you and someone share the same neighborhood.",
+  "picture": null,
+  "vocab_item_ids": [
+   "429-18."
+  ]
+ },
+ {
+  "id": "tag_we_were_so_bored",
+  "name": "so bored",
+  "description": "Said when recounting how painfully dull the whole afternoon was.",
+  "picture": null,
+  "vocab_item_ids": [
+   "439-4."
+  ]
+ },
+ {
+  "id": "tag_whats_in_there",
+  "name": "what's inside",
+  "description": "Said when peering into a room and asking what it holds.",
+  "picture": null,
+  "vocab_item_ids": [
+   "433-19."
+  ]
+ },
+ {
+  "id": "tag_why_gone_so_long",
+  "name": "what took so long",
+  "description": "Said when demanding an explanation for someone's long absence.",
+  "picture": null,
+  "vocab_item_ids": [
+   "424-8."
+  ]
+ },
+ {
+  "id": "tag_why_no_call_first",
+  "name": "no call first",
+  "description": "Said when scolding a surprise visitor for not phoning ahead.",
+  "picture": null,
+  "vocab_item_ids": [
+   "441-16."
+  ]
+ },
+ {
+  "id": "tag_you_look_worn_out",
+  "name": "look run down",
+  "description": "Said when noticing a friend's tired face and commenting on it.",
+  "picture": null,
+  "vocab_item_ids": [
+   "435-15."
+  ]
+ },
+ {
+  "id": "tag_youll_regret_leaving",
+  "name": "you'll regret it",
+  "description": "Said when warning someone they will be sorry for walking away.",
+  "picture": null,
+  "vocab_item_ids": [
+   "412-15."
+  ]
+ }
+]

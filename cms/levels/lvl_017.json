@@ -1,0 +1,418 @@
+{
+ "id": "lvl_017",
+ "title": "the broker's new fee",
+ "location": "place_laundromat",
+ "frc": "char_ko_naing",
+ "reward": null,
+ "opening": [
+  {
+   "character": null,
+   "place": "place_laundromat",
+   "dialogue": "The coin laundry at midnight is a life is a sending with the machines doing the sending. Ko Naing sits on the bench under the fan with his one good shirt in a basket, counting baht into three piles, and the piles do not agree."
+  },
+  {
+   "character": "char_ko_naing",
+   "place": "place_laundromat",
+   "dialogue": "The broker says the fee is new. The rent is old. I have the rent minus the fee, and the room goes tomorrow."
+  }
+ ],
+ "turns": [
+  {
+   "id": "ko_naing_turn_1",
+   "tag": "tag_call_for_adventurers",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He lifts the laundry basket onto his knee and shows Lek the folded shirt on top, then the empty space beneath it where the money should be."
+   ],
+   "dialogue": "For the adventurous only, this plan. We go to the tea stall tonight and ask the broker to his face. You read, I stand."
+  },
+  {
+   "id": "ko_naing_turn_2",
+   "tag": "tag_youll_regret_leaving",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He turns the tea-stall glass in his hands, watching the last of the amber liquid slide to one side, and sets it down without drinking."
+   ],
+   "dialogue": "If I walk away from the broker, my wife will regret it more than me. The room is not mine to lose."
+  },
+  {
+   "id": "ko_naing_turn_3",
+   "tag": "tag_he_really_means_it",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He taps the change-machine key against the rim of the basket, once, twice, and looks at Lek without blinking."
+   ],
+   "dialogue": "I mean it. Tomorrow the money goes, or the room goes. There is no third thing."
+  },
+  {
+   "id": "ko_naing_turn_4",
+   "tag": "tag_we_live_nearby",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He gestures with the tea glass toward the soi mouth, then toward the hoarding behind the laundromat where the tower is going up."
+   ],
+   "dialogue": "We live near each other, you and me. Your shop, my camp, same soi. That is why I ask you and not the broker."
+  },
+  {
+   "id": "ko_naing_turn_5",
+   "tag": "tag_no_need_for_that",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He waves the change-machine key at the coin slot, dismissing it, and pockets it."
+   ],
+   "dialogue": "No need for the machine. The machine takes coins. The broker takes more."
+  },
+  {
+   "id": "ko_naing_turn_6",
+   "tag": "tag_can_you_follow",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He pulls a folded slip of paper from his shirt pocket and holds it out, then pulls it back slightly, watching Lek's face."
+   ],
+   "dialogue": "The broker wrote the new fee here. Can you follow it? I cannot. My eyes are for rebar, not for this."
+  },
+  {
+   "id": "ko_naing_turn_7",
+   "tag": "tag_he_hung_up",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He holds his phone up toward the fan, screen dark, and presses it to his ear as if listening to a dead line."
+   ],
+   "dialogue": "My wife called from the camp gate. She asked about the room. I told her it was fine. Then she hung up."
+  },
+  {
+   "id": "ko_naing_turn_8",
+   "tag": "tag_failing_to_recall_password",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He stares at the broker's payment app on his phone, thumb hovering, and shakes his head at the login screen."
+   ],
+   "dialogue": "The broker changed the app. New password. I cannot remember it. He said he would tell me tomorrow, after the fee."
+  }
+ ],
+ "turnResults": {
+  "ko_naing_turn_1": {
+   "speaker": "char_ko_naing",
+   "line": "He sets the basket down and nods once, decided. 'Tonight, then. Before the stall closes.'",
+   "bubble": ""
+  },
+  "ko_naing_turn_2": {
+   "speaker": "char_ko_naing",
+   "line": "He drains the tea glass and sets it down hard. 'Regret is a thing you carry after. The room is a thing you carry now.'",
+   "bubble": ""
+  },
+  "ko_naing_turn_3": {
+   "speaker": "char_ko_naing",
+   "line": "He holds Lek's gaze a beat too long, then looks away at the machines. 'I have counted it four times. It does not change.'",
+   "bubble": ""
+  },
+  "ko_naing_turn_4": {
+   "speaker": "char_ko_naing",
+   "line": "He points at the copy shop's light across the soi. 'You read for me before. The clinic letter. The camp card. I pay in shirts, I know, but I pay.'",
+   "bubble": ""
+  },
+  "ko_naing_turn_5": {
+   "speaker": "char_ko_naing",
+   "line": "He pulls the key out again and sets it on the bench between them, a small brass fact. 'The machine is honest. The broker is not.'",
+   "bubble": ""
+  },
+  "ko_naing_turn_6": {
+   "speaker": "char_ko_naing",
+   "line": "He flattens the slip on the basket lid. The fee is written in two hands — the broker's, and a second hand that crossed it out and wrote a higher number.",
+   "bubble": "The broker's fee slip is on the basket lid"
+  },
+  "ko_naing_turn_7": {
+   "speaker": "char_ko_naing",
+   "line": "He puts the phone down. 'She did not hang up angry. She hung up quiet. That is worse.'",
+   "bubble": ""
+  },
+  "ko_naing_turn_8": {
+   "speaker": "char_ko_naing",
+   "line": "He turns the phone screen toward Lek. The login box blinks. 'If I cannot get in, the money sits here. Money that died standing still.'",
+   "bubble": "Ko Naing is locked out of the broker's app"
+  }
+ },
+ "finale": [
+  {
+   "character": "char_ko_naing",
+   "place": "place_laundromat",
+   "dialogue": "He folds the shirt back into the basket and stands, the bench under the fan cooling behind him. 'Tomorrow the money goes. I will stand at the stall until the broker sees me.'"
+  },
+  {
+   "character": null,
+   "place": "place_laundromat",
+   "dialogue": "The machines turn. Ko Naing walks out with his basket, and the soi takes him the way it takes everything — one rotation at a time."
+  }
+ ],
+ "lekInventory": [
+  "obj_stamp_keys",
+  "obj_biscuit_tin",
+  "obj_word_notebook"
+ ],
+ "objects": {
+  "obj_stamp_keys": {
+   "name": "the stamp-drawer keys",
+   "description": "Two small brass keys on a wire ring, worn smooth at the bow, one for the stamp drawer and one for a drawer that no longer exists.",
+   "picture": "/img/obj_stamp_keys.jpg"
+  },
+  "obj_biscuit_tin": {
+   "name": "the biscuit tin of ledgers",
+   "description": "A square biscuit tin with a dented lid and three vendors' books inside, each page ruled by a different hand, the tin's corners soft with handling.",
+   "picture": "/img/obj_biscuit_tin.jpg"
+  },
+  "obj_word_notebook": {
+   "name": "the word notebook",
+   "description": "A pocket notebook with a cracked spine, half-filled with other people's words in Lek's small handwriting, some entries crossed out and rewritten three times.",
+   "picture": "/img/obj_word_notebook.jpg"
+  },
+  "obj_ring_light": {
+   "name": "the ring light",
+   "description": "A collapsible ring light on a bent tripod, its white LEDs dimmed with dust, the power cord wrapped in electrical tape at the join.",
+   "picture": "/img/obj_ring_light.jpg"
+  },
+  "obj_chalk_board": {
+   "name": "the queue board",
+   "description": "A small chalkboard propped by the change machine, the queue numbers written in a child's hand and half-erased by a sleeve.",
+   "picture": "/img/obj_chalk_board.jpg"
+  },
+  "obj_deed_bag": {
+   "name": "the deed in the rice bag",
+   "description": "A rice bag folded twice and tied with string, the deed inside soft at the creases from being carried to the camp and back.",
+   "picture": "/img/obj_deed_bag.jpg"
+  },
+  "obj_laundry_basket": {
+   "name": "the laundry basket",
+   "description": "A red plastic basket with one handle cracked and taped, holding one good shirt, one work shirt, and a folded slip of paper on top.",
+   "picture": "/img/obj_laundry_basket.jpg"
+  },
+  "obj_tea_glass": {
+   "name": "the tea-stall glass",
+   "description": "A small glass with a chip at the rim, the sweet tea gone amber and still, a ring of it dried on the outside where a hand held it.",
+   "picture": "/img/obj_tea_glass.jpg"
+  },
+  "obj_change_key": {
+   "name": "the change-machine key",
+   "description": "A brass key on a plastic fob, the fob worn blank, the key fitting the change machine's coin box that the owner opens at closing.",
+   "picture": "/img/obj_change_key.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_ring_light",
+    "obj_chalk_board",
+    "obj_deed_bag"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_ko_naing",
+   "item": "obj_stamp_keys",
+   "choice": 1,
+   "speaker": "char_ko_naing",
+   "line": "He looks at the keys and then at Lek. 'You lock the shop for me once. Now I show you the broker's slip. The fee is not the fee he told me.'",
+   "flag": "slip_read",
+   "bubble": "Ko Naing has shown the broker's slip"
+  },
+  {
+   "scene": "char_ko_naing",
+   "item": "obj_biscuit_tin",
+   "choice": 1,
+   "requiresFlag": "slip_read",
+   "speaker": "char_ko_naing",
+   "line": "Lek opens the tin and lays the slip beside the camp ledger. The difference is exact. Ko Naing puts his hand flat on the tin. 'Then the camp pays the fee together. Not one man standing still.'",
+   "flag": "level_won",
+   "bubble": "The camp's ledgers cover the new fee"
+  }
+ ],
+ "fallbacks": {
+  "char_ko_naing": [
+   "He turns the {item} over in his hands without looking up. 'Not that. Not tonight.'",
+   "He sets the {item} on the bench and taps the broker's slip beside it. 'This first. This is the thing that has to be read.'",
+   "He holds the {item} a moment, then pushes it back. 'The slip, teacher. Read the slip before the room is gone.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the night with nothing settled. The machines turn; Ko Naing counts his three piles again.",
+   "Nothing comes of the {item} yet. Ko Naing watches the change machine the way a man watches a clock he cannot afford to stop.",
+   "Ko Naing's gaze moves from the {item} to the folded slip on the basket lid and back — a route mapped, a fee implied."
+  ]
+ },
+ "lekPriorities": [
+  "the till vs. the free readings",
+  "loyalty to the registrar's nine years",
+  "duty to the stamps",
+  "the big house's small favors",
+  "his mother's pride"
+ ],
+ "choices": {
+  "char_ko_naing|obj_stamp_keys": [
+   {
+    "label": "Hand him the keys and say nothing",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Ask to see the broker's slip first",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Offer to lock the shop and walk with him",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_ko_naing|obj_biscuit_tin": [
+   {
+    "label": "Open the tin and show him the camp ledger",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Lay the slip beside the camp's book",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Ask what the broker's fee buys the camp",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask about the room six hundred miles away",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Say the broker's name aloud and wait",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Offer to read the slip for him",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "duty to the stamps"
+   }
+  ],
+  "obj_ring_light|*": [
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "obj_chalk_board|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "duty to the stamps"
+   }
+  ],
+  "obj_deed_bag|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the big house's small favors"
+   }
+  ]
+ }
+}

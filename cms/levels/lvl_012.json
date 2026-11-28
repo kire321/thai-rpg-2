@@ -1,0 +1,505 @@
+{
+ "id": "lvl_012",
+ "title": "the multiplying pegs",
+ "location": "place_last_rai",
+ "frc": "char_kwang",
+ "reward": null,
+ "opening": [
+  {
+   "character": null,
+   "place": "place_last_rai",
+   "dialogue": "A life is a sending; the last rai is a quiet name in a loud soi, and the surveyor's pegs are bright as new teeth in the morning glory."
+  },
+  {
+   "character": "char_kwang",
+   "place": "place_last_rai",
+   "dialogue": "She steps between two pegs in her office shoes, phone held up to the light, and takes a photo of the mud on her heel."
+  },
+  {
+   "character": "char_kwang",
+   "place": "place_last_rai",
+   "dialogue": "Ta Bunma, they told me you grow the best morning glory on the strip. I've come to see it before Friday."
+  }
+ ],
+ "turns": [
+  {
+   "id": "kwang_turn_1",
+   "tag": "tag_only_cares_about_one",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She holds her phone mount up to the light and tilts it so the peg row lines up behind the screen."
+   ],
+   "dialogue": "The agent only cares about the plot line — the rest of the soi could be a parking lot. I care about how it photographs.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "object",
+    "id": "obj_score_report"
+   }
+  },
+  {
+   "id": "kwang_turn_2",
+   "tag": "tag_cant_make_it_back",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She scrolls her phone with one thumb and presses the orange vest against her chest with the other."
+   ],
+   "dialogue": "My driver can't make it back out here — the road floods past the khlong. I'll have to walk out in these shoes.",
+   "uses": "obj_vest_orange",
+   "target": {
+    "type": "object",
+    "id": "obj_phone_mount"
+   }
+  },
+  {
+   "id": "kwang_turn_3",
+   "tag": "tag_we_were_so_bored",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She flips the laminated score report over and fans herself with it, then sets it face-up on the biscuit tin."
+   ],
+   "dialogue": "The pitch meeting was so boring I drew the soi from memory on the back of the agenda. My boss said it looked like a village.",
+   "uses": "obj_score_report",
+   "target": {
+    "type": "object",
+    "id": "obj_biscuit_tin"
+   }
+  },
+  {
+   "id": "kwang_turn_4",
+   "tag": "tag_noticing_someone_aged",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She looks at the orange vest on the fence post, then at Lek, and holds the vest up against his shoulders."
+   ],
+   "dialogue": "You've aged since the copy shop days — the exam, was it? I heard three points. My mother still thinks I work in a bank.",
+   "uses": "obj_vest_orange",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   }
+  },
+  {
+   "id": "kwang_turn_5",
+   "tag": "tag_refusing_an_offer",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She pushes the circle envelope back across the biscuit tin with two fingers, not looking at it."
+   ],
+   "dialogue": "I don't want the share circle's money. I want the plot to stay a plot — on paper, at least, for the campaign.",
+   "uses": "obj_share_envelope",
+   "target": {
+    "type": "object",
+    "id": "obj_biscuit_tin"
+   }
+  },
+  {
+   "id": "kwang_turn_6",
+   "tag": "tag_realizing_the_truth",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She snaps her fingers and points at the score report, then at the pegs, then at the report again."
+   ],
+   "dialogue": "Now I know — the agent's map and the deed don't match. The pegs are on the wrong side of the khlong line.",
+   "uses": "obj_score_report",
+   "target": {
+    "type": "object",
+    "id": "obj_phone_mount"
+   }
+  },
+  {
+   "id": "kwang_turn_7",
+   "tag": "tag_offering_food_for_thought",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She sets the phone mount down on the biscuit tin and taps the tin's lid twice."
+   ],
+   "dialogue": "It's something to think about — a quiet name in a loud soi, and the loudest thing here is a peg. What's in the tin?",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "object",
+    "id": "obj_biscuit_tin"
+   }
+  },
+  {
+   "id": "kwang_turn_8",
+   "tag": "tag_whats_in_there",
+   "speaker": "char_kwang",
+   "stage_directions": [
+    "She lifts the biscuit tin's lid with one thumb and peers inside, the orange vest draped over her arm."
+   ],
+   "dialogue": "What's in there — ledgers? The whole strip's books in a biscuit tin, and the developer's agent thinks he's buying a field.",
+   "uses": "obj_vest_orange",
+   "target": {
+    "type": "object",
+    "id": "obj_biscuit_tin"
+   }
+  }
+ ],
+ "turnResults": {
+  "kwang_turn_1": {
+   "speaker": "char_kwang",
+   "line": "She lowers the phone and the peg row slides out of frame. 'The plot line is all they see. I see the morning glory, and I see what it would look like plated.'",
+   "bubble": ""
+  },
+  "kwang_turn_2": {
+   "speaker": "char_kwang",
+   "line": "She pockets the phone and folds the orange vest over her arm. 'The driver's gone. I'll walk to the wat and call from there — the signal's better by the bend.'",
+   "bubble": ""
+  },
+  "kwang_turn_3": {
+   "speaker": "char_kwang",
+   "line": "She sets the score report face-up on the tin. The laminate catches the light, and the exam scores show through: three points short, in red.",
+   "bubble": "Kwang has seen the score report"
+  },
+  "kwang_turn_4": {
+   "speaker": "char_kwang",
+   "line": "She lets the vest drop back onto the fence post. 'Three points. My mother still thinks I work in a bank, and I let her — it's easier than the truth.'",
+   "bubble": ""
+  },
+  "kwang_turn_5": {
+   "speaker": "char_kwang",
+   "line": "She leaves the envelope where it lies. 'The circle's money is for the soi. The plot is for the campaign. Don't mix them — the agent already tried.'",
+   "bubble": ""
+  },
+  "kwang_turn_6": {
+   "speaker": "char_kwang",
+   "line": "She taps the report against the nearest peg. 'The agent's map has the boundary on this side. The deed, if it's in that tin, will say the other. Friday's cash is for a plot he doesn't own.'",
+   "bubble": "Kwang has found the boundary error"
+  },
+  "kwang_turn_7": {
+   "speaker": "char_kwang",
+   "line": "She lifts the lid a crack. 'Ledgers. The strip's books. If the deed's in there too, the agent's offer is a bet against a biscuit tin.'",
+   "bubble": ""
+  },
+  "kwang_turn_8": {
+   "speaker": "char_kwang",
+   "line": "She sets the lid back down and steps away from the tin. 'I came to photograph a field. Now I want to see the paper that says whose field it is.'",
+   "bubble": ""
+  }
+ },
+ "finale": [
+  {
+   "character": "char_kwang",
+   "place": "place_last_rai",
+   "dialogue": "She walks out along the khlong path, phone mount in her bag, and does not look back at the pegs."
+  },
+  {
+   "character": null,
+   "place": "place_last_rai",
+   "dialogue": "The morning glory closes for the afternoon. The pegs stay bright, a loud name in a quiet soi, until someone pulls them."
+  }
+ ],
+ "lekInventory": [
+  "obj_score_report",
+  "obj_biscuit_tin",
+  "obj_stamp_keys"
+ ],
+ "objects": {
+  "obj_score_report": {
+   "name": "the laminated score report",
+   "description": "Exam results laminated against the rain, three points short in red, kept in Lek's breast pocket since the second failure.",
+   "picture": "/img/obj_score_report.jpg"
+  },
+  "obj_biscuit_tin": {
+   "name": "the biscuit tin of ledgers",
+   "description": "Three vendors' books and a deed in a plastic sleeve inside a rice bag inside the tin, the lid bent from a decade of thumbs.",
+   "picture": "/img/obj_biscuit_tin.jpg"
+  },
+  "obj_stamp_keys": {
+   "name": "the stamp-drawer keys",
+   "description": "Two brass keys on a red plastic fob, worn smooth, that open Khun Sanga's stamp drawer and nothing else.",
+   "picture": "/img/obj_stamp_keys.jpg"
+  },
+  "obj_letter_washed": {
+   "name": "the washed letter",
+   "description": "A letter that went through the machine in a shirt pocket, the ink run to grey, still readable in the folds.",
+   "picture": "/img/obj_letter_washed.jpg"
+  },
+  "obj_charger_bank": {
+   "name": "the charger bank",
+   "description": "A power bank the size of a pack of cigarettes, three lights, two of them dead, charged at the laundromat bench.",
+   "picture": "/img/obj_charger_bank.jpg"
+  },
+  "obj_gimbal": {
+   "name": "the funeral gimbal",
+   "description": "A phone gimbal borrowed from Novice Toy's livestream kit, its handle taped where the grip wore through.",
+   "picture": "/img/obj_gimbal.jpg"
+  },
+  "obj_vest_orange": {
+   "name": "the orange queue vest",
+   "description": "A surveyor's vest, orange with a cracked reflective stripe, hung on a fence post by the agent's crew and forgotten.",
+   "picture": "/img/obj_vest_orange.jpg"
+  },
+  "obj_share_envelope": {
+   "name": "the circle envelope",
+   "description": "A brown envelope with the share circle's payout, Mae Tim's handwriting on the front, one member already two weeks late.",
+   "picture": "/img/obj_share_envelope.jpg"
+  },
+  "obj_phone_mount": {
+   "name": "the phone mount",
+   "description": "A clamp mount for a phone, the rubber jaw worn shiny, used for filming the soi from a fence rail.",
+   "picture": "/img/obj_phone_mount.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_letter_washed",
+    "obj_charger_bank",
+    "obj_gimbal"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_kwang",
+   "item": "obj_score_report",
+   "choice": 1,
+   "speaker": "char_kwang",
+   "line": "She reads the red three points and nods slowly. 'You kept this. Then you'll understand — I need the deed read aloud, and I need it to be someone the soi trusts.'",
+   "flag": "deed_asked",
+   "bubble": "Kwang has asked for the deed"
+  },
+  {
+   "scene": "char_kwang",
+   "item": "obj_biscuit_tin",
+   "choice": 1,
+   "requiresFlag": "deed_asked",
+   "speaker": "char_kwang",
+   "line": "She watches him lift the rice bag from the tin. 'Read it to Ta Bunma, not to me. If the boundary's on his side, Friday's cash buys nothing but a lawsuit.'",
+   "flag": "level_won",
+   "bubble": "The deed is read; the pegs are wrong"
+  }
+ ],
+ "fallbacks": {
+  "char_kwang": [
+   "She glances at the {item} and back at the pegs. 'Not that. The agent's already shown me his map — I need the paper that argues with it.'",
+   "She turns the {item} over once. 'The boundary line is the whole question. Show me something with a line on it that the soi would believe.'",
+   "She taps the biscuit tin. 'The deed, in the rice bag, in the tin. Read it aloud and we'll see whose field the pegs are standing in.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the morning glory with nothing settled. The pegs stand bright and patient.",
+   "Nothing comes of the {item} yet. Kwang watches the khlong path the way a marketer watches a launch date.",
+   "Kwang's gaze flicks from the {item} to the biscuit tin and back — a deed implied, a Friday implied."
+  ]
+ },
+ "lekPriorities": [
+  "duty to the stamps",
+  "the big house's small favors",
+  "his mother's pride",
+  "the exam — three points short",
+  "the strip's books"
+ ],
+ "choices": {
+  "char_kwang|obj_score_report": [
+   {
+    "label": "Show her the red three points and say nothing",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Read the report aloud as if it were a deed",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Ask what the campaign pays for a field",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_kwang|obj_biscuit_tin": [
+   {
+    "label": "Open the tin and show her the ledgers",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Lift the rice bag out and read the deed",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Keep the lid shut and ask about Friday",
+    "priority": "his mother's pride"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Ask what the agent's map actually shows",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Offer to read the deed to Ta Bunma",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Say the soi will decide, not the campaign",
+    "priority": "his mother's pride"
+   }
+  ],
+  "obj_score_report|*": [
+   {
+    "label": "Hold the report up against the pegs",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Fold it away and say nothing",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Ask Kwang what she saw in it",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "obj_biscuit_tin|*": [
+   {
+    "label": "Open the tin on the tailgate",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Set the tin between them and wait",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Ask Kwang what she thinks is inside",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "narrator|*": [
+   {
+    "label": "Walk the peg line to the khlong",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask Kwang why she came herself",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Wait for Ta Bunma to speak first",
+    "priority": "his mother's pride"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "duty to the stamps"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "duty to the stamps"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "his mother's pride"
+   }
+  ],
+  "obj_letter_washed|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the strip's books"
+   }
+  ],
+  "obj_charger_bank|*": [
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "obj_gimbal|*": [
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the exam — three points short"
+   }
+  ]
+ }
+}

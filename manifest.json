@@ -1,0 +1,32 @@
+{
+  "id": "/thai-rpg-2/",
+  "name": "Lek II — The Night Ledger",
+  "short_name": "Lek II",
+  "description": "Turn-based Thai learning RPG — one pier, one lamp, one smudged stamp",
+  "start_url": "/thai-rpg-2/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "orientation": "portrait",
+  "scope": "/thai-rpg-2/",
+  "icons": [
+    {
+      "src": "./icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512x512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

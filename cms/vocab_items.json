@@ -1,0 +1,482 @@
+[
+ {
+  "id": "441-12.",
+  "thai": "ไปเที่ยวทะเลกันดีมั้ย / ไปเที่ยวทะเลดีไหม",
+  "phonetics": "bpai-tîao tá-lee gan dii mái / bpai-tîao tá-lee dii mǎi",
+  "english": "Shall we go to the seaside? / Do you wanna do to the beach?"
+ },
+ {
+  "id": "441-15.",
+  "thai": "(สำหรับ)คนชอบผจญภัย",
+  "phonetics": "(sǎm-ràp) kon chɔ̂ɔp pà-jon-pai",
+  "english": "(For) the adventurous. / (For) those who love adventure."
+ },
+ {
+  "id": "439-2.",
+  "thai": "(เธอ)คงจะไม่มา",
+  "phonetics": "(təə) kong-jà mâi maa",
+  "english": "(She) probably won’t come. / (She) probably won’t be coming."
+ },
+ {
+  "id": "431-8.",
+  "thai": "(เดิน)ตรงไปอีกนิด",
+  "phonetics": "(dəən) dtrong-bpai ìik nít",
+  "english": "Go a bit further. / Walk a bit further. (giving directions)"
+ },
+ {
+  "id": "446-10.",
+  "thai": "เราสงสัยจริงๆว่า...",
+  "phonetics": "rao sǒng-sǎi jing-jing wâa...",
+  "english": "I really wonder…"
+ },
+ {
+  "id": "409-6.",
+  "thai": "(มัน)ไม่ใช่ปัญหาหรอก(ครับ)",
+  "phonetics": "(man) mâi-châi bpan-hǎa lɔ̀k (khráp)",
+  "english": "That’s no problem. / It’s not a problem."
+ },
+ {
+  "id": "415-14.",
+  "thai": "มาถ่ายรูปด้วยกันนะ / มาถ่ายรูปด้วยกันสิ",
+  "phonetics": "maa tàai-rûup dûai-gan ná / maa tàai-rûup dûai-gan sì",
+  "english": "Come and take a picture with us. / Come and take a picture together."
+ },
+ {
+  "id": "450-14.",
+  "thai": "(ควาย)กินอาหารได้เรื่อยๆ",
+  "phonetics": "(kwaai) gin-aa-hǎan dâi-rʉ̂ai-rʉ̂ai",
+  "english": "(Water buffalo) eat continuously. / (Water buffalo) eat constantly."
+ },
+ {
+  "id": "439-19.",
+  "thai": "(คุณ)ควรพักผ่อนบ้าง",
+  "phonetics": "(kun) kuan pák-pɔ̀n bâang",
+  "english": "(You) should get some rest."
+ },
+ {
+  "id": "446-20.",
+  "thai": "แฟนผมหึง",
+  "phonetics": "fɛɛn pǒm hʉ̌ng",
+  "english": "My girlfriend gets jealous. / My girlfriend is jealous."
+ },
+ {
+  "id": "441-16.",
+  "thai": "ทำไมไม่โทรมาบอกก่อน",
+  "phonetics": "tam-mai mâi too-maa bɔ̀ɔk gɔ̀ɔn",
+  "english": "Why didn’t you call me first? (before coming over, etc.)"
+ },
+ {
+  "id": "446-3.",
+  "thai": "ผมข้อเท้าแพลง",
+  "phonetics": "pǒm kɔ̂ɔ-táao-pleeng",
+  "english": "I sprained my ankle."
+ },
+ {
+  "id": "412-10.",
+  "thai": "คุณคิดอย่างไรกับ...",
+  "phonetics": "kun kít yàang-rai gàp…",
+  "english": "What do you think about…"
+ },
+ {
+  "id": "448-5.",
+  "thai": "เขาเพิ่งอกหักมา",
+  "phonetics": "kǎo pə̂ng òk-hàk maa",
+  "english": "He just had his heart broken."
+ },
+ {
+  "id": "409-4.",
+  "thai": "เราไม่ได้ติดต่อกัน",
+  "phonetics": "rao mâi-dâi dtìt-dtɔ̀ɔ gan",
+  "english": "We don’t stay in touch."
+ },
+ {
+  "id": "443-1.",
+  "thai": "อันนี้เรียกว่าอะไร / อันนี้เขาเรียกว่าอะไร",
+  "phonetics": "an-níi rîak wâa à-rai / an-níi kǎo rîak wâa à-rai",
+  "english": "What’s this called? / What do they call this?"
+ },
+ {
+  "id": "431-17.",
+  "thai": "อย่าบอกเขา(นะ)(ครับ)",
+  "phonetics": "yàa bɔ̀ɔk kǎo (ná) (kráp)",
+  "english": "Don’t tell him. / Don’t tell her."
+ },
+ {
+  "id": "429-15.",
+  "thai": "มีผู้ชายโทรมาหา(ครับ)",
+  "phonetics": "mii pûu-chaai too-maa hǎa (khráp)",
+  "english": "A man called you (…) / A man called (…)"
+ },
+ {
+  "id": "433-20.",
+  "thai": "กลับดึกจังเลย",
+  "phonetics": "glàp dʉ̀k jang ləəi",
+  "english": "You’re home so late! / You’re back late!"
+ },
+ {
+  "id": "448-9.",
+  "thai": "เรา(จะ)ต้องทำอะไรบางอย่าง(แล้ว)",
+  "phonetics": "rao (jà) dtɔ̂ng tam à-rai baang-yàang (lɛ́ɛo)",
+  "english": "We have to do something!"
+ },
+ {
+  "id": "402-15.",
+  "thai": "ผมคิดว่าไม่เป็นไร",
+  "phonetics": "pǒm kít-wâa mâi-bpen-rai",
+  "english": "I thought it was okay. / I think it’s alright."
+ },
+ {
+  "id": "409-1.",
+  "thai": "ผมกำลังจะออกไป",
+  "phonetics": "phǒm gam-lang jà ɔ̀ɔk-bpai",
+  "english": "I’m on my way out. / I’m heading out now."
+ },
+ {
+  "id": "433-19.",
+  "thai": "ในนั้นมีอะไร(บ้าง)",
+  "phonetics": "nai nán mii à-rai (bâang)",
+  "english": "What’s in there? / What do they have in there?"
+ },
+ {
+  "id": "405-12.",
+  "thai": "หยุดก่อน",
+  "phonetics": "STRONG/URGENT yùt gɔ̀ɔn",
+  "english": "Stop! / Stop it!"
+ },
+ {
+  "id": "412-12.",
+  "thai": "(เขา)สนใจแค่ว่า...",
+  "phonetics": "(kǎo) sǒn-jai kɛ̂ɛ wâa...",
+  "english": "(He)’s only interested in…"
+ },
+ {
+  "id": "415-13.",
+  "thai": "ยังเล่าไม่จบ",
+  "phonetics": "yang lâo mâi jòp",
+  "english": "(I)’m not finished yet! / (I)’m not done with what I was telling you! (so don’t interrupt, etc.)"
+ },
+ {
+  "id": "405-2.",
+  "thai": "กลับไม่ไหว",
+  "phonetics": "glàp mâi-wǎi",
+  "english": "I can’t make it back! (drunk and can’t drive home, etc.)"
+ },
+ {
+  "id": "439-4.",
+  "thai": "เราเบื่อมากจริงๆ",
+  "phonetics": "rao bʉ̀a mâak jing-jing",
+  "english": "We were so bored! / I was so bored!"
+ },
+ {
+  "id": "446-2.",
+  "thai": "คงงั้นแหละ(ครับ)",
+  "phonetics": "kong ngán lɛ̀ (kráp)",
+  "english": "That’s probably right. / I guess so. / Probably."
+ },
+ {
+  "id": "412-15.",
+  "thai": "คุณจะเสียใจที่(ทิ้งผม)",
+  "phonetics": "kun jà sǐa-jai tîi (tíng phǒm)",
+  "english": "You’re gonna be sorry for (leaving me). / You’ll regret that you (dumped me)."
+ },
+ {
+  "id": "424-8.",
+  "thai": "ทำไมไปนานจัง(เลย)",
+  "phonetics": "tam-mai bpai naan jang (ləəi)",
+  "english": "Why were you gone so long? / What took you so long?"
+ },
+ {
+  "id": "431-18.",
+  "thai": "(รบกวน)ช่วยเขียนให้ดูหน่อยได้ไหมครับ",
+  "phonetics": "POLITE (róp-guan) chûai kǐan hâi duu nɔ̀i dâi-mǎi kráp",
+  "english": "Could you please write it down for me?"
+ },
+ {
+  "id": "431-19.",
+  "thai": "(เขา)พูดจริงนะ",
+  "phonetics": "(kǎo) pûut jing ná",
+  "english": "(He) means means it! / (He) means what he says! / (He)’s serious!"
+ },
+ {
+  "id": "415-17.",
+  "thai": "ทุกอย่างเรียบร้อยดีใช่ไหม",
+  "phonetics": "túk-yàang rîap-rɔ́ɔi-dii châi-mǎi",
+  "english": "Is everything under control? / Is everything all right?"
+ },
+ {
+  "id": "429-18.",
+  "thai": "(บ้าน)เราอยู่ใกล้กัน",
+  "phonetics": "(bâan) rao yùu glâi-gan",
+  "english": "We live near each other."
+ },
+ {
+  "id": "450-4.",
+  "thai": "(ผม)ยังทำไม่เสร็จ",
+  "phonetics": "(phǒm) yang tam mâi sèt",
+  "english": "(I)’m not finished yet. / (I)’m not done."
+ },
+ {
+  "id": "448-14.",
+  "thai": "มันไม่จำเป็นว่า...",
+  "phonetics": "man mâi-jam-bpen wâa...",
+  "english": "It’s not necessary that… / It’s not necessary to…"
+ },
+ {
+  "id": "441-19.",
+  "thai": "ฟังทันไหมคะ / ฟังทันมั้ย",
+  "phonetics": "fang tan mǎi ká / fang tan mái",
+  "english": "Can you catch it? / Are you with me? / Can you catch what they are saying"
+ },
+ {
+  "id": "435-15.",
+  "thai": "คุณดูโทรม / คุณดูโทรมๆ",
+  "phonetics": "kun duu soom / kun duu soom-soom",
+  "english": "You look run down. / You look tired."
+ },
+ {
+  "id": "412-19.",
+  "thai": "เขาวางสายไปแล้ว",
+  "phonetics": "kǎo waang-sǎai bpai lɛ́ɛo",
+  "english": "He hung up."
+ },
+ {
+  "id": "424-7.",
+  "thai": "(หัวหิน)อยู่จังหวัดอะไร",
+  "phonetics": "(hǔa-hǐn) yùu jang-wàt à-rai",
+  "english": "What province is (Hua Hin) in?"
+ },
+ {
+  "id": "412-14.",
+  "thai": "ผมว่าน่าจะใช่นะ / คิดว่าน่าจะใช่",
+  "phonetics": "phǒm wâa nâa-jà châi ná / kít-wâa nâa-jà châi",
+  "english": "I think that’s right. / I think that’s the one. / I think so. / I think it is."
+ },
+ {
+  "id": "429-20.",
+  "thai": "เธอจะไปหรือเปล่า / เธอจะไปรึเปล่า",
+  "phonetics": "təə jà bpai rʉ̌ʉ-bplàao / təə jà bpai rʉ́-bplàao",
+  "english": "Are you going (or not)?"
+ },
+ {
+  "id": "433-2.",
+  "thai": "พูดไทยไม่เป็น",
+  "phonetics": "pûut tai mâi-bpen",
+  "english": "I can’t speak Thai. / She can’t speak Thai."
+ },
+ {
+  "id": "444-2.",
+  "thai": "(เขา)แก่ลงไปมาก / (เขา)แก่ลงไปเยอะ",
+  "phonetics": "(kǎo) gɛ̀ɛ-long bpai mâak / (kǎo) gɛ̀ɛ-long bpai yə́",
+  "english": "(He)’s really aged. / (He)’s gotten a lot older."
+ },
+ {
+  "id": "402-1.",
+  "thai": "มีเรื่องจะบอก(นะ)",
+  "phonetics": "mii rʉ̂ang jà bɔ̀ɔk (ná)",
+  "english": "I have something to tell you."
+ },
+ {
+  "id": "402-2.",
+  "thai": "จะลองดู(ครับ)",
+  "phonetics": "jà lɔɔng-duu (khráp)",
+  "english": "I’ll try it."
+ },
+ {
+  "id": "402-3.",
+  "thai": "ทุกคนรู้จักมัน / ทุกคนรู้จักเขา",
+  "phonetics": "túk-kon rúu-jàk man / túk-kon rúu-jàk kǎo",
+  "english": "Everyone knows it! / Everyone knows him!"
+ },
+ {
+  "id": "402-4.",
+  "thai": "อาจจะเปลี่ยนใจก็ได้",
+  "phonetics": "àat-jà bplìan-jai gɔ̂ɔ-dâi",
+  "english": "You might change your mind. / I might change my mind."
+ },
+ {
+  "id": "402-5.",
+  "thai": "(ผม)ไม่เห็นด้วยกับ(เขา)",
+  "phonetics": "(phǒm) mâi-hěn-dûai gàp (kǎo)",
+  "english": "(I) don’t agree with (him). / (I) disagree with (him)."
+ },
+ {
+  "id": "402-6.",
+  "thai": "ไม่เหนื่อยเหรอ",
+  "phonetics": "mâi-nʉ̀ai rə̌ə",
+  "english": "Aren’t you tired?"
+ },
+ {
+  "id": "402-8.",
+  "thai": "ไม่อยากได้",
+  "phonetics": "-REFUSING SOMETHING mâi-yàak dâi",
+  "english": "I don’t want it."
+ },
+ {
+  "id": "402-9.",
+  "thai": "คุณนี่เอง",
+  "phonetics": "kun nîi eeng",
+  "english": "Oh, it’s you!"
+ },
+ {
+  "id": "402-10.",
+  "thai": "(…)เป็นวิธีที่ดีที่สุด",
+  "phonetics": "(...) bpen wí-tii tîi dii-tîi-sùt",
+  "english": "(…) it’s the best way. / (…) this is the best way."
+ },
+ {
+  "id": "402-11.",
+  "thai": "ตอนนี้ผมรู้แล้วว่า...",
+  "phonetics": "dtɔɔn-níi phǒm rúu lɛ́ɛo wâa...",
+  "english": "Now I know… / I now know…"
+ },
+ {
+  "id": "402-12.",
+  "thai": "มีโอกาสสูง",
+  "phonetics": "mii oo-gàat sǔung",
+  "english": "There’s a high chance."
+ },
+ {
+  "id": "402-14.",
+  "thai": "(ผม)รู้สึกไม่เหมือนเดิม",
+  "phonetics": "(phǒm) rúu-sʉ̀k mâi mʉ̌an-dəəm",
+  "english": "(I) don’t feel the same (as before)."
+ },
+ {
+  "id": "402-16.",
+  "thai": "ผมมีงานทำ",
+  "phonetics": "phǒm mii ngaan tam",
+  "english": "I have work to do. / I have work I have to do."
+ },
+ {
+  "id": "402-17.",
+  "thai": "ผมได้คำตอบแล้ว",
+  "phonetics": "pǒm dâi kam-dtɔ̀ɔp lɛ́ɛo",
+  "english": "I got the answer now. / I got my answer."
+ },
+ {
+  "id": "402-18.",
+  "thai": "คุณสัญญากับผมได้ไหม / คุณสัญญากับผมได้มั้ย",
+  "phonetics": "kun sǎn-yaa-gàp pǒm dâi-mǎi / kun sǎn-yaa-gàp pǒm dâi-mái",
+  "english": "Can you promise me?"
+ },
+ {
+  "id": "402-19.",
+  "thai": "ไม่ต้องเปลี่ยนเรื่อง / ไม่ต้องมาเปลี่ยนเรื่องเลย",
+  "phonetics": "mâi-dtɔ̂ng bplìan-rʉ̂ang / mâi-dtɔ̂ng maa bplìan-rʉ̂ang ləəi",
+  "english": "Don’t change the subject!"
+ },
+ {
+  "id": "402-20.",
+  "thai": "เขาเป็นคนใจดี",
+  "phonetics": "kǎo bpen kon jai-dii",
+  "english": "He’s a nice person. / He’s a nice guy."
+ },
+ {
+  "id": "405-1.",
+  "thai": "ได้ยินหมดแล้ว",
+  "phonetics": "dâi-yin mòt lɛ́ɛo",
+  "english": "(I) heard everything!"
+ },
+ {
+  "id": "405-3.",
+  "thai": "กำลังจะเรียนจบ",
+  "phonetics": "gam-lang jà rian jòp",
+  "english": "I’m about to graduate. / He’s going to graduate soon."
+ },
+ {
+  "id": "405-4.",
+  "thai": "ผมไม่เข้าใจอะไรเลย",
+  "phonetics": "phǒm mâi-kâo-jai à-rai ləəi",
+  "english": "I don’t understand anything!"
+ },
+ {
+  "id": "405-5.",
+  "thai": "ช่วยบอกทางไป(โรงแรมดุสิต)หน่อยได้ไหม / ช่วยบอกทางไป (โรงแรมดุสิต)หน่อย(ครับ)",
+  "phonetics": "POLITE chûai bɔ̀ɔk-taang bpai (roong-rɛɛm dù-sìt) nɔ̀i dâi-mǎi / chûai bɔ̀ɔk-taang bpai (roong-rɛɛm dù-sìt) nɔ̀i (kráp)",
+  "english": "Could you tell me how to get to (the Dusit Hotel)?"
+ },
+ {
+  "id": "405-7.",
+  "thai": "(มัน)ก็น่าคิดนะ",
+  "phonetics": "(man) gɔ̂ɔ nâa-kít ná",
+  "english": "(It)’s something to think about."
+ },
+ {
+  "id": "405-8.",
+  "thai": "แค่นี้ใช่ไหม(คะ) / แค่นี้ใช่มั้ย",
+  "phonetics": "kɛ̂ɛ-níi châi-mǎi (ká) / kɛ̂ɛ-níi châi-mái",
+  "english": "That’s all, isn’t it? / That’s it, right?"
+ },
+ {
+  "id": "405-9.",
+  "thai": "ต้องรักตัวเอง",
+  "phonetics": "dtɔ̂ng rák dtua-eeng",
+  "english": "You need to love yourself. / You have to love yourself."
+ },
+ {
+  "id": "405-11.",
+  "thai": "ลองถามดูก็ได้(ครับ)",
+  "phonetics": "lɔɔng tǎam duu gɔ̂ɔ-dâi (khráp)",
+  "english": "You can ask. / You can try asking him."
+ },
+ {
+  "id": "405-13.",
+  "thai": "(เขา)ยังโสดอยู่ใช่ไหม",
+  "phonetics": "(kǎo) yang sòot yùu châi-mǎi",
+  "english": "He’s still single, isn’t he? / She’s still single, isn’t she?"
+ },
+ {
+  "id": "405-14.",
+  "thai": "ผมทราบแล้ว(ครับ)",
+  "phonetics": "FORMAL pǒm sâap lɛ́ɛo (kráp)",
+  "english": "I know. / I already know that."
+ },
+ {
+  "id": "405-15.",
+  "thai": "อย่าให้เขาเห็น",
+  "phonetics": "yàa hâi kǎo hěn",
+  "english": "Don’t let him see you! / Don’t let them see you!"
+ },
+ {
+  "id": "405-16.",
+  "thai": "ไม่น่ากลัวสักนิด",
+  "phonetics": "mâi nâa-glua sák-nít",
+  "english": "It’s not scary at all! / That’s not scary at all!"
+ },
+ {
+  "id": "405-17.",
+  "thai": "(มัน)เป็นประสบการณ์ที่ดี",
+  "phonetics": "(man) bpen bprà-sòp-gaan tîi dii",
+  "english": "It was a good experience."
+ },
+ {
+  "id": "405-18.",
+  "thai": "ผมจำรหัสไม่ได้",
+  "phonetics": "phǒm jam rá-hàt mâi-dâi",
+  "english": "I can’t remember my password!"
+ },
+ {
+  "id": "405-19.",
+  "thai": "เดี๋ยวผมดูให้ / ผมดูให้",
+  "phonetics": "dǐao phǒm duu hâi / phǒm duu hâi",
+  "english": "I’ll have a look. / I’ll look at it for you."
+ },
+ {
+  "id": "405-20.",
+  "thai": "ชอบแบบไหน",
+  "phonetics": "chɔ̂ɔp bɛ̀ɛp nǎi",
+  "english": "What kind do you like? / What style do you prefer?"
+ },
+ {
+  "id": "409-5.",
+  "thai": "มีอะไรเข้าตา",
+  "phonetics": "mii à-rai kâo dtaa",
+  "english": "There’s something in my eye. / Something went into my eye."
+ },
+ {
+  "id": "409-7.",
+  "thai": "ท้องเริ่มร้องแล้ว",
+  "phonetics": "tɔ́ɔng rə̂əm rɔ́ɔng lɛ́ɛo",
+  "english": "My stomach is starting to growl! / I’m starting to get hungry!"
+ }
+]

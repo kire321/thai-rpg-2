@@ -1,0 +1,463 @@
+{
+ "id": "lvl_015",
+ "title": "the dress that came back",
+ "location": "place_last_rai",
+ "frc": "char_je_fah",
+ "reward": null,
+ "opening": [
+  {
+   "character": null,
+   "place": "place_last_rai",
+   "dialogue": "A life is a sending; the last rai is where the soi keeps what it has not yet decided to send. Je Fah stands at the edge of the unbuilt field with a dress over her arm, and the dress is the color of a bus she finally boarded at fifty-eight."
+  },
+  {
+   "character": "char_je_fah",
+   "place": "place_last_rai",
+   "dialogue": "The resident from 1208 says this is hers. She donated it to the wat flood drive last year. Now it's on my rack with a price tag and a ring light waiting."
+  },
+  {
+   "character": "char_je_fah",
+   "place": "place_last_rai",
+   "dialogue": "I washed it at Saduek Sak. The whole bench watched it spin. Nobody said a word until tonight."
+  }
+ ],
+ "turns": [
+  {
+   "id": "je_fah_turn_1",
+   "tag": "tag_youll_regret_leaving",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She holds the dress up against the field light and lets the hem drop toward the dirt."
+   ],
+   "dialogue": "You'll regret walking away from this one, Lek. The soi already thinks my charity was a costume. If I give it back now, they'll say I only did it because I got caught.",
+   "uses": "obj_chalk_board",
+   "target": {
+    "type": "object",
+    "id": "obj_qr_sign"
+   }
+  },
+  {
+   "id": "je_fah_turn_2",
+   "tag": "tag_he_really_means_it",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She taps the phone mount twice, hard, and the ring light flickers on her face."
+   ],
+   "dialogue": "The resident means it. She's not asking for the dress back — she's asking what I am. And she's serious enough to say it in front of the bench.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "character",
+    "id": "char_mae_tim"
+   }
+  },
+  {
+   "id": "je_fah_turn_3",
+   "tag": "tag_we_live_nearby",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She sets the tea glass down on the chalk board and draws a circle around two names."
+   ],
+   "dialogue": "We live near each other, her and me. Same soi, same bench, same machines. That's what makes it worse — she didn't have to look far to find the dress.",
+   "uses": "obj_tea_glass",
+   "target": {
+    "type": "object",
+    "id": "obj_chalk_board"
+   }
+  },
+  {
+   "id": "je_fah_turn_4",
+   "tag": "tag_can_you_follow",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She turns the QR sign toward Lek and taps the payment code with one nail."
+   ],
+   "dialogue": "Can you follow what the soi is saying? They think I bought the dress off a donation pile. They think the whole flood drive was stock intake.",
+   "uses": "obj_qr_sign",
+   "target": {
+    "type": "character",
+    "id": "char_mae_tim"
+   }
+  },
+  {
+   "id": "je_fah_turn_5",
+   "tag": "tag_he_hung_up",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She looks at the phone mount, thumb hovering, then drops her hand."
+   ],
+   "dialogue": "I called the wat office to check the donation ledger. He hung up on me. Said the flood drive books were already closed.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "object",
+    "id": "obj_deed_bag"
+   }
+  },
+  {
+   "id": "je_fah_turn_6",
+   "tag": "tag_admitting_feelings_changed",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She folds the dress over the chalk board and looks at the field instead of Lek."
+   ],
+   "dialogue": "I don't feel the same about the live tonight. It used to be a rack and a ring light. Now it's a woman's dress and a bench that watched it spin.",
+   "uses": "obj_chalk_board",
+   "target": {
+    "type": "object",
+    "id": "obj_tea_glass"
+   }
+  },
+  {
+   "id": "je_fah_turn_7",
+   "tag": "tag_confessing_total_confusion",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She lifts both hands off the tea glass and lets them fall against her thighs."
+   ],
+   "dialogue": "I don't understand anything. Was it a donation or was it stock? I signed for a bag at the wat, and now the bag is a rack, and the rack is a live.",
+   "uses": "obj_tea_glass",
+   "target": {
+    "type": "object",
+    "id": "obj_qr_sign"
+   }
+  },
+  {
+   "id": "je_fah_turn_8",
+   "tag": "tag_warning_to_hide",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She pulls Lek behind the deed bag leaning against the field marker."
+   ],
+   "dialogue": "Don't let her see you looking at the dress. The resident from 1208 is at the soi mouth, and she's walking this way.",
+   "uses": "obj_deed_bag",
+   "target": {
+    "type": "character",
+    "id": "char_mae_tim"
+   }
+  }
+ ],
+ "turnResults": {
+  "je_fah_turn_1": {
+   "speaker": "char_je_fah",
+   "line": "She turns the chalk board so the price column faces the field. 'If I give it back, I'm admitting the whole rack was a costume.'",
+   "bubble": ""
+  },
+  "je_fah_turn_2": {
+   "speaker": "char_je_fah",
+   "line": "The ring light steadies. 'She means it, Lek. She's not asking for a refund — she's asking what I am.'",
+   "bubble": ""
+  },
+  "je_fah_turn_3": {
+   "speaker": "char_je_fah",
+   "line": "She circles the two names twice. 'We live near each other. That's the whole problem.'",
+   "bubble": ""
+  },
+  "je_fah_turn_4": {
+   "speaker": "char_je_fah",
+   "line": "She flips the QR sign face-down. 'Can you follow? They think the flood drive was my supplier.'",
+   "bubble": ""
+  },
+  "je_fah_turn_5": {
+   "speaker": "char_je_fah",
+   "line": "She sets the phone mount on the deed bag. 'The wat office hung up. The books are closed. I have a dress and no paper.'",
+   "bubble": "Je Fah has no donation receipt"
+  },
+  "je_fah_turn_6": {
+   "speaker": "char_je_fah",
+   "line": "She folds the dress smaller than it needs to be. 'I don't feel the same about the live tonight.'",
+   "bubble": ""
+  },
+  "je_fah_turn_7": {
+   "speaker": "char_je_fah",
+   "line": "She picks up the tea glass and sets it down without drinking. 'I don't understand anything. Donation or stock — I signed for a bag and now it's a rack.'",
+   "bubble": ""
+  },
+  "je_fah_turn_8": {
+   "speaker": "char_je_fah",
+   "line": "She pulls Lek behind the deed bag. 'Don't let her see you. The resident is walking this way, and she's carrying something.'",
+   "bubble": "The donor is approaching"
+  }
+ },
+ "finale": [
+  {
+   "character": "char_je_fah",
+   "place": "place_last_rai",
+   "dialogue": "She hangs the dress on the field marker, not the rack. 'Let the soi see it out here first. A dress that came back has to stand in the light before it goes anywhere.'"
+  },
+  {
+   "character": null,
+   "place": "place_last_rai",
+   "dialogue": "The ring light goes off. The dress stays on the marker, and the last rai holds it the way a stop holds a village waiting at a stop the bus no longer serves."
+  }
+ ],
+ "lekInventory": [
+  "obj_biscuit_tin",
+  "obj_word_notebook",
+  "obj_stamp_keys"
+ ],
+ "objects": {
+  "obj_biscuit_tin": {
+   "name": "the biscuit tin of ledgers",
+   "description": "Biscuit tin, lid bent from a decade of thumbs, three vendors' books sorted by which soi they belong to.",
+   "picture": "/img/obj_biscuit_tin.jpg"
+  },
+  "obj_word_notebook": {
+   "name": "the word notebook",
+   "description": "Pocket notebook, cover soft from handling, pages filled with other people's words in Lek's small hand.",
+   "picture": "/img/obj_word_notebook.jpg"
+  },
+  "obj_stamp_keys": {
+   "name": "the stamp-drawer keys",
+   "description": "Two brass keys on a wire ring, warm from his pocket, one notched from the time he dropped them at the win rank.",
+   "picture": "/img/obj_stamp_keys.jpg"
+  },
+  "obj_qr_sign": {
+   "name": "the QR sign",
+   "description": "Laminated card, corners curled from the heat, payment code printed over a photo of a rack of clothes.",
+   "picture": "/img/obj_qr_sign.jpg"
+  },
+  "obj_deed_bag": {
+   "name": "the deed in the rice bag",
+   "description": "Rice bag, stitched shut with fishing line, a folded deed inside that names the last rai and three people who no longer come to collect.",
+   "picture": "/img/obj_deed_bag.jpg"
+  },
+  "obj_chalk_board": {
+   "name": "the queue board",
+   "description": "Chalk board, frame warped from rain, tonight's rack list written in Je Fah's quick hand with two names circled.",
+   "picture": "/img/obj_chalk_board.jpg"
+  },
+  "obj_share_envelope": {
+   "name": "the circle envelope",
+   "description": "Manila envelope, flap soft from opening, Mae Tim's share-circle payout inside with one member's name penciled in the corner.",
+   "picture": "/img/obj_share_envelope.jpg"
+  },
+  "obj_phone_mount": {
+   "name": "the phone mount",
+   "description": "Clamp mount, spring tired, holds a phone at the exact angle that makes a dress look like it is floating.",
+   "picture": "/img/obj_phone_mount.jpg"
+  },
+  "obj_tea_glass": {
+   "name": "the tea-stall glass",
+   "description": "Small glass, rim chipped, sweet tea gone warm and skinned over on the field marker.",
+   "picture": "/img/obj_tea_glass.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_qr_sign",
+    "obj_deed_bag",
+    "obj_chalk_board"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_je_fah",
+   "item": "obj_biscuit_tin",
+   "choice": 1,
+   "speaker": "char_je_fah",
+   "line": "She opens the tin and reads the ledgers upside down, correctly. 'The wat donation is here — a bag signed for, no item list. That's the hole the dress fell through.'",
+   "flag": "donation_logged",
+   "bubble": "Je Fah has seen the donation entry"
+  },
+  {
+   "scene": "char_je_fah",
+   "item": "obj_word_notebook",
+   "choice": 1,
+   "requiresFlag": "donation_logged",
+   "speaker": "char_je_fah",
+   "line": "She writes the resident's name in Lek's notebook and under it: 'dress returned to the rack, not the wat.' 'Now the soi can read it before the live does.'",
+   "flag": "level_won",
+   "bubble": "The dress will be returned on the record"
+  }
+ ],
+ "fallbacks": {
+  "char_je_fah": [
+   "She turns the {item} over once and sets it back on the field marker. 'Not tonight, Lek. The soi is already talking.'",
+   "She taps the {item} against the chalk board. 'The wat donation is the hole here. Show me something with a date on it.'",
+   "She holds the {item} up to the ring light. 'The dress came from a bag with no item list. Bring me the ledger that says so, and I'll put my name under it.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the night with nothing settled. The dress hangs on the marker; the soi waits.",
+   "Nothing comes of the {item} yet. Je Fah watches the soi mouth the way the bench watches a machine spin.",
+   "Je Fah's gaze flicks from the {item} to the dress on the marker and back — a route mapped, a record missing."
+  ]
+ },
+ "lekPriorities": [
+  "the unsent letter",
+  "the till vs. the free readings",
+  "loyalty to the registrar's nine years",
+  "duty to the stamps",
+  "the big house's small favors"
+ ],
+ "choices": {
+  "char_je_fah|obj_biscuit_tin": [
+   {
+    "label": "Open the tin and find the wat donation entry",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Read the donation ledger aloud for the bench",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Ask what the dress cost the flood drive",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_je_fah|obj_word_notebook": [
+   {
+    "label": "Write the resident's name and the return on record",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Read the notebook entry aloud before the live",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Ask Je Fah to sign the page herself",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask about the wat bag and its missing list",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Offer to hold the ring light a while",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Say goodnight and mean it",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "obj_qr_sign|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   }
+  ],
+  "obj_deed_bag|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "obj_chalk_board|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "duty to the stamps"
+   }
+  ]
+ }
+}

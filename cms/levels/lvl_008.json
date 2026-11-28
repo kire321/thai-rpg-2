@@ -1,0 +1,458 @@
+{
+ "id": "lvl_008",
+ "title": "The Late Member",
+ "location": "place_wat",
+ "frc": "char_mae_tim",
+ "reward": null,
+ "opening": [
+  {
+   "character": null,
+   "place": "place_wat",
+   "dialogue": "A life is a sending, and the share circle's envelope sits under the counter at Saduek Sak 24 like a held breath. Mae Tim has walked to the wat to light one candle and not say why."
+  },
+  {
+   "character": "char_mae_tim",
+   "place": "place_wat",
+   "dialogue": "She sets the change-machine key on the offering ledge beside the candle, then picks it up again. 'A woman running at five percent,' she says, to no one, to the flame."
+  }
+ ],
+ "turns": [
+  {
+   "id": "mae_turn_1",
+   "tag": "tag_girlfriend_gets_jealous",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She turns the change-machine key over in her palm, thumb rubbing the worn brass, and nods at the mattress ad printout under Lek's arm."
+   ],
+   "dialogue": "The vendor's husband is the jealous kind — he counts her phone, not her money. She asks me for two weeks and I hear his voice in it.",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "object",
+    "id": "obj_mattress_ad"
+   }
+  },
+  {
+   "id": "mae_turn_2",
+   "tag": "tag_ask_their_opinion",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She holds up the QR sign from the laundromat wall, its corner curling, and taps the printed code with one fingernail."
+   ],
+   "dialogue": "You read the books for three vendors. What do you think about a circle that lets one wheel go two weeks flat?",
+   "uses": "obj_qr_sign",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   }
+  },
+  {
+   "id": "mae_turn_3",
+   "tag": "tag_just_heartbroken",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She lifts the phone mount from her bag and sets it on the ledge, screen dark, then turns it face-down."
+   ],
+   "dialogue": "Her daughter just had her heart broken and came home to the cart. That is the two weeks. Not the money — the girl on the mat.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "object",
+    "id": "obj_change_key"
+   }
+  },
+  {
+   "id": "mae_turn_4",
+   "tag": "tag_swear_keep_secret",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She presses the orange queue vest into Lek's hands and folds his fingers over the fabric, glancing toward the wat door."
+   ],
+   "dialogue": "Don't tell the bench. If the soi hears one member asked, the whole circle starts counting who might ask next.",
+   "uses": "obj_vest_orange",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   }
+  },
+  {
+   "id": "mae_turn_5",
+   "tag": "tag_home_so_late",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She unclips the charger bank from the laundromat bench and weighs it in her hand, cord dangling."
+   ],
+   "dialogue": "You're back late from the shop. Good — the bench is empty and I can say this once: I emptied the repair reserve to cover her. The machines are running on nothing now.",
+   "uses": "obj_charger_bank",
+   "target": {
+    "type": "object",
+    "id": "obj_biscuit_tin"
+   }
+  },
+  {
+   "id": "mae_turn_6",
+   "tag": "tag_must_act_now",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She sets the change-machine key down on the biscuit tin lid and pushes both toward Lek across the ledge."
+   ],
+   "dialogue": "We have to do something before Sunday. Either I take her name off the list, or I find the money in the tin. There is no third wheel.",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "object",
+    "id": "obj_biscuit_tin"
+   }
+  },
+  {
+   "id": "mae_turn_7",
+   "tag": "tag_heading_out_now",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She loops the phone mount back onto her bag strap and steps toward the wat gate, candle still burning behind her."
+   ],
+   "dialogue": "I'm heading out now — the vendor is waiting at the cart. Walk with me or don't, but decide before the soi wakes up.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   }
+  },
+  {
+   "id": "mae_turn_8",
+   "tag": "tag_checking_if_tired",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She stops at the gate and looks at Lek's shoulders, then at the score report sticking out of his bag."
+   ],
+   "dialogue": "Aren't you tired? You carry that paper everywhere like it still weighs something. I have been carrying mine for thirty years and it never got lighter.",
+   "uses": "obj_score_report",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   }
+  }
+ ],
+ "turnResults": {
+  "mae_turn_1": {
+   "speaker": "char_mae_tim",
+   "line": "She names the vendor's husband once, flatly, then puts the key in her pocket. The mattress ad in Lek's hand is for the vendor's daughter's new room — the reason for the two weeks.",
+   "bubble": ""
+  },
+  "mae_turn_2": {
+   "speaker": "char_mae_tim",
+   "line": "She waits. The QR sign curls in her fingers, and for once she does not fill the silence with the circle's rules.",
+   "bubble": ""
+  },
+  "mae_turn_3": {
+   "speaker": "char_mae_tim",
+   "line": "She turns the phone mount face-down and leaves it there. 'The girl sleeps on the cart mat now. The two weeks are for a mattress, not a debt.'",
+   "bubble": "Mae Tim has named the real reason"
+  },
+  "mae_turn_4": {
+   "speaker": "char_mae_tim",
+   "line": "She takes the vest back and folds it small. 'Then it stays between the two of us and the tin.'",
+   "bubble": ""
+  },
+  "mae_turn_5": {
+   "speaker": "char_mae_tim",
+   "line": "She opens the tin and shows him the gap where the repair money was. The ledgers sit lower than they should. 'Sunday the machines stop if one belt goes.'",
+   "bubble": "The repair reserve is empty"
+  },
+  "mae_turn_6": {
+   "speaker": "char_mae_tim",
+   "line": "She puts the key on the tin and steps back. 'You keep the vendors' books. Tell me which wheel I can afford to let go flat.'",
+   "bubble": ""
+  },
+  "mae_turn_7": {
+   "speaker": "char_mae_tim",
+   "line": "She waits at the gate with the candle behind her, bag on her shoulder, not looking back.",
+   "bubble": ""
+  },
+  "mae_turn_8": {
+   "speaker": "char_mae_tim",
+   "line": "She takes the score report out of his bag without asking, reads the three points short, and hands it back. 'We are the same paper, you and me. Only mine got laminated later.'",
+   "bubble": "Mae Tim has seen the score report"
+  }
+ },
+ "finale": [
+  {
+   "character": "char_mae_tim",
+   "place": "place_wat",
+   "dialogue": "She blows out the candle and puts the change-machine key back in her pocket. 'Sunday the circle pays her, and I find a belt somewhere. A woman at five percent still walks.'"
+  },
+  {
+   "character": null,
+   "place": "place_wat",
+   "dialogue": "The wat gate closes behind them. The envelope under the counter is lighter by one name, and the soi does not know it yet."
+  }
+ ],
+ "lekInventory": [
+  "obj_score_report",
+  "obj_stamp_keys",
+  "obj_biscuit_tin"
+ ],
+ "objects": {
+  "obj_score_report": {
+   "name": "the laminated score report",
+   "description": "Exam result folded twice and laminated at the shop, three points short in red, the lamination bubbled at one corner from a hot iron.",
+   "picture": "/img/obj_score_report.jpg"
+  },
+  "obj_stamp_keys": {
+   "name": "the stamp-drawer keys",
+   "description": "Two small keys on a wire ring, one for the stamp drawer and one for the ledger cupboard, worn smooth by nine years of the registrar's thumb.",
+   "picture": "/img/obj_stamp_keys.jpg"
+  },
+  "obj_biscuit_tin": {
+   "name": "the biscuit tin of ledgers",
+   "description": "Biscuit tin with a picture of a lighthouse, lid dented, holding three vendors' books and a rubber band around the repair envelope.",
+   "picture": "/img/obj_biscuit_tin.jpg"
+  },
+  "obj_mattress_ad": {
+   "name": "the mattress ad printout",
+   "description": "One-page printout from the copy shop, a mattress on sale, the price circled twice in blue pen.",
+   "picture": "/img/obj_mattress_ad.jpg"
+  },
+  "obj_qr_sign": {
+   "name": "the QR sign",
+   "description": "Laminated QR code for the laundromat, corner curled from steam, taped at eye level above the change machine.",
+   "picture": "/img/obj_qr_sign.jpg"
+  },
+  "obj_charger_bank": {
+   "name": "the charger bank",
+   "description": "Six-port charger bank clamped to the bench, one port dead, cords labeled with masking tape in three hands.",
+   "picture": "/img/obj_charger_bank.jpg"
+  },
+  "obj_change_key": {
+   "name": "the change-machine key",
+   "description": "Brass key on a shoelace, teeth worn round, opens the coin box under the change machine.",
+   "picture": "/img/obj_change_key.jpg"
+  },
+  "obj_phone_mount": {
+   "name": "the phone mount",
+   "description": "Plastic phone mount for a handlebar, clamp cracked and mended with fishing line, screen-side scratched.",
+   "picture": "/img/obj_phone_mount.jpg"
+  },
+  "obj_vest_orange": {
+   "name": "the orange queue vest",
+   "description": "Orange safety vest with a queue number stenciled on the back, reflective strip peeling at the shoulder.",
+   "picture": "/img/obj_vest_orange.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_mattress_ad",
+    "obj_qr_sign",
+    "obj_charger_bank"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_mae_tim",
+   "item": "obj_score_report",
+   "choice": 1,
+   "speaker": "char_mae_tim",
+   "line": "She reads the three points short and does not hand it back at once. 'You know what it is to be almost. So do I. Show me the tin.'",
+   "flag": "mae_saw_score",
+   "bubble": "Mae Tim recognizes the almost"
+  },
+  {
+   "scene": "char_mae_tim",
+   "item": "obj_stamp_keys",
+   "choice": 1,
+   "requiresFlag": "mae_saw_score",
+   "speaker": "char_mae_tim",
+   "line": "She takes the keys, opens the stamp drawer, and counts out the circle's payout in stamps and small notes. 'Sunday she gets paid. The belt can wait one more week.'",
+   "flag": "level_won",
+   "bubble": "The circle pays the late member"
+  }
+ ],
+ "fallbacks": {
+  "char_mae_tim": [
+   "She turns the {item} over once and sets it back on the ledge. 'Not that. Not tonight.'",
+   "She looks at the {item}, then at the empty repair envelope in the tin. 'The bench is quiet now. Say what you came to say with the right paper.'",
+   "She taps the tin lid. 'The score report first — the one you carry everywhere. Then we talk about the keys.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the bag with nothing settled. The candle burns down; the soi sleeps.",
+   "Nothing comes of the {item} yet. Mae Tim watches the wat door the way she watches the machines spin.",
+   "Mae Tim's eyes move from the {item} to the tin and back — a route mapped, a toll implied."
+  ]
+ },
+ "lekPriorities": [
+  "the unsent letter",
+  "the till vs. the free readings",
+  "loyalty to the registrar's nine years",
+  "duty to the stamps",
+  "the big house's small favors"
+ ],
+ "choices": {
+  "char_mae_tim|obj_score_report": [
+   {
+    "label": "Hand her the report without a word",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Tell her about the three points short",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Ask what the circle costs her",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_mae_tim|obj_stamp_keys": [
+   {
+    "label": "Offer the keys and say nothing",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Count the payout aloud with her",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Ask which wheel she can let go flat",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Ask about the vendor's daughter",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Say the bench will hear by Sunday",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Offer to keep the books straight",
+    "priority": "duty to the stamps"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "obj_mattress_ad|*": [
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "duty to the stamps"
+   }
+  ],
+  "obj_qr_sign|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   }
+  ],
+  "obj_charger_bank|*": [
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "duty to the stamps"
+   }
+  ]
+ }
+}

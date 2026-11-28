@@ -1,0 +1,463 @@
+{
+ "id": "lvl_001",
+ "title": "the retender",
+ "location": "place_last_rai",
+ "frc": "char_bank",
+ "reward": null,
+ "opening": [
+  {
+   "character": null,
+   "place": "place_last_rai",
+   "dialogue": "The last rai is a life is a sending the district has not yet read: weeds sent up through the chalk lines, and the queue board leaning on a rice sack, its forty years of names still in order."
+  },
+  {
+   "character": "char_bank",
+   "place": "place_last_rai",
+   "dialogue": "He parks the bike on the field edge, green jacket zipped to the chin, and lifts the laundry basket off the back rack with both hands. 'The district man came at noon. He took a photo of the board and said the app doesn't read chalk.'"
+  },
+  {
+   "character": "char_bank",
+   "place": "place_last_rai",
+   "dialogue": "He sets the basket down and pulls the orange vest from inside it, shakes the field dust out, and folds it once. 'Lung Prasoet won't register. He says a queue is a thing you stand in, not a thing you tap.'"
+  }
+ ],
+ "turns": [
+  {
+   "id": "bank_turn_1",
+   "tag": "tag_join_group_photo",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He holds his phone out at arm's length over the queue board and waves Lek in beside him with two fingers."
+   ],
+   "dialogue": "Come in, phi — the group chat wants a picture of the board before the district takes it. Everyone's changing their profile to a green number and I still haven't picked one.",
+   "uses": "obj_laundry_basket",
+   "target": {
+    "type": "object",
+    "id": "obj_chalk_board"
+   }
+  },
+  {
+   "id": "bank_turn_2",
+   "tag": "tag_advise_some_rest",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He crouches and thumbs the change-machine key around the basket rim, then presses the basket against his knee as if to stand."
+   ],
+   "dialogue": "Sixty meals today and the battery's at nineteen. You should sit down, phi. The bench under the fan is free — the machines don't care who's tired.",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   }
+  },
+  {
+   "id": "bank_turn_3",
+   "tag": "tag_pressing_for_yes_or_no",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He holds the orange vest up between them and does not put it on, thumb on the collar seam."
+   ],
+   "dialogue": "So are you registering or not? The district closes the list Friday. Lung Prasoet asked me straight and I told him I'd tell him tonight.",
+   "uses": "obj_vest_orange",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   }
+  },
+  {
+   "id": "bank_turn_4",
+   "tag": "tag_noticing_someone_aged",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He tilts the chalk board toward the light and runs a thumb down the names, stopping at one near the bottom."
+   ],
+   "dialogue": "Lung Prasoet's hand shook when he wrote this one. He's aged since the district man came — his name's gone thin at the bottom of the board.",
+   "uses": "obj_chalk_board",
+   "target": {
+    "type": "object",
+    "id": "obj_laundry_basket"
+   }
+  },
+  {
+   "id": "bank_turn_5",
+   "tag": "tag_claiming_public_knowledge",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He lifts the washed letter out of the basket and holds it up, the ink run to a blue ghost."
+   ],
+   "dialogue": "Everyone knows the app already — the condo tower's been on it a month. But this letter came through the wash and nobody on the rank can read what's left of it.",
+   "uses": "obj_letter_washed",
+   "target": {
+    "type": "object",
+    "id": "obj_laundry_basket"
+   }
+  },
+  {
+   "id": "bank_turn_6",
+   "tag": "tag_announcing_upcoming_graduation",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He turns the score report over in his hands and taps the lamination against the basket handle."
+   ],
+   "dialogue": "My cousin's about to finish at the district office — she's the one who stamped this list. She graduates Friday, same day the rank closes.",
+   "uses": "obj_score_report",
+   "target": {
+    "type": "object",
+    "id": "obj_laundry_basket"
+   }
+  },
+  {
+   "id": "bank_turn_7",
+   "tag": "tag_encouraging_to_ask",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He nods at the stamp-drawer keys in Lek's hand and tips his chin toward the board."
+   ],
+   "dialogue": "You can ask her, phi — she'll read the list for you. The registrar's stamp is the only thing the district still believes.",
+   "uses": "obj_stamp_keys",
+   "target": {
+    "type": "object",
+    "id": "obj_chalk_board"
+   }
+  },
+  {
+   "id": "bank_turn_8",
+   "tag": "tag_offering_to_inspect",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He holds the vest out flat and runs his thumb along the seam where the number is stitched."
+   ],
+   "dialogue": "Here — look at this. The number's coming off mine. If I register, the app gives me a new one and the old stitch is just a scar.",
+   "uses": "obj_vest_orange",
+   "target": {
+    "type": "object",
+    "id": "obj_laundry_basket"
+   }
+  }
+ ],
+ "turnResults": {
+  "bank_turn_1": {
+   "speaker": "char_bank",
+   "line": "The phone shutter clicks. In the photo the board is a grey smear and Bank's face is half out of frame, already turning to check the basket.",
+   "bubble": ""
+  },
+  "bank_turn_2": {
+   "speaker": "char_bank",
+   "line": "He sets the basket on the bench under the fan and the change key on top of it. The machines start their rotation; the key stays where he put it.",
+   "bubble": ""
+  },
+  "bank_turn_3": {
+   "speaker": "char_bank",
+   "line": "He folds the vest over his arm and waits. The rank behind him is quiet — every rider on it is waiting for someone to answer first.",
+   "bubble": ""
+  },
+  "bank_turn_4": {
+   "speaker": "char_bank",
+   "line": "He lifts the board and sets it against the rice sack so the names face the soi. Lung Prasoet's chalk is the only hand on it that still holds.",
+   "bubble": "The queue board now faces the soi"
+  },
+  "bank_turn_5": {
+   "speaker": "char_bank",
+   "line": "He lays the washed letter flat on the basket lid. Two words survive in the blue ghost: a date, and a name the water took the rest of.",
+   "bubble": "The washed letter shows a date"
+  },
+  "bank_turn_6": {
+   "speaker": "char_bank",
+   "line": "He holds the score report up so the lamination catches the field light. The stamp on it is the district's, and the date under it is Friday.",
+   "bubble": ""
+  },
+  "bank_turn_7": {
+   "speaker": "char_bank",
+   "line": "He takes the stamp-drawer keys from Lek's hand, weighs them once, and puts them back in Lek's palm with the worn side up.",
+   "bubble": ""
+  },
+  "bank_turn_8": {
+   "speaker": "char_bank",
+   "line": "He picks the loose stitch out with his thumbnail and lets the thread fall into the basket. The vest is plain orange now, no number on it.",
+   "bubble": ""
+  }
+ },
+ "finale": [
+  {
+   "character": "char_bank",
+   "place": "place_last_rai",
+   "dialogue": "He puts the vest on over the green jacket, plain side out, and picks up the basket. 'Friday, then. I'll tell Lung Prasoet tonight — the board keeps its order, the app keeps its list, and I keep the wheels turning.'"
+  },
+  {
+   "character": null,
+   "place": "place_last_rai",
+   "dialogue": "The last rai goes dark behind him. The queue board leans on its rice sack, forty years of names still in order, and the district's list is one name shorter than the board."
+  }
+ ],
+ "lekInventory": [
+  "obj_score_report",
+  "obj_stamp_keys",
+  "obj_biscuit_tin"
+ ],
+ "objects": {
+  "obj_score_report": {
+   "name": "the laminated score report",
+   "description": "A exam score report, laminated at the copy shop, the three-point gap circled twice in red pen and the lamination gone cloudy at one corner from being carried in a pocket.",
+   "picture": "/img/obj_score_report.jpg"
+  },
+  "obj_stamp_keys": {
+   "name": "the stamp-drawer keys",
+   "description": "Two small brass keys on a wire ring, the teeth worn round from nine years of opening the registrar's stamp drawer.",
+   "picture": "/img/obj_stamp_keys.jpg"
+  },
+  "obj_biscuit_tin": {
+   "name": "the biscuit tin of ledgers",
+   "description": "A biscuit tin, lid dented at the corner, holding three vendors' books in rubber bands and a smell of old paper and condensed milk.",
+   "picture": "/img/obj_biscuit_tin.jpg"
+  },
+  "obj_chalk_board": {
+   "name": "the queue board",
+   "description": "A board of chalked names in Lung Prasoet's hand, forty years of queue order, the chalk gone thin at the bottom where his hand shakes.",
+   "picture": "/img/obj_chalk_board.jpg"
+  },
+  "obj_letter_washed": {
+   "name": "the washed letter",
+   "description": "A letter that went through the wash, the ink run to a blue ghost, two words left legible: a date and half a name.",
+   "picture": "/img/obj_letter_washed.jpg"
+  },
+  "obj_mortar": {
+   "name": "the granite mortar",
+   "description": "A granite mortar, heavy and grey, the pestle worn to a stub, set on the field edge where the som tam cart parks.",
+   "picture": "/img/obj_mortar.jpg"
+  },
+  "obj_laundry_basket": {
+   "name": "the laundry basket",
+   "description": "A plastic laundry basket, one handle cracked and wired, holding Bank's green jacket folded and the orange vest on top.",
+   "picture": "/img/obj_laundry_basket.jpg"
+  },
+  "obj_vest_orange": {
+   "name": "the orange queue vest",
+   "description": "An orange vest with a number stitched at the shoulder, the stitch coming loose, the orange faded to the color of a old traffic cone.",
+   "picture": "/img/obj_vest_orange.jpg"
+  },
+  "obj_change_key": {
+   "name": "the change-machine key",
+   "description": "A small key on a plastic tag, the tag written in marker with a number that matches the change machine at the laundromat.",
+   "picture": "/img/obj_change_key.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_chalk_board",
+    "obj_letter_washed",
+    "obj_mortar"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_bank",
+   "item": "obj_score_report",
+   "choice": 1,
+   "speaker": "char_bank",
+   "line": "He takes the score report and reads the district's stamp on it, then holds it flat against the basket lid. 'The registrar's stamp is the same one on the list. So the list is real, and the list is Friday.'",
+   "flag": "list_read",
+   "bubble": "Bank has read the district's list"
+  },
+  {
+   "scene": "char_bank",
+   "item": "obj_stamp_keys",
+   "choice": 1,
+   "requiresFlag": "list_read",
+   "speaker": "char_bank",
+   "line": "He takes the stamp-drawer keys and turns them once in his palm, then presses them back into Lek's hand, worn side first. 'Then I'll register. Tell Lung Prasoet the board keeps its order and the app keeps its list, and I keep the wheels turning.'",
+   "flag": "level_won",
+   "bubble": "Bank has decided to register"
+  }
+ ],
+ "fallbacks": {
+  "char_bank": [
+   "He turns the {item} over once and sets it back on the basket lid. 'Not yet, phi. The rank's still waiting on a straight answer and I haven't got one.'",
+   "He looks at the {item}, then at the queue board leaning on its rice sack. 'The district's list is the thing that decides Friday. Show me the list before I give you a yes.'",
+   "He taps the {item} against the basket handle. 'The stamp on the district's list — that's what Lung Prasoet needs to see. Bring me the list and the keys, and I'll tell him tonight.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the night with nothing settled. The last rai waits; the queue board leans on its rice sack.",
+   "Nothing comes of the {item} yet. Bank watches the rank the way a rider watches a light.",
+   "Bank's gaze flicks from the {item} to the queue board and back — a list unread, a Friday implied."
+  ]
+ },
+ "lekPriorities": [
+  "the notebook of words",
+  "the voice",
+  "the unsent letter",
+  "the till vs. the free readings",
+  "loyalty to the registrar's nine years"
+ ],
+ "choices": {
+  "char_bank|obj_score_report": [
+   {
+    "label": "Hand him the score report and say nothing",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Read the district's stamp aloud for him",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Ask what the list costs a rider",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_bank|obj_stamp_keys": [
+   {
+    "label": "Give him the keys and let him decide",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Press the keys into his hand, worn side first",
+    "priority": "the voice"
+   },
+   {
+    "label": "Ask him to hold the board one more night",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Ask about the green number in the chat",
+    "priority": "the voice"
+   },
+   {
+    "label": "Offer to read the washed letter for the rank",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Say goodnight and mean it",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the notebook of words"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the voice"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the voice"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the voice"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the voice"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the unsent letter"
+   }
+  ],
+  "obj_chalk_board|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the voice"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   }
+  ],
+  "obj_letter_washed|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "obj_mortar|*": [
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the voice"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the unsent letter"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the voice"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the till vs. the free readings"
+   }
+  ]
+ }
+}

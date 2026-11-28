@@ -1,0 +1,505 @@
+{
+ "id": "lvl_009",
+ "title": "the night the soi went dark",
+ "location": "place_wat",
+ "frc": "char_bank",
+ "reward": "obj_coin_stack",
+ "opening": [
+  {
+   "character": null,
+   "place": "place_wat",
+   "dialogue": "The blackout takes the soi at nine, and a life is a sending — every phone on the strip migrates toward the one inverter still breathing at Saduek Sak 24."
+  },
+  {
+   "character": "char_bank",
+   "place": "place_wat",
+   "dialogue": "Bank rolls his bike to the wat steps with his phone already at four percent. 'Six sockets,' he says. 'I counted them before I counted my orders.'"
+  },
+  {
+   "character": "char_bank",
+   "place": "place_wat",
+   "dialogue": "He lifts the orange queue vest off his handlebars and drapes it over the temple rail like a flag that has nowhere to go. 'The funeral stream goes out at ten. The family is three time zones away.'"
+  }
+ ],
+ "turns": [
+  {
+   "id": "bank_turn_1",
+   "tag": "tag_invite_to_the_beach",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He tilts his phone toward Lek, the screen a weak square of light on the temple wall, and taps the charging cable against the biscuit tin."
+   ],
+   "dialogue": "If the inverter holds, I could ride out to the coast after the stream. Sleep on the sand. Save a night's rent. You ever do that?",
+   "uses": "obj_laundry_basket",
+   "target": {
+    "type": "object",
+    "id": "obj_biscuit_tin"
+   }
+  },
+  {
+   "id": "bank_turn_2",
+   "tag": "tag_home_so_late",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He checks the time on the dead phone, then on the wat clock, then on Lek's face, and sets the laundry basket down between them."
+   ],
+   "dialogue": "You're out late for a clerk. The shop closed hours ago. What's in the tin that couldn't wait till morning?",
+   "uses": "obj_laundry_basket",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   }
+  },
+  {
+   "id": "bank_turn_3",
+   "tag": "tag_whats_in_there",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He crouches and peers into the biscuit tin as if it were a room, one hand flat on the lid to keep the wind from taking the papers."
+   ],
+   "dialogue": "Three vendors' books in a biscuit tin. What's in there that the soi needs tonight more than a charged phone?",
+   "uses": "obj_biscuit_tin",
+   "target": {
+    "type": "object",
+    "id": "obj_word_notebook"
+   }
+  },
+  {
+   "id": "bank_turn_4",
+   "tag": "tag_not_done_talking",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He holds up one palm, the other still on the tin, and shakes his head slowly at the noise from the charging corner."
+   ],
+   "dialogue": "Wait. I'm not finished. The stream needs a phone at full, not five phones at half. That's the whole arithmetic of tonight.",
+   "uses": "obj_vest_orange",
+   "target": {
+    "type": "object",
+    "id": "obj_biscuit_tin"
+   }
+  },
+  {
+   "id": "bank_turn_5",
+   "tag": "tag_declaring_best_approach",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He taps the temple step twice with two fingers, then points at the inverter cable snaking toward the laundry basket."
+   ],
+   "dialogue": "One phone, one socket, one hour each. That's the best way. The rest of them can queue by the wat bell.",
+   "uses": "obj_laundry_basket",
+   "target": {
+    "type": "object",
+    "id": "obj_stamp_keys"
+   }
+  },
+  {
+   "id": "bank_turn_6",
+   "tag": "tag_admitting_feelings_changed",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He looks away at the dark soi, his thumb rubbing the worn corner of the orange vest, and sets it down on the laundry basket."
+   ],
+   "dialogue": "I used to think the night belonged to the riders. Now I look at a dead phone and I don't feel the same about the hours.",
+   "uses": "obj_vest_orange",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   }
+  },
+  {
+   "id": "bank_turn_7",
+   "tag": "tag_asking_for_a_promise",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He holds out his pinky over the biscuit tin, the nail split from a dropped order, and waits."
+   ],
+   "dialogue": "Promise me the funeral phone gets the first hour. Not the win chief's radio, not the condo clerk's call. The stream.",
+   "uses": "obj_biscuit_tin",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   }
+  },
+  {
+   "id": "bank_turn_8",
+   "tag": "tag_praising_someones_character",
+   "speaker": "char_bank",
+   "stage_directions": [
+    "He smiles at the stamp-drawer keys in Lek's hand and nods toward the wat door where the novice is waiting with a tripod."
+   ],
+   "dialogue": "You're a good person, clerk. You read for people who can't read and you don't charge the ones who can't pay. That's rare on this soi.",
+   "uses": "obj_stamp_keys",
+   "target": {
+    "type": "character",
+    "id": "extra_novice_toy"
+   }
+  }
+ ],
+ "turnResults": {
+  "bank_turn_1": {
+   "speaker": "char_bank",
+   "line": "He says it lightly, but his thumb is already checking the charge again. The beach is a place he has never been and prices in his head like a fare.",
+   "bubble": ""
+  },
+  "bank_turn_2": {
+   "speaker": "char_bank",
+   "line": "He sets the basket down and waits. The soi's dark has made everyone a little more honest about what they carry.",
+   "bubble": ""
+  },
+  "bank_turn_3": {
+   "speaker": "char_bank",
+   "line": "He sees the ledgers and the notebook and does not ask to read them. He asks what they are for.",
+   "bubble": ""
+  },
+  "bank_turn_4": {
+   "speaker": "char_bank",
+   "line": "He lays out the arithmetic on the step with a piece of chalk from his pocket: six sockets, nine phones, one night.",
+   "bubble": "Bank has counted the sockets"
+  },
+  "bank_turn_5": {
+   "speaker": "char_bank",
+   "line": "He taps the step again. The queue by the wat bell is already forming in his head, and he is already assigning it.",
+   "bubble": ""
+  },
+  "bank_turn_6": {
+   "speaker": "char_bank",
+   "line": "He leaves the vest on the basket. The green number on his rider chat has been blinking all week, and he has not answered it.",
+   "bubble": ""
+  },
+  "bank_turn_7": {
+   "speaker": "char_bank",
+   "line": "His pinky stays out. The novice's tripod is set, the phone is at three percent, and the family abroad is already awake.",
+   "bubble": "Bank is waiting on a promise"
+  },
+  "bank_turn_8": {
+   "speaker": "char_bank",
+   "line": "He says it without irony and without flattery. Then he picks up the vest and folds it small, the way he folds everything he owns.",
+   "bubble": ""
+  }
+ },
+ "finale": [
+  {
+   "character": null,
+   "place": "place_wat",
+   "dialogue": "The inverter hums. One phone drinks, then another. The funeral stream goes out at ten and the far time zones lean in."
+  },
+  {
+   "character": "char_bank",
+   "place": "place_wat",
+   "dialogue": "Bank clips his phone to the last socket and stands guard over it like a man guarding a week with no hole in the turning."
+  }
+ ],
+ "lekInventory": [
+  "obj_biscuit_tin",
+  "obj_word_notebook",
+  "obj_stamp_keys"
+ ],
+ "objects": {
+  "obj_biscuit_tin": {
+   "name": "the biscuit tin of ledgers",
+   "description": "Biscuit tin, lid scratched from a decade of thumbs, three vendors' books inside sorted by who owes what and who has already paid.",
+   "picture": "/img/obj_biscuit_tin.jpg"
+  },
+  "obj_word_notebook": {
+   "name": "the word notebook",
+   "description": "Pocket notebook, cover soft from the pocket, pages of other people's words in Lek's small hand, none of them paid for.",
+   "picture": "/img/obj_word_notebook.jpg"
+  },
+  "obj_stamp_keys": {
+   "name": "the stamp-drawer keys",
+   "description": "Two small keys on a wire ring, one brass and one steel, worn smooth by the copy shop's stamp drawer opening and closing nine years.",
+   "picture": "/img/obj_stamp_keys.jpg"
+  },
+  "obj_deed_bag": {
+   "name": "the deed in the rice bag",
+   "description": "Land deed folded into a rice bag, the bag washed and dried, the paper inside soft at the creases from being carried to offices that never quite registered it.",
+   "picture": "/img/obj_deed_bag.jpg"
+  },
+  "obj_coin_stack": {
+   "name": "the stack of ten-baht coins",
+   "description": "Ten-baht coins stacked in a column, counted twice, wrapped in a rubber band that has gone slack with use.",
+   "picture": "/img/obj_coin_stack.jpg"
+  },
+  "obj_permit_photo": {
+   "name": "the permit photo",
+   "description": "Passport-sized photo of a man in a collared shirt, the background blue, the corners bent from a plastic sleeve that has been opened too many times.",
+   "picture": "/img/obj_permit_photo.jpg"
+  },
+  "obj_laundry_basket": {
+   "name": "the laundry basket",
+   "description": "Plastic basket, one handle cracked and taped, a green uniform folded on top and a phone charger coiled beside it.",
+   "picture": "/img/obj_laundry_basket.jpg"
+  },
+  "obj_share_envelope": {
+   "name": "the circle envelope",
+   "description": "Brown envelope with a name penciled on the front and a payout inside, the flap folded twice and not sealed.",
+   "picture": "/img/obj_share_envelope.jpg"
+  },
+  "obj_vest_orange": {
+   "name": "the orange queue vest",
+   "description": "Orange delivery vest, reflective strip peeling at one shoulder, the green jacket underneath mended at the cuff with fishing line.",
+   "picture": "/img/obj_vest_orange.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_deed_bag",
+    "obj_coin_stack",
+    "obj_permit_photo"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_bank",
+   "item": "obj_biscuit_tin",
+   "choice": 1,
+   "speaker": "char_bank",
+   "line": "Bank reads the ledgers upside down and finds the column where the soi's money has been standing still. 'This tin knows who owes who. That's a rotation I can trust.'",
+   "flag": "tin_opened",
+   "bubble": "Bank has seen the ledgers"
+  },
+  {
+   "scene": "char_bank",
+   "item": "obj_word_notebook",
+   "choice": 1,
+   "requiresFlag": "tin_opened",
+   "speaker": "char_bank",
+   "line": "He flips the notebook to the page where Lek has written the novice's name three ways and nods. 'You keep other people's words. Keep mine tonight: the stream first.'",
+   "flag": "promise_made",
+   "bubble": "Bank has made Lek promise"
+  },
+  {
+   "scene": "char_bank",
+   "item": "obj_stamp_keys",
+   "choice": 1,
+   "requiresFlag": "promise_made",
+   "speaker": "char_bank",
+   "line": "Bank takes the keys, opens the copy shop's stamp drawer, and counts out the coins the soi will pay for its charging hour. 'Cash that never slept. Here's your stack.'",
+   "addToLek": [
+    "obj_coin_stack"
+   ],
+   "flag": "level_won",
+   "bubble": "Received: the stack of ten-baht coins"
+  }
+ ],
+ "fallbacks": {
+  "char_bank": [
+   "He turns the {item} over once and sets it back in Lek's hands. 'Not that. Not tonight.'",
+   "He looks at the {item}, then at the queue forming by the wat bell. 'The tin first. I need to know who owes what before I hand out hours.'",
+   "He taps the {item} against the step. 'Open the tin, clerk. Show me the books, and then we'll talk about the keys.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the dark with nothing settled. The inverter hums; the queue waits.",
+   "Nothing comes of the {item} yet. Bank watches the charging corner the way a rider watches a red light.",
+   "Bank's gaze flicks from the {item} to the biscuit tin and back — a route mapped, a toll implied."
+  ],
+  "obj_deed_bag": [
+   "The rice bag stays folded. Bank does not look at it. 'Land is a stillness I can't afford.'",
+   "He nudges the bag with his boot. 'That paper has been to every office on this soi and come back. It won't charge a phone.'",
+   "He picks up the bag, weighs it, and sets it down. 'If you want the keys, show me the tin first. The books, not the deed.'"
+  ],
+  "obj_coin_stack": [
+   "He counts the coins once and pushes them back. 'That's not the rotation I meant.'",
+   "He stacks the coins in a column and leaves them on the step. 'Cash that never slept, and still it doesn't move.'",
+   "He taps the coin stack. 'The tin first. Then the notebook. Then we'll talk about what the keys open.'"
+  ],
+  "obj_permit_photo": [
+   "He glances at the photo and looks away. 'A face in a sleeve won't hold a charge.'",
+   "He turns the photo face down on the step. 'That's a man waiting at a stop the bus no longer serves.'",
+   "He slides the photo back. 'The tin, clerk. Show me the books and I'll show you the keys.'"
+  ]
+ },
+ "lekPriorities": [
+  "the voice",
+  "the unsent letter",
+  "the till vs. the free readings",
+  "loyalty to the registrar's nine years",
+  "duty to the stamps"
+ ],
+ "choices": {
+  "char_bank|obj_biscuit_tin": [
+   {
+    "label": "Open the tin and show him the books",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Read him the column of who owes what",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Keep the tin shut and ask about the stream",
+    "priority": "the voice"
+   }
+  ],
+  "char_bank|obj_word_notebook": [
+   {
+    "label": "Show him the page with the novice's name",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Write his promise in the notebook and sign it",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Read him a word he has never seen",
+    "priority": "the voice"
+   }
+  ],
+  "char_bank|obj_stamp_keys": [
+   {
+    "label": "Hand him the keys and let him count",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Open the drawer and count the coins together",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Keep the keys and ask what the hour costs",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Ask about the green number on his chat",
+    "priority": "the voice"
+   },
+   {
+    "label": "Offer to hold the queue by the wat bell",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Say goodnight and mean it",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the voice"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the voice"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the voice"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the voice"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the voice"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "obj_deed_bag|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the voice"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   }
+  ],
+  "obj_coin_stack|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the voice"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   }
+  ],
+  "obj_permit_photo|*": [
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ]
+ }
+}

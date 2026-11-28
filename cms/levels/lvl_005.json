@@ -1,0 +1,470 @@
+{
+ "id": "lvl_005",
+ "title": "the stolen voice",
+ "location": "place_laundromat",
+ "frc": "char_je_fah",
+ "reward": "obj_change_key",
+ "opening": [
+  {
+   "character": null,
+   "place": "place_laundromat",
+   "dialogue": "A life is a sending, and the machines at Saduek Sak 24 send other people's shirts around a drum all night. Je Fah sits on the bench under the fan with her phone turned up, and Lek's own voice comes out of it selling foam."
+  },
+  {
+   "character": "char_je_fah",
+   "place": "place_laundromat",
+   "dialogue": "Listen to this. Nine hundred baht a mattress, three provinces, and they used the good take — the one where you slowed down on the price."
+  },
+  {
+   "character": "char_je_fah",
+   "place": "place_laundromat",
+   "dialogue": "I told them to keep it. A voice bought by the hour should work nights too."
+  }
+ ],
+ "turns": [
+  {
+   "id": "je_fah_turn_1",
+   "tag": "tag_predict_she_wont_come",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She thumbs the phone screen dark and sets it face-down on the bench between them, then nods at the empty queue board."
+   ],
+   "dialogue": "The appraiser from the tower said she'd come see the ad contract. She won't come. They never come down here after dark.",
+   "uses": "obj_chalk_board",
+   "target": {
+    "type": "character",
+    "id": "char_je_fah"
+   }
+  },
+  {
+   "id": "je_fah_turn_2",
+   "tag": "tag_urge_walk_further",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She points past the dryers toward the soi mouth, then presses the change-machine key into Lek's palm and folds his fingers over it."
+   ],
+   "dialogue": "Go on past the rank, a bit further than the rank. The broker at the camp gate has a phone that records. He'll do it for a tea glass.",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "object",
+    "id": "obj_tea_glass"
+   }
+  },
+  {
+   "id": "je_fah_turn_3",
+   "tag": "tag_advise_some_rest",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She lifts the washed letter off the folding table and holds it up to the fan, squinting at the ink that has run."
+   ],
+   "dialogue": "You look like a man running on someone else's battery. Sit. Rest a minute. This letter survived the drum — it can wait for you to read it.",
+   "uses": "obj_letter_washed",
+   "target": {
+    "type": "character",
+    "id": "char_je_fah"
+   }
+  },
+  {
+   "id": "je_fah_turn_4",
+   "tag": "tag_why_no_call_first",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She raps the biscuit tin with one knuckle, then tips her chin at the laundromat door where Bank has just walked in with his charger."
+   ],
+   "dialogue": "He didn't call first. Nobody calls first anymore. If I'd known he was coming I'd have turned the shop down a little.",
+   "uses": "obj_biscuit_tin",
+   "target": {
+    "type": "character",
+    "id": "char_bank"
+   }
+  },
+  {
+   "id": "je_fah_turn_5",
+   "tag": "tag_just_heartbroken",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She slides the circle envelope across the bench toward Lek and taps the name written on it."
+   ],
+   "dialogue": "Mae Tim's been moping. Her share circle lost a member — he just had his heart broken, and a broken heart stops paying. The envelope's short.",
+   "uses": "obj_share_envelope",
+   "target": {
+    "type": "character",
+    "id": "char_mae_tim"
+   }
+  },
+  {
+   "id": "je_fah_turn_6",
+   "tag": "tag_announcing_news_to_share",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She leans in close over the word notebook, her ring light still glowing in her bag, and lowers her voice."
+   ],
+   "dialogue": "I have something to tell you. The mattress company wants a hundred more recordings. They'll pay per word. They'll pay for your name on the contract.",
+   "uses": "obj_word_notebook",
+   "target": {
+    "type": "character",
+    "id": "char_je_fah"
+   }
+  },
+  {
+   "id": "je_fah_turn_7",
+   "tag": "tag_claiming_public_knowledge",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She flips the phone over and shows him the ad's view count, then lets it drop back onto the bench."
+   ],
+   "dialogue": "Everyone knows that voice now. Everyone in three provinces. You're famous and you didn't even have to leave the soi.",
+   "uses": "obj_chalk_board",
+   "target": {
+    "type": "object",
+    "id": "obj_word_notebook"
+   }
+  },
+  {
+   "id": "je_fah_turn_8",
+   "tag": "tag_voicing_disagreement",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She shakes her head hard and pushes the deed bag back across the folding table toward him."
+   ],
+   "dialogue": "No. I don't agree with you. A voice that carries is a voice that should be used. You want to keep it quiet, you keep it in that notebook and nobody hears it.",
+   "uses": "obj_deed_bag",
+   "target": {
+    "type": "character",
+    "id": "char_je_fah"
+   }
+  }
+ ],
+ "turnResults": {
+  "je_fah_turn_1": {
+   "speaker": "char_je_fah",
+   "line": "She wipes the queue board clean with her sleeve. 'Write the appraiser's name on it anyway. If she comes, she comes.'",
+   "bubble": ""
+  },
+  "je_fah_turn_2": {
+   "speaker": "char_je_fah",
+   "line": "She tucks the tea glass into his hand along with the key. 'The broker drinks from it. It's how you know he's listening.'",
+   "bubble": "Received: the change-machine key and the tea-stall glass",
+   "addToLek": [
+    "obj_change_key",
+    "obj_tea_glass"
+   ]
+  },
+  "je_fah_turn_3": {
+   "speaker": "char_je_fah",
+   "line": "She smooths the washed letter flat on the folding table. 'There. Read it now, before the ink decides to leave.'",
+   "bubble": ""
+  },
+  "je_fah_turn_4": {
+   "speaker": "char_je_fah",
+   "line": "She slides the tin's lid open. Inside, three vendors' ledgers sit in order, and one thin notebook of words sits on top. 'You keep other people's books. Keep your own voice in one too.'",
+   "bubble": ""
+  },
+  "je_fah_turn_5": {
+   "speaker": "char_je_fah",
+   "line": "She counts the envelope twice and writes the shortfall on the back with her thumbnail. 'Mae Tim won't ask. That's the trouble with her.'",
+   "bubble": ""
+  },
+  "je_fah_turn_6": {
+   "speaker": "char_je_fah",
+   "line": "She taps the notebook's cover. 'Write your name in it. Then it's yours, whatever the app says.'",
+   "bubble": ""
+  },
+  "je_fah_turn_7": {
+   "speaker": "char_je_fah",
+   "line": "She laughs, but she looks at the view count longer than she looks at him. 'Famous. And still here, folding shirts.'",
+   "bubble": ""
+  },
+  "je_fah_turn_8": {
+   "speaker": "char_je_fah",
+   "line": "She pushes the deed bag until it touches his hand. 'That's the paperwork nobody's written yet. A voice with a deed.'",
+   "bubble": ""
+  }
+ },
+ "finale": [
+  {
+   "character": "char_je_fah",
+   "place": "place_laundromat",
+   "dialogue": "She turns the shop back up, all the way, and the fan and the dryers and her phone make one loud room."
+  },
+  {
+   "character": null,
+   "place": "place_laundromat",
+   "dialogue": "Lek's voice goes out of her phone again, selling foam to three provinces. In the notebook, his name sits on a page no one pays for, and the drum turns, and the quiet name waits."
+  }
+ ],
+ "lekInventory": [
+  "obj_word_notebook",
+  "obj_biscuit_tin",
+  "obj_score_report"
+ ],
+ "objects": {
+  "obj_word_notebook": {
+   "name": "the word notebook",
+   "description": "Pocket notebook, cover soft from handling, pages filled with other people's words in Lek's small hand — none of them paid for.",
+   "picture": "/img/obj_word_notebook.jpg"
+  },
+  "obj_biscuit_tin": {
+   "name": "the biscuit tin of ledgers",
+   "description": "Biscuit tin, lid bent from a decade of thumbs, three vendors' ledgers inside and a thin space left on top.",
+   "picture": "/img/obj_biscuit_tin.jpg"
+  },
+  "obj_score_report": {
+   "name": "the laminated score report",
+   "description": "Exam score report, laminated against the rain, three points short of the line, kept in his back pocket like a receipt.",
+   "picture": "/img/obj_score_report.jpg"
+  },
+  "obj_letter_washed": {
+   "name": "the washed letter",
+   "description": "A letter that went through the drum, ink run into blue ghosts, still folded the way it was mailed.",
+   "picture": "/img/obj_letter_washed.jpg"
+  },
+  "obj_deed_bag": {
+   "name": "the deed in the rice bag",
+   "description": "Land deed wrapped in a rice bag and tied with string, the paper soft at the corners from being carried.",
+   "picture": "/img/obj_deed_bag.jpg"
+  },
+  "obj_chalk_board": {
+   "name": "the queue board",
+   "description": "Chalk board by the change machine, names and slot times rubbed out and rewritten so often the slate has gone grey.",
+   "picture": "/img/obj_chalk_board.jpg"
+  },
+  "obj_share_envelope": {
+   "name": "the circle envelope",
+   "description": "Envelope with a share circle's payout inside, names on the front in Mae Tim's hand, one name crossed out.",
+   "picture": "/img/obj_share_envelope.jpg"
+  },
+  "obj_change_key": {
+   "name": "the change-machine key",
+   "description": "Small brass key on a red plastic tag, worn smooth, opens the change machine and nothing else.",
+   "picture": "/img/obj_change_key.jpg"
+  },
+  "obj_tea_glass": {
+   "name": "the tea-stall glass",
+   "description": "Small tea glass, rim chipped, the broker at the camp gate drinks from it while he listens.",
+   "picture": "/img/obj_tea_glass.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_letter_washed",
+    "obj_deed_bag",
+    "obj_chalk_board"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_je_fah",
+   "item": "obj_word_notebook",
+   "choice": 1,
+   "speaker": "char_je_fah",
+   "line": "She takes the notebook and writes his name on the first page in her big market hand. 'There. Now the app has to argue with paper.'",
+   "flag": "name_written",
+   "bubble": "Je Fah has written Lek's name in the notebook"
+  },
+  {
+   "scene": "char_je_fah",
+   "item": "obj_biscuit_tin",
+   "choice": 0,
+   "requiresFlag": "name_written",
+   "speaker": "char_je_fah",
+   "line": "She lifts the tin's lid and lays the notebook inside, on top of the ledgers. 'Keep your voice where you keep the books. Then it's a record, not a rumor.' She presses the change-machine key into his hand.",
+   "addToLek": [
+    "obj_change_key"
+   ],
+   "flag": "level_won",
+   "bubble": "Received: the change-machine key"
+  }
+ ],
+ "fallbacks": {
+  "char_je_fah": [
+   "She turns the {item} over once and sets it back on the bench. 'Not that. Not yet.'",
+   "She taps the {item} against the folding table. 'A voice needs a name on paper before it needs anything else.'",
+   "She pushes the {item} back toward him. 'Write your name in the notebook first. Then we'll see about the tin.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the night with nothing settled. The drum turns; Je Fah's phone sells foam.",
+   "Nothing comes of the {item} yet. Je Fah watches the view count the way clerks watch clocks.",
+   "Je Fah's gaze flicks from the {item} to the notebook in Lek's pocket and back — a name unmade, a record unkept."
+  ]
+ },
+ "lekPriorities": [
+  "the strip's books",
+  "the notebook of words",
+  "the voice",
+  "the unsent letter",
+  "the till vs. the free readings"
+ ],
+ "choices": {
+  "char_je_fah|obj_word_notebook": [
+   {
+    "label": "Ask her to write your name in it",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Show her the page where your voice is written",
+    "priority": "the voice"
+   },
+   {
+    "label": "Say the notebook is not for sale",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_je_fah|obj_biscuit_tin": [
+   {
+    "label": "Set the notebook inside the tin",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask what the tin holds for her",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Close the lid and keep it shut",
+    "priority": "the voice"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask her to turn the shop down",
+    "priority": "the voice"
+   },
+   {
+    "label": "Offer to read the washed letter aloud",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Say goodnight and mean it",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the strip's books"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the strip's books"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the notebook of words"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the notebook of words"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the voice"
+   }
+  ],
+  "obj_letter_washed|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the voice"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "obj_deed_bag|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the notebook of words"
+   }
+  ],
+  "obj_chalk_board|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the voice"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the voice"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   }
+  ]
+ }
+}

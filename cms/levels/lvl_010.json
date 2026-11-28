@@ -1,0 +1,463 @@
+{
+ "id": "lvl_010",
+ "title": "the machine that takes only QR",
+ "location": "place_laundromat",
+ "frc": "char_note",
+ "reward": null,
+ "opening": [
+  {
+   "character": null,
+   "place": "place_laundromat",
+   "dialogue": "A life is a sending, and the change machine at Saduek Sak 24 has stopped sending coins — it sends only QR credit now, a green square blinking where the slot used to be. Mae Tim has taped a handwritten sign over it that says the machine is not broken, it is upgraded."
+  },
+  {
+   "character": "char_note",
+   "place": "place_laundromat",
+   "dialogue": "Note sits on his charging-corner stool with the change-machine key on a shoelace around his neck, though the key no longer opens anything. He watches the auntie at the machine pat her handkerchief of cash and does not get up."
+  },
+  {
+   "character": "char_mae_tim",
+   "place": "place_laundromat",
+   "dialogue": "Mae Tim folds her arms at the bench under the fan. 'The queue is three deep, Note. The machine is yours to explain.'"
+  }
+ ],
+ "turns": [
+  {
+   "id": "note_turn_1",
+   "tag": "tag_urge_walk_further",
+   "speaker": "char_note",
+   "stage_directions": [
+    "Note points down the soi toward the copy shop with the change-machine key dangling from his fist."
+   ],
+   "dialogue": "The QR reader is by the door, not the machine. Walk a bit further — past the dryers, past the folding table, to where the light is better.",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "object",
+    "id": "obj_chalk_board"
+   }
+  },
+  {
+   "id": "note_turn_2",
+   "tag": "tag_thought_it_was_fine",
+   "speaker": "char_note",
+   "stage_directions": [
+    "Note turns the phone mount over in his hand, checking the clamp that holds it to the machine's edge."
+   ],
+   "dialogue": "I thought it was fine. The app said the update was small. Then the auntie's screen went gray and the machine stopped taking her cash.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "object",
+    "id": "obj_change_key"
+   }
+  },
+  {
+   "id": "note_turn_3",
+   "tag": "tag_shout_stop_it",
+   "speaker": "char_note",
+   "stage_directions": [
+    "Note raises one flat palm toward the camp worker stepping up with a basket, the tea-stall glass still in his other hand."
+   ],
+   "dialogue": "Stop — hold on. The auntie was here first. Her basket is full and her hands are last year's model; she gets the machine before the queue moves.",
+   "uses": "obj_tea_glass",
+   "target": {
+    "type": "character",
+    "id": "char_bank"
+   }
+  },
+  {
+   "id": "note_turn_4",
+   "tag": "tag_cant_make_it_back",
+   "speaker": "char_note",
+   "stage_directions": [
+    "Note taps the queue board with the change-machine key, reading the names chalked there."
+   ],
+   "dialogue": "The woman after the worker can't make it back — she has a plane at midnight and a wet load. If we lose her place, she carries it wet to the airport.",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "object",
+    "id": "obj_chalk_board"
+   }
+  },
+  {
+   "id": "note_turn_5",
+   "tag": "tag_recognizing_surprise_visitor",
+   "speaker": "char_note",
+   "stage_directions": [
+    "Note looks up from the phone mount as Lek comes through the door, the key swinging against his chest."
+   ],
+   "dialogue": "Oh, it's you. Good. The auntie's app won't load and the machine only takes QR now. You read things — read the screen and tell me what it wants.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "character",
+    "id": "char_mae_tim"
+   }
+  },
+  {
+   "id": "note_turn_6",
+   "tag": "tag_estimating_high_odds",
+   "speaker": "char_note",
+   "stage_directions": [
+    "Note sets the tea-stall glass down on the folding table and weighs the change-machine key in his palm."
+   ],
+   "dialogue": "There's a high chance the reader takes her cash if I key it manual — but the manual code is on a card in the copy shop, and the shop is locked.",
+   "uses": "obj_change_key",
+   "target": {
+    "type": "object",
+    "id": "obj_tea_glass"
+   }
+  },
+  {
+   "id": "note_turn_7",
+   "tag": "tag_confirming_answer_found",
+   "speaker": "char_note",
+   "stage_directions": [
+    "Note closes the queue board's hinged lid and sets the chalk down with a click."
+   ],
+   "dialogue": "I got the answer now. The machine doesn't need her app — it needs a name on the board and a witness. She pays cash to the board, and the board pays the machine.",
+   "uses": "obj_chalk_board",
+   "target": {
+    "type": "object",
+    "id": "obj_change_key"
+   }
+  },
+  {
+   "id": "note_turn_8",
+   "tag": "tag_rubbing_something_in_eye",
+   "speaker": "char_note",
+   "stage_directions": [
+    "Note rubs his eye with the heel of his hand, the phone mount still clamped in his fingers."
+   ],
+   "dialogue": "There's something in my eye — chalk dust. Don't look at me, look at the machine. It's waiting for someone to send it a name.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "object",
+    "id": "obj_mattress_ad"
+   }
+  }
+ ],
+ "turnResults": {
+  "note_turn_1": {
+   "speaker": "char_note",
+   "line": "He walks Lek to the reader by the door and shows him the blinking green square, then steps back so the auntie can see it too.",
+   "bubble": ""
+  },
+  "note_turn_2": {
+   "speaker": "char_note",
+   "line": "He admits the update broke the old cash slot. The auntie's screen is still gray, and the queue has stopped pretending not to listen.",
+   "bubble": ""
+  },
+  "note_turn_3": {
+   "speaker": "char_note",
+   "line": "The camp worker steps back with his basket. The auntie's hands shake as she opens her handkerchief of cash.",
+   "bubble": ""
+  },
+  "note_turn_4": {
+   "speaker": "char_note",
+   "line": "He writes the airport woman's name on the board and draws a small plane beside it. The queue settles by one notch.",
+   "bubble": ""
+  },
+  "note_turn_5": {
+   "speaker": "char_note",
+   "line": "He hands Lek the phone mount so Lek can read the app's error message aloud to the auntie, who cannot read the small print.",
+   "bubble": ""
+  },
+  "note_turn_6": {
+   "speaker": "char_note",
+   "line": "He sets the key on the table between them and taps the copy-shop door visible through the window. The manual card is inside.",
+   "bubble": ""
+  },
+  "note_turn_7": {
+   "speaker": "char_note",
+   "line": "He chalks a line on the board and hands the auntie a stub. 'Pay the board. The board pays the machine.' The auntie's cash goes into the biscuit tin.",
+   "bubble": ""
+  },
+  "note_turn_8": {
+   "speaker": "char_note",
+   "line": "He blinks hard and points at the mattress ad taped to the wall — the small print at the bottom is the manual code, if anyone can read it.",
+   "bubble": ""
+  }
+ },
+ "finale": [
+  {
+   "character": "char_note",
+   "place": "place_laundromat",
+   "dialogue": "Note chalks the auntie's name on the board and draws a line through it. The machine takes her cash from the tin and starts its rotation."
+  },
+  {
+   "character": "char_mae_tim",
+   "place": "place_laundromat",
+   "dialogue": "Mae Tim watches the drum turn and says nothing about the school, or the grandmother, or the phone business. She just nods at the board."
+  }
+ ],
+ "lekInventory": [
+  "obj_score_report",
+  "obj_word_notebook",
+  "obj_biscuit_tin"
+ ],
+ "objects": {
+  "obj_score_report": {
+   "name": "the laminated score report",
+   "description": "Exam result folded twice and laminated at the copy shop; the three-point gap is circled in red pen, then uncircled in blue.",
+   "picture": "/img/obj_score_report.jpg"
+  },
+  "obj_word_notebook": {
+   "name": "the word notebook",
+   "description": "Pocket notebook with a rubber band; half the pages are other people's words, the other half are Lek's attempts at them.",
+   "picture": "/img/obj_word_notebook.jpg"
+  },
+  "obj_biscuit_tin": {
+   "name": "the biscuit tin of ledgers",
+   "description": "Biscuit tin, lid scratched from a decade of thumbs; three vendors' books inside, sorted by which vendor paid last.",
+   "picture": "/img/obj_biscuit_tin.jpg"
+  },
+  "obj_green_jacket": {
+   "name": "the green rider jacket",
+   "description": "Delivery jacket hung on the folding table's corner, reflective stripe peeling at the shoulder, phone pocket worn thin.",
+   "picture": "/img/obj_green_jacket.jpg"
+  },
+  "obj_chalk_board": {
+   "name": "the queue board",
+   "description": "Small hinged chalkboard by the machine; names in white chalk, times in yellow, one line always smudged by a thumb.",
+   "picture": "/img/obj_chalk_board.jpg"
+  },
+  "obj_mattress_ad": {
+   "name": "the mattress ad printout",
+   "description": "Printout taped to the wall, a mattress floating on a blue background; the small print at the bottom is the machine's manual code.",
+   "picture": "/img/obj_mattress_ad.jpg"
+  },
+  "obj_tea_glass": {
+   "name": "the tea-stall glass",
+   "description": "Small glass from the camp-gate tea stall, tea stains at the rim, a chip at the base from being set down too hard.",
+   "picture": "/img/obj_tea_glass.jpg"
+  },
+  "obj_change_key": {
+   "name": "the change-machine key",
+   "description": "Brass key on a shoelace, teeth worn smooth; it opened the coin box once, and now it opens nothing.",
+   "picture": "/img/obj_change_key.jpg"
+  },
+  "obj_phone_mount": {
+   "name": "the phone mount",
+   "description": "Plastic clamp that holds a phone to the machine's edge; one arm cracked and taped, the tape gone soft with heat.",
+   "picture": "/img/obj_phone_mount.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_green_jacket",
+    "obj_chalk_board",
+    "obj_mattress_ad"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_note",
+   "item": "obj_score_report",
+   "choice": 1,
+   "speaker": "char_note",
+   "line": "Note reads the circled three-point gap and looks at Lek differently. 'You know what it is to be left behind by a number. So you know what the auntie's screen is doing to her.'",
+   "flag": "note_saw_score",
+   "bubble": "Note has seen the score report"
+  },
+  {
+   "scene": "char_note",
+   "item": "obj_word_notebook",
+   "choice": 0,
+   "requiresFlag": "note_saw_score",
+   "speaker": "char_note",
+   "line": "Note flips the notebook to the page where Lek has written the machine's manual code in his own hand. 'You already had the answer. You just needed someone to ask you for it.'",
+   "flag": "level_won",
+   "bubble": "The machine takes the auntie's cash"
+  }
+ ],
+ "fallbacks": {
+  "char_note": [
+   "Note glances at the {item} and shakes his head. 'The machine doesn't want that. The machine wants a name on the board.'",
+   "Note sets the {item} on the folding table and taps the queue board. 'The auntie's screen is gray and the queue is three deep. Show me something that helps her.'",
+   "Note looks at the {item}, then at the score report in Lek's pocket. 'You failed by three points and you still read for people. Show me the paper that proves it.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the night with nothing settled. The machine blinks its green square; the auntie's handkerchief stays folded.",
+   "Nothing comes of the {item} yet. Note watches the queue the way a teacher watches a clock.",
+   "Note's gaze flicks from the {item} to the score report in Lek's pocket and back — a route mapped, a question implied."
+  ]
+ },
+ "lekPriorities": [
+  "the big house's small favors",
+  "his mother's pride",
+  "the exam — three points short",
+  "the strip's books",
+  "the notebook of words"
+ ],
+ "choices": {
+  "char_note|obj_score_report": [
+   {
+    "label": "Hand him the score report and say nothing",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Read the circled gap aloud for the queue",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Ask what the school letter will cost him",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_note|obj_word_notebook": [
+   {
+    "label": "Open the notebook to the manual code",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Show him the page of other people's words",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask him to write the auntie's name himself",
+    "priority": "his mother's pride"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Ask what the machine is waiting for",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Offer to read the small print on the ad",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Say the auntie was here first",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "his mother's pride"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "his mother's pride"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "his mother's pride"
+   }
+  ],
+  "obj_green_jacket|*": [
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the strip's books"
+   }
+  ],
+  "obj_chalk_board|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the exam — three points short"
+   }
+  ],
+  "obj_mattress_ad|*": [
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the strip's books"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the strip's books"
+   }
+  ]
+ }
+}

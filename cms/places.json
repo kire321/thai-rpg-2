@@ -1,0 +1,50 @@
+[
+ {
+  "id": "place_laundromat",
+  "name": "Saduek Sak 24",
+  "description": "A 24-hour coin laundry on the shophouse strip at the soi mouth: two rows of machines, a change machine that has opinions, a bench under the fan, sockets numbered one to six, and a lost-and-found board of single socks and pocket contents. The one rotation everyone on the soi trusts.",
+  "picture": "/img/place_laundromat.jpg"
+ },
+ {
+  "id": "place_copy_shop",
+  "name": "Khun Sanga's copy-and-documents shop",
+  "description": "Khun Sanga's copy-and-documents shop: a photocopier warm and temperamental behind the counter, a writing desk where Lek reads letters aloud for whoever cannot, a locked stamp drawer, and a wall of sample forms — resignation, guarantor, birth registration — in Lek's best hand.",
+  "picture": "/img/place_copy_shop.jpg"
+ },
+ {
+  "id": "place_win_rank",
+  "name": "the win",
+  "description": "The win: a motorcycle-taxi rank at the soi mouth. Orange vests numbered on a rack, a chalk queue board ruled like a ledger, a fare list nailed to the pole, and an awning that has hosted forty years of arguments about whose turn it is.",
+  "picture": "/img/place_win_rank.jpg"
+ },
+ {
+  "id": "place_somtam_cart",
+  "name": "Pa Yong's som tam cart",
+  "description": "Pa Yong's som tam cart: a granite mortar older than the cart, a row of sauce bottles, a cooler of ice, a circle of plastic stools, and a QR code on the pole that pays for things nobody can hold.",
+  "picture": "/img/place_somtam_cart.jpg"
+ },
+ {
+  "id": "place_condo_tower",
+  "name": "the Parkland Lite condo tower",
+  "description": "The Parkland Lite: a condo tower whose lobby is as far as delivery ever goes. The parcel room is the tower's true parliament; the laundry room has two of six machines working, out-of-order signs in three fonts; the pool is photographed for listings and never swum.",
+  "picture": "/img/place_condo_tower.jpg"
+ },
+ {
+  "id": "place_construction_camp",
+  "name": "the construction camp behind the hoarding",
+  "description": "The construction camp behind the site hoarding: container barracks, a tea stall by the gate where the remittance broker holds court, one charging strip for forty phones, and a Friday pay-table where a man's week becomes an envelope.",
+  "picture": "/img/place_construction_camp.jpg"
+ },
+ {
+  "id": "place_wat",
+  "name": "Wat Khlong Bon at the bend of the khlong",
+  "description": "Wat Khlong Bon at the bend of the khlong: a QR code on the alms bowl, a funeral hall with a gimbal corner where Novice Toy streams cremations to relatives abroad, charging sockets in the sala, and a car-park Sunday market where the share circle's order is quietly confirmed between stalls.",
+  "picture": "/img/place_wat.jpg"
+ },
+ {
+  "id": "place_last_rai",
+  "name": "the last rai of farmland",
+  "description": "The last rai: morning glory and herbs between the khlong and the hoarding, a pump shed, surveyor's pegs bright and multiplying, and a pickup spot at the soi mouth where Ta Bunma sells off the truck every weekday morning, winning the price war and losing the war against time.",
+  "picture": "/img/place_last_rai.jpg"
+ }
+]

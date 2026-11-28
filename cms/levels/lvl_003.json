@@ -1,0 +1,515 @@
+{
+ "id": "lvl_003",
+ "title": "the dress that came back",
+ "location": "place_win_rank",
+ "frc": "char_je_fah",
+ "reward": null,
+ "opening": [
+  {
+   "character": null,
+   "place": "place_win_rank",
+   "dialogue": "At the win, the drivers sit with their engines off and their phones face-up: a life is a sending, and the soi mouth is where the sending is counted. Je Fah's shophouse back room glows behind a curtain, and the rack inside is labeled for tonight."
+  },
+  {
+   "character": "char_je_fah",
+   "place": "place_win_rank",
+   "dialogue": "She holds the dress up to the rank's one streetlight and lets it hang there, a blue cotton with the temple-drive tag still pinned inside the hem. 'Nobody wore it. It came back to me washed. That's rotation, not theft.'"
+  },
+  {
+   "character": "char_bank",
+   "place": "place_win_rank",
+   "dialogue": "Bank leans on his bike, charger bank in one hand, and does not look at the dress. 'The bench watched it spin. The whole bench.'"
+  }
+ ],
+ "turns": [
+  {
+   "id": "fah_turn_1",
+   "tag": "tag_reassure_no_problem",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She drapes the dress over the laundry basket and presses the temple-drive tag flat with her thumb."
+   ],
+   "dialogue": "The donor's already waved it off — no problem, she said, it was for the flood. So it's no problem. I'm telling you it's no problem before anyone else tells me it is.",
+   "uses": "obj_laundry_basket",
+   "target": {
+    "type": "object",
+    "id": "obj_ring_light"
+   }
+  },
+  {
+   "id": "fah_turn_2",
+   "tag": "tag_guessing_and_agreeing",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She tilts the ring light toward the dress and squints at the hem, then nods at Lek's face for confirmation."
+   ],
+   "dialogue": "This is the one, isn't it — the blue with the mended seam. I think that's right. I think it is. Say it's the one so I can stop looking at it.",
+   "uses": "obj_ring_light",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   }
+  },
+  {
+   "id": "fah_turn_3",
+   "tag": "tag_admitting_no_thai",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She flaps one hand at the driver who has stepped up to ask about the dress, the other hand flat on the phone mount."
+   ],
+   "dialogue": "He's asking in the camp way and I'm answering in the market way and neither is landing. I can't speak that. You read for people — read this for me.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "character",
+    "id": "char_bank"
+   }
+  },
+  {
+   "id": "fah_turn_4",
+   "tag": "tag_agreeing_to_try_food",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She lifts the lid of the biscuit tin with one finger, sniffs the old paper smell, and pushes it back across the counter toward Lek."
+   ],
+   "dialogue": "Your ledgers. Fine. I'll try it — I'll let the books say what the soi won't. Open it and show me what the dress cost the drive and what it costs the rack.",
+   "uses": "obj_biscuit_tin",
+   "target": {
+    "type": "object",
+    "id": "obj_laundry_basket"
+   }
+  },
+  {
+   "id": "fah_turn_5",
+   "tag": "tag_warning_about_changing_mind",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She wags one finger at the notebook in Lek's hand, then taps the ring light's switch without turning it on."
+   ],
+   "dialogue": "Write it down now, because I might change my mind by the time the live starts. I might change my mind twice. The light's warm and the room's cold and I'm both.",
+   "uses": "obj_ring_light",
+   "target": {
+    "type": "object",
+    "id": "obj_word_notebook"
+   }
+  },
+  {
+   "id": "fah_turn_6",
+   "tag": "tag_revealing_overheard_everything",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She steps out from behind the curtain with the phone mount still in her fist and sets it on the counter between them."
+   ],
+   "dialogue": "I heard everything. The bench, the driver, the donor's cousin — everything. So don't soften it for me now. Softening is a kind of standing still.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   }
+  },
+  {
+   "id": "fah_turn_7",
+   "tag": "tag_reflecting_on_good_experience",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She scrolls the phone in the mount to last year's flood-drive photos and holds the screen up beside the dress."
+   ],
+   "dialogue": "Look at that. The whole soi in rubber boots, handing boxes. It was a good experience. It was. I want it to have been a good experience and not a stock intake.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "object",
+    "id": "obj_laundry_basket"
+   }
+  },
+  {
+   "id": "fah_turn_8",
+   "tag": "tag_buffalo_grazes_constantly",
+   "speaker": "char_je_fah",
+   "stage_directions": [
+    "She nods at the soi's one water buffalo grazing the last rai's edge, then at the dress, then at the stamp-drawer keys on Lek's belt."
+   ],
+   "dialogue": "That buffalo eats and eats and never stops to be thanked. The soi's like that with a story. It'll chew this dress all night unless someone stamps it done.",
+   "uses": "obj_stamp_keys",
+   "target": {
+    "type": "object",
+    "id": "obj_laundry_basket"
+   }
+  }
+ ],
+ "turnResults": {
+  "fah_turn_1": {
+   "speaker": "char_je_fah",
+   "line": "She pins the temple tag to the basket handle so it faces the rank, and the drivers read it without meaning to.",
+   "bubble": ""
+  },
+  "fah_turn_2": {
+   "speaker": "char_je_fah",
+   "line": "The ring light catches the mended seam and the whole rank sees the stitch was done by hand, not by a machine.",
+   "bubble": ""
+  },
+  "fah_turn_3": {
+   "speaker": "char_je_fah",
+   "line": "She sets the phone mount down and the driver steps back, waiting for a voice that can carry both ways.",
+   "bubble": ""
+  },
+  "fah_turn_4": {
+   "speaker": "char_je_fah",
+   "line": "The tin opens. Inside, three vendors' books and a folded receipt from the flood drive, dated last year, in Lek's own hand.",
+   "bubble": "Lek's ledgers show the dress was logged as donated"
+  },
+  "fah_turn_5": {
+   "speaker": "char_je_fah",
+   "line": "She switches the ring light off. The back room goes dark and the dress is just cloth on a rack, waiting.",
+   "bubble": ""
+  },
+  "fah_turn_6": {
+   "speaker": "char_je_fah",
+   "line": "She turns the phone mount face-down on the counter. 'Then write it plain. The soi can read plain.'",
+   "bubble": ""
+  },
+  "fah_turn_7": {
+   "speaker": "char_je_fah",
+   "line": "The photo shows the donor handing over the same blue dress, smiling, and Je Fah's own hand reaching to take it.",
+   "bubble": "The donor gave the dress to Je Fah's own hands"
+  },
+  "fah_turn_8": {
+   "speaker": "char_je_fah",
+   "line": "She lifts the stamp-drawer keys off Lek's belt and weighs them. 'A stamp says it left the drive. A stamp says it arrived here. That's all a stamp says.'",
+   "bubble": ""
+  }
+ },
+ "finale": [
+  {
+   "character": "char_je_fah",
+   "place": "place_win_rank",
+   "dialogue": "She hangs the dress at the front of the rack, tag out, and turns the ring light on for the live. 'Tonight I sell a dress that came back. The soi can call it what it likes.'"
+  },
+  {
+   "character": null,
+   "place": "place_win_rank",
+   "dialogue": "The drivers' phones light up one by one as the live begins, and the soi mouth counts the sending the way it counts everything: by who arrives."
+  }
+ ],
+ "lekInventory": [
+  "obj_biscuit_tin",
+  "obj_word_notebook",
+  "obj_stamp_keys"
+ ],
+ "objects": {
+  "obj_biscuit_tin": {
+   "name": "the biscuit tin of ledgers",
+   "description": "Biscuit tin, lid bent from a decade of thumbs, three vendors' books inside and a folded flood-drive receipt in Lek's hand.",
+   "picture": "/img/obj_biscuit_tin.jpg"
+  },
+  "obj_word_notebook": {
+   "name": "the word notebook",
+   "description": "Pocket notebook, spine taped twice, words collected from other people's mouths and never paid for.",
+   "picture": "/img/obj_word_notebook.jpg"
+  },
+  "obj_stamp_keys": {
+   "name": "the stamp-drawer keys",
+   "description": "Two brass keys on a wire ring, worn smooth, that open the copy shop's stamp drawer and nothing else.",
+   "picture": "/img/obj_stamp_keys.jpg"
+  },
+  "obj_charger_bank": {
+   "name": "the charger bank",
+   "description": "Black power bank, corner chipped, one port loose, charged at the laundromat bench at midnight.",
+   "picture": "/img/obj_charger_bank.jpg"
+  },
+  "obj_ring_light": {
+   "name": "the ring light",
+   "description": "Clip-on ring light, one LED dead, the light Je Fah sells by and the light the soi squints into.",
+   "picture": "/img/obj_ring_light.jpg"
+  },
+  "obj_mattress_ad": {
+   "name": "the mattress ad printout",
+   "description": "A4 printout of a mattress ad, corners curled, taped to the shophouse glass and peeling at one edge.",
+   "picture": "/img/obj_mattress_ad.jpg"
+  },
+  "obj_share_envelope": {
+   "name": "the circle envelope",
+   "description": "Brown envelope with a share-circle payout inside, one member's name penciled and half-erased.",
+   "picture": "/img/obj_share_envelope.jpg"
+  },
+  "obj_laundry_basket": {
+   "name": "the laundry basket",
+   "description": "Plastic basket, one handle cracked, a blue cotton dress draped over it with a temple-drive tag pinned to the hem.",
+   "picture": "/img/obj_laundry_basket.jpg"
+  },
+  "obj_phone_mount": {
+   "name": "the phone mount",
+   "description": "Clamp mount for the live phone, rubber jaw worn shiny, angled at the rack and the curtain.",
+   "picture": "/img/obj_phone_mount.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_charger_bank",
+    "obj_ring_light",
+    "obj_mattress_ad"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_je_fah",
+   "item": "obj_biscuit_tin",
+   "choice": 1,
+   "speaker": "char_je_fah",
+   "line": "She reads the flood-drive receipt upside down, correctly. 'So the drive logged it donated. And the rack logged it stock. Two books, one dress. Which book does the soi believe?'",
+   "flag": "receipt_read",
+   "bubble": "Je Fah has seen the flood-drive receipt"
+  },
+  {
+   "scene": "char_je_fah",
+   "item": "obj_word_notebook",
+   "choice": 1,
+   "requiresFlag": "receipt_read",
+   "speaker": "char_je_fah",
+   "line": "She watches Lek write the donor's words in the notebook and stops him at the last line. 'Leave that one. If the soi reads it plain, it reads it plain. Don't polish my name.'",
+   "flag": "words_plain",
+   "bubble": "The donor's words are written plain"
+  },
+  {
+   "scene": "char_je_fah",
+   "item": "obj_stamp_keys",
+   "choice": 0,
+   "requiresFlag": "words_plain",
+   "speaker": "char_je_fah",
+   "line": "She takes the keys, opens the stamp drawer, and stamps the receipt 'returned to stock' — then stamps the dress tag 'sold, live, tonight.' 'Now both books say the same thing. The soi can audit a stamp.'",
+   "flag": "level_won",
+   "bubble": "The dress is stamped and the live can begin"
+  }
+ ],
+ "fallbacks": {
+  "char_je_fah": [
+   "She turns the {item} over once and sets it back on the counter. 'Not that. The soi's already chewing this dress and I need something it can swallow.'",
+   "She taps the {item} against the laundry basket. 'The receipt's the thing. The drive logged it and the rack logged it and the two books don't agree.'",
+   "She holds the {item} up to the ring light. 'The flood-drive receipt first. Then the words. Then a stamp that says both books agree. In that order, or the soi writes its own order.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the night with nothing settled. The drivers watch the curtain and the curtain stays closed.",
+   "Nothing comes of the {item} yet. Je Fah's thumb worries the temple tag on the dress hem, back and forth.",
+   "Je Fah's gaze flicks from the {item} to the biscuit tin to the stamp drawer and back — a route mapped, a toll implied."
+  ]
+ },
+ "lekPriorities": [
+  "the strip's books",
+  "the notebook of words",
+  "the voice",
+  "the unsent letter",
+  "the till vs. the free readings"
+ ],
+ "choices": {
+  "char_je_fah|obj_biscuit_tin": [
+   {
+    "label": "Open the tin and read the flood-drive receipt",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Let her read the receipt upside down herself",
+    "priority": "the voice"
+   },
+   {
+    "label": "Keep the tin shut and ask what she wants",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_je_fah|obj_word_notebook": [
+   {
+    "label": "Write the donor's words down plain",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Write them plain and leave the last line",
+    "priority": "the voice"
+   },
+   {
+    "label": "Write nothing and hold the page open",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_je_fah|obj_stamp_keys": [
+   {
+    "label": "Stamp the receipt and the dress tag",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Hand her the keys and let her choose",
+    "priority": "the voice"
+   },
+   {
+    "label": "Put the keys away — a stamp is not a verdict",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask what the donor said at the drive",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Offer to read the driver's question aloud",
+    "priority": "the voice"
+   },
+   {
+    "label": "Say the soi will chew it either way",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "obj_ring_light|*": [
+   {
+    "label": "Turn the light toward the dress tag",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Switch the light off and let her talk",
+    "priority": "the voice"
+   },
+   {
+    "label": "Ask what tonight's live was meant to sell",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "obj_laundry_basket|*": [
+   {
+    "label": "Lift the dress and read its tag",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Fold the dress back into the basket",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Ask who washed it and who watched",
+    "priority": "the strip's books"
+   }
+  ],
+  "narrator|*": [
+   {
+    "label": "Wait for the rank to speak first",
+    "priority": "the voice"
+   },
+   {
+    "label": "Open the tin and count the books",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Write the soi's question in the notebook",
+    "priority": "the notebook of words"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the strip's books"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the strip's books"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the notebook of words"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the notebook of words"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the voice"
+   }
+  ],
+  "obj_charger_bank|*": [
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the notebook of words"
+   }
+  ],
+  "obj_mattress_ad|*": [
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the voice"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the unsent letter"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the voice"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   }
+  ]
+ }
+}

@@ -1,0 +1,533 @@
+{
+ "id": "lvl_002",
+ "title": "the broker's new fee",
+ "location": "place_somtam_cart",
+ "frc": "char_ko_naing",
+ "reward": "obj_share_envelope",
+ "opening": [
+  {
+   "character": null,
+   "place": "place_somtam_cart",
+   "dialogue": "A life is a sending, and the som tam cart at the soi mouth is where the sending gets weighed. Ko Naing stands at the cart's edge with his phone mount in one hand and a tea-stall glass in the other, neither of them his."
+  },
+  {
+   "character": "char_ko_naing",
+   "place": "place_somtam_cart",
+   "dialogue": "The broker says the fee is new. Same tea stall, same glass, new fee. I have the rent and the fee is the rent."
+  },
+  {
+   "character": null,
+   "place": "place_somtam_cart",
+   "dialogue": "Pa Yong pounds the papaya twice and stops. The cart's radio is turned down so low the market forgets it. Ko Naing's name is spelled three ways on the cards in his plastic sleeve, and the broker's ledger has a fourth."
+  }
+ ],
+ "turns": [
+  {
+   "id": "ko_naing_turn_1",
+   "tag": "tag_voice_deep_curiosity",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He turns the phone mount over in his palm, thumb on the cracked bracket, and holds it out toward Lek like a question he cannot read."
+   ],
+   "dialogue": "I wonder about this thing all the time. It holds the phone that holds the money that holds the room. But the bracket is cracked and the phone still fits.",
+   "uses": "obj_phone_mount",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   }
+  },
+  {
+   "id": "ko_naing_turn_2",
+   "tag": "tag_buffalo_grazes_constantly",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He sets the tea-stall glass on the cart's cutting board and taps its rim, watching the ice settle without stopping."
+   ],
+   "dialogue": "The broker eats like the buffalo at my father's village. He eats and eats and the grass keeps coming. The fee is his grass.",
+   "uses": "obj_tea_glass",
+   "target": {
+    "type": "object",
+    "id": "obj_coin_stack"
+   }
+  },
+  {
+   "id": "ko_naing_turn_3",
+   "tag": "tag_pressing_for_yes_or_no",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He pulls the circle envelope from his shirt pocket and presses it flat on the cart's edge with two fingers, looking at Lek and not at the envelope."
+   ],
+   "dialogue": "Mae Tim's circle. She said the payout is mine this week if I ask. So I am asking you: will you read it, or not?",
+   "uses": "obj_share_envelope",
+   "target": {
+    "type": "character",
+    "id": "char_lek"
+   }
+  },
+  {
+   "id": "ko_naing_turn_4",
+   "tag": "tag_announcing_news_to_share",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He leans across the cart and slides the permit photo out of his plastic sleeve, laying it beside the envelope."
+   ],
+   "dialogue": "I have something to tell you. The broker wants a copy of this photo for his ledger. He says the name on it must match the name on the transfer. It does not match. It never has.",
+   "uses": "obj_permit_photo",
+   "target": {
+    "type": "object",
+    "id": "obj_share_envelope"
+   }
+  },
+  {
+   "id": "ko_naing_turn_5",
+   "tag": "tag_voicing_disagreement",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He shakes his head hard and pushes the green rider jacket across the cart toward Lek, the sleeve catching on a coin."
+   ],
+   "dialogue": "No. I do not agree with the broker. The jacket is Bank's, he left it here, and the broker says a rider's jacket is proof of address. It is not proof of anything.",
+   "uses": "obj_green_jacket",
+   "target": {
+    "type": "object",
+    "id": "obj_permit_photo"
+   }
+  },
+  {
+   "id": "ko_naing_turn_6",
+   "tag": "tag_declining_due_to_work",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He glances at the phone mount's clock and stands, tucking the tea-stall glass back into his shirt."
+   ],
+   "dialogue": "I have work. The tower does not wait and the broker's stall closes at eight. Read the envelope before then, or the room is let to someone else.",
+   "uses": "obj_tea_glass",
+   "target": {
+    "type": "object",
+    "id": "obj_phone_mount"
+   }
+  },
+  {
+   "id": "ko_naing_turn_7",
+   "tag": "tag_dismissing_fear",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He laughs once and flicks the stack of ten-baht coins with his thumbnail, scattering two across the cart."
+   ],
+   "dialogue": "The broker is not scary at all. He is a man with a glass and a ledger. What is scary is the rent due tomorrow. The broker is only the weather.",
+   "uses": "obj_coin_stack",
+   "target": {
+    "type": "character",
+    "id": "char_ko_naing"
+   }
+  },
+  {
+   "id": "ko_naing_turn_8",
+   "tag": "tag_hearing_stomach_growl",
+   "speaker": "char_ko_naing",
+   "stage_directions": [
+    "He presses his palm to his belly and looks at the som tam cart's papaya, then at the coin stack, then away."
+   ],
+   "dialogue": "My stomach is starting to growl. Pa Yong's som tam costs forty. The broker's fee costs the room. I will eat after the transfer, or I will eat after the room is gone.",
+   "uses": "obj_coin_stack",
+   "target": {
+    "type": "object",
+    "id": "obj_phone_mount"
+   }
+  }
+ ],
+ "turnResults": {
+  "ko_naing_turn_1": {
+   "speaker": "char_ko_naing",
+   "line": "He fits the phone into the cracked mount and the screen lights his face. The bracket holds. He does not look relieved.",
+   "bubble": ""
+  },
+  "ko_naing_turn_2": {
+   "speaker": "char_ko_naing",
+   "line": "He drinks the tea down to the ice and sets the glass back on the board. The ice keeps melting; the fee keeps standing.",
+   "bubble": ""
+  },
+  "ko_naing_turn_3": {
+   "speaker": "char_ko_naing",
+   "line": "He opens the envelope and counts the notes twice. It is short by exactly the new fee. He folds it shut and does not put it away.",
+   "bubble": "The circle envelope is short by the broker's fee"
+  },
+  "ko_naing_turn_4": {
+   "speaker": "char_ko_naing",
+   "line": "He holds the photo up beside the envelope. The name on the photo and the name on the envelope are the same name spelled two ways. The broker's ledger has a third.",
+   "bubble": "The permit photo shows a different spelling than the envelope"
+  },
+  "ko_naing_turn_5": {
+   "speaker": "char_ko_naing",
+   "line": "He takes the jacket back and folds it small. 'Bank will want this. The broker can want something else.'",
+   "bubble": ""
+  },
+  "ko_naing_turn_6": {
+   "speaker": "char_ko_naing",
+   "line": "He stands and shoulders his bag. The tea-stall glass goes back in his shirt; the envelope stays on the cart. 'Eight o'clock,' he says, and walks toward the hoarding.",
+   "bubble": "Ko Naing has left the envelope on the cart"
+  },
+  "ko_naing_turn_7": {
+   "speaker": "char_ko_naing",
+   "line": "He gathers the scattered coins and stacks them again, one by one, the way the broker stacks fees.",
+   "bubble": ""
+  },
+  "ko_naing_turn_8": {
+   "speaker": "char_ko_naing",
+   "line": "He buys nothing. He takes the coin stack and drops it into his shirt pocket, and the pocket hangs heavy against his belly.",
+   "bubble": ""
+  }
+ },
+ "finale": [
+  {
+   "character": "char_ko_naing",
+   "place": "place_somtam_cart",
+   "dialogue": "The envelope goes back into his shirt with the coins and the glass. He keeps his name in a plastic sleeve, and the sleeve is what the broker will see."
+  },
+  {
+   "character": null,
+   "place": "place_somtam_cart",
+   "dialogue": "Pa Yong turns the radio up. The cart's light falls on the empty cutting board, and the soi sends what it can."
+  }
+ ],
+ "lekInventory": [
+  "obj_word_notebook",
+  "obj_stamp_keys",
+  "obj_score_report"
+ ],
+ "objects": {
+  "obj_word_notebook": {
+   "name": "the word notebook",
+   "description": "A pocket notebook with a rubber band around it, pages furred at the corners, half the entries in other people's handwriting.",
+   "picture": "/img/obj_word_notebook.jpg"
+  },
+  "obj_stamp_keys": {
+   "name": "the stamp-drawer keys",
+   "description": "Three brass keys on a wire ring, one of them bent, all of them warm from Lek's pocket.",
+   "picture": "/img/obj_stamp_keys.jpg"
+  },
+  "obj_score_report": {
+   "name": "the laminated score report",
+   "description": "A civil-service exam result laminated against rain, the score three points short of the line, the lamination peeling at one corner.",
+   "picture": "/img/obj_score_report.jpg"
+  },
+  "obj_permit_photo": {
+   "name": "the permit photo",
+   "description": "A passport-style photo in a plastic sleeve, the name on the back spelled one way and the name on the front spelled another.",
+   "picture": "/img/obj_permit_photo.jpg"
+  },
+  "obj_green_jacket": {
+   "name": "the green rider jacket",
+   "description": "A delivery rider's jacket, green fading at the shoulders, a phone-charger cable still in the pocket.",
+   "picture": "/img/obj_green_jacket.jpg"
+  },
+  "obj_coin_stack": {
+   "name": "the stack of ten-baht coins",
+   "description": "Ten-baht coins stacked in fives, wrapped in a rubber band, the top coin worn smooth by a thumb.",
+   "picture": "/img/obj_coin_stack.jpg"
+  },
+  "obj_phone_mount": {
+   "name": "the phone mount",
+   "description": "A handlebar phone mount, the bracket cracked and mended with electrical tape, the clamp still tight.",
+   "picture": "/img/obj_phone_mount.jpg"
+  },
+  "obj_share_envelope": {
+   "name": "the circle envelope",
+   "description": "A brown envelope with Mae Tim's share-circle tally penciled on the back, the flap soft from being opened and closed.",
+   "picture": "/img/obj_share_envelope.jpg"
+  },
+  "obj_tea_glass": {
+   "name": "the tea-stall glass",
+   "description": "A small glass from the camp-gate tea stall, the rim chipped, a ring of tea stain halfway down.",
+   "picture": "/img/obj_tea_glass.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_permit_photo",
+    "obj_green_jacket",
+    "obj_coin_stack"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_ko_naing",
+   "item": "obj_word_notebook",
+   "choice": 1,
+   "speaker": "char_ko_naing",
+   "line": "Lek opens the notebook and reads the broker's fee aloud from the back page where he wrote it. Ko Naing listens with his eyes closed. 'So it is written down. Now it is a thing that can be argued.'",
+   "flag": "fee_written",
+   "bubble": "The broker's fee is written in the notebook"
+  },
+  {
+   "scene": "char_ko_naing",
+   "item": "obj_stamp_keys",
+   "choice": 0,
+   "requiresFlag": "fee_written",
+   "speaker": "char_ko_naing",
+   "line": "Lek presses the stamp-drawer keys into Ko Naing's hand and closes his fingers around them. 'The shop's seal is on this key ring. A letter with the seal goes to the camp office, not the broker.' Ko Naing looks at the keys the way he looks at a name that does not match.",
+   "flag": "seal_offered",
+   "bubble": "Ko Naing holds the stamp-drawer keys"
+  },
+  {
+   "scene": "char_ko_naing",
+   "item": "obj_score_report",
+   "choice": 1,
+   "requiresFlag": "seal_offered",
+   "speaker": "char_ko_naing",
+   "line": "Lek shows him the laminated score report, the three points short, the lamination peeling. 'The office that failed me still reads my letters. The seal is the seal.' Ko Naing takes the envelope and the keys and the report together, and his name in the plastic sleeve is the name the letter will carry.",
+   "flag": "level_won",
+   "addToLek": [
+    "obj_share_envelope"
+   ],
+   "bubble": "Received: the circle envelope, now a letter with the shop's seal"
+  }
+ ],
+ "fallbacks": {
+  "char_ko_naing": [
+   "He turns the {item} over and sets it back on the cart. 'Not this. The broker closes at eight.'",
+   "He looks at the {item} and then at the envelope. 'The fee is written nowhere. Write it somewhere and maybe the camp office will read it.'",
+   "He taps the {item} against the cart's edge. 'The shop's seal is on your key ring. A letter with the seal goes past the broker. That is the only road I have left.'"
+  ],
+  "narrator": [
+   "The {item} sits on the cart between them. Pa Yong pounds the papaya and says nothing.",
+   "Nothing comes of the {item}. The cart's radio plays low; the broker's stall closes at eight.",
+   "The {item} catches the cart's light. Ko Naing's plastic sleeve and the envelope on the board are the same brown, and the night is running out."
+  ]
+ },
+ "lekPriorities": [
+  "the voice",
+  "the unsent letter",
+  "the till vs. the free readings",
+  "loyalty to the registrar's nine years",
+  "duty to the stamps"
+ ],
+ "choices": {
+  "char_ko_naing|obj_word_notebook": [
+   {
+    "label": "Read the broker's fee aloud from the notebook",
+    "priority": "the voice"
+   },
+   {
+    "label": "Write the fee down and show him the page",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Close the notebook and ask about the room",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_ko_naing|obj_stamp_keys": [
+   {
+    "label": "Put the seal keys in his hand",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Keep the keys and offer a free reading",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Ask what the broker does with the keys",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "char_ko_naing|obj_score_report": [
+   {
+    "label": "Show him the score report and the seal",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Tell him the office still reads your letters",
+    "priority": "the voice"
+   },
+   {
+    "label": "Put the report away and count the coins",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask about the room six hundred miles away",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Offer to read the broker's ledger aloud",
+    "priority": "the voice"
+   },
+   {
+    "label": "Say the fee is not yours to argue",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "obj_word_notebook|*": [
+   {
+    "label": "Open to the page where the fee is written",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Read the broker's words back to him",
+    "priority": "the voice"
+   },
+   {
+    "label": "Write nothing and keep the notebook shut",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "obj_stamp_keys|*": [
+   {
+    "label": "Press the seal keys into his palm",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Ask if the camp office takes the seal",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Hold the keys and say nothing yet",
+    "priority": "the unsent letter"
+   }
+  ],
+  "obj_score_report|*": [
+   {
+    "label": "Show the laminated report and the seal",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Read the score aloud, three points short",
+    "priority": "the voice"
+   },
+   {
+    "label": "Put the report away and count the coins",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Ask what the broker's ledger says",
+    "priority": "the voice"
+   },
+   {
+    "label": "Offer the shop's seal for a letter",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Say nothing and let the cart decide",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the voice"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the voice"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the voice"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the voice"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the unsent letter"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the voice"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "obj_permit_photo|*": [
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "obj_green_jacket|*": [
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "obj_coin_stack|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the voice"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the unsent letter"
+   }
+  ]
+ },
+ "seedProgress": null
+}

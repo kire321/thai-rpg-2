@@ -1,0 +1,482 @@
+{
+ "id": "lvl_014",
+ "title": "the machine that takes only QR",
+ "location": "place_copy_shop",
+ "frc": "char_note",
+ "reward": null,
+ "opening": [
+  {
+   "character": null,
+   "place": "place_copy_shop",
+   "dialogue": "A life is a sending, and tonight the sending has stalled at the change machine: the auntie's cash is folded in a handkerchief, the screen wants a code she cannot make, and the queue behind her is learning its own patience. Note sits on his charging-corner stool with the laundry basket at his feet, a boy with no power-saving mode, watching the machine the way a doctor watches a fever."
+  },
+  {
+   "character": "char_note",
+   "place": "place_copy_shop",
+   "dialogue": "I can make it take her money. I just need the machine to believe she's her. He taps the laminated score report on the counter, then the word notebook. Write it down for me — what the app says when it fails. I'll read it back to the machine."
+  }
+ ],
+ "turns": [
+  {
+   "id": "note_turn_1",
+   "tag": "tag_predict_she_wont_come",
+   "speaker": "char_note",
+   "stage_directions": [
+    "He lifts the laundry basket onto his knees and squints at the auntie's phone, thumb hovering over the queue of names in her app."
+   ],
+   "dialogue": "Her grandson's the one who tops her up. He's probably not coming tonight — the app's already guessing it. See how it greys out his name?",
+   "uses": "obj_laundry_basket",
+   "target": {
+    "type": "object",
+    "id": "obj_word_notebook"
+   }
+  },
+  {
+   "id": "note_turn_2",
+   "tag": "tag_please_write_it_down",
+   "speaker": "char_note",
+   "stage_directions": [
+    "He slides the word notebook across the counter and presses a pen into Lek's hand, then points at the error screen on the auntie's phone."
+   ],
+   "dialogue": "Write exactly what the screen says. Not what it means — what it says. The machine only trusts the letters it printed.",
+   "uses": "obj_word_notebook",
+   "target": {
+    "type": "object",
+    "id": "obj_laundry_basket"
+   }
+  },
+  {
+   "id": "note_turn_3",
+   "tag": "tag_everything_under_control",
+   "speaker": "char_note",
+   "stage_directions": [
+    "He stands on the stool's rung and holds the orange queue vest up to the light, checking the camp worker's name tag against the auntie's app photo."
+   ],
+   "dialogue": "Everything's under control — the queue just doesn't know it yet. The camp worker goes first, then the airport woman, then her. That's the order the machine will accept.",
+   "uses": "obj_vest_orange",
+   "target": {
+    "type": "character",
+    "id": "char_note"
+   }
+  },
+  {
+   "id": "note_turn_4",
+   "tag": "tag_you_look_worn_out",
+   "speaker": "char_note",
+   "stage_directions": [
+    "He sets the circle envelope on the counter beside the mattress ad printout and rubs his eyes with the heel of his hand."
+   ],
+   "dialogue": "You look run down, phi. Sit. The machine and I have an understanding — it takes my word for things, and I take its word for things. We're both tired of the other.",
+   "uses": "obj_share_envelope",
+   "target": {
+    "type": "object",
+    "id": "obj_mattress_ad"
+   }
+  },
+  {
+   "id": "note_turn_5",
+   "tag": "tag_asking_which_province",
+   "speaker": "char_note",
+   "stage_directions": [
+    "He turns the permit photo over and traces the camp's address with one finger, then holds it up beside the auntie's app profile."
+   ],
+   "dialogue": "The app wants a province. She's from here, but the machine only knows the province on the photo. Which province is on the photo, phi?",
+   "uses": "obj_permit_photo",
+   "target": {
+    "type": "object",
+    "id": "obj_word_notebook"
+   }
+  },
+  {
+   "id": "note_turn_6",
+   "tag": "tag_estimating_high_odds",
+   "speaker": "char_note",
+   "stage_directions": [
+    "He holds the laminated score report up to the ring light and taps the score line, then sets it down beside the stamp-drawer keys."
+   ],
+   "dialogue": "There's a high chance the machine takes the score instead of the app. It's the only paper in the soi with a number the machine already believes.",
+   "uses": "obj_score_report",
+   "target": {
+    "type": "object",
+    "id": "obj_ring_light"
+   }
+  },
+  {
+   "id": "note_turn_7",
+   "tag": "tag_checking_relationship_status",
+   "speaker": "char_note",
+   "stage_directions": [
+    "He glances sideways at the airport woman's phone screen, then back at the auntie's, and taps the two profiles side by side on the counter."
+   ],
+   "dialogue": "She's still single on the app — no family account linked. That's the problem. The machine wants a second name on her, and she's only ever had her own.",
+   "uses": "obj_word_notebook",
+   "target": {
+    "type": "character",
+    "id": "char_note"
+   }
+  },
+  {
+   "id": "note_turn_8",
+   "tag": "tag_asking_preferred_style",
+   "speaker": "char_note",
+   "stage_directions": [
+    "He holds up the orange queue vest in one hand and the auntie's handkerchief in the other, then lays both across the laundry basket's rim."
+   ],
+   "dialogue": "Which kind does the machine like — the vest with the name tag, or the handkerchief with the cash? One it reads, one it counts. Pick.",
+   "uses": "obj_vest_orange",
+   "target": {
+    "type": "object",
+    "id": "obj_laundry_basket"
+   }
+  }
+ ],
+ "turnResults": {
+  "note_turn_1": {
+   "speaker": "char_note",
+   "line": "He names the grandson as a no-show and shows Lek how the app greys out the missing name — the machine has already decided she is alone tonight.",
+   "bubble": ""
+  },
+  "note_turn_2": {
+   "speaker": "char_note",
+   "line": "Lek writes the error text into the word notebook, and Note reads it back to the machine in the flat voice the screen trusts.",
+   "bubble": ""
+  },
+  "note_turn_3": {
+   "speaker": "char_note",
+   "line": "He reorders the queue by name tag and app photo: camp worker, airport woman, then the auntie — and the machine's screen stops blinking at her.",
+   "bubble": "The queue has been reordered"
+  },
+  "note_turn_4": {
+   "speaker": "char_note",
+   "line": "He sets the circle envelope on the counter, its flap already loose, and admits the machine and he are both tired of being the only ones who know.",
+   "bubble": ""
+  },
+  "note_turn_5": {
+   "speaker": "char_note",
+   "line": "Note reads the camp's province off the permit photo and types it into the auntie's app — the profile accepts it, and the error screen changes color.",
+   "bubble": "The app accepts the province"
+  },
+  "note_turn_6": {
+   "speaker": "char_note",
+   "line": "He holds the score report to the light and bets the machine will take a printed number over a spoken name — the screen flickers, considering.",
+   "bubble": ""
+  },
+  "note_turn_7": {
+   "speaker": "char_note",
+   "line": "Note points out the auntie has no linked family account, which is why the machine keeps asking her to prove she is herself.",
+   "bubble": ""
+  },
+  "note_turn_8": {
+   "speaker": "char_note",
+   "line": "He lays the vest and the handkerchief on the basket rim and waits for Lek to choose which one the machine will read as proof.",
+   "bubble": ""
+  }
+ },
+ "finale": [
+  {
+   "character": "char_note",
+   "place": "place_copy_shop",
+   "dialogue": "He takes the stamp-drawer keys from Lek's hand and turns them once in the lock, then hands back the basket, dry and folded. The machine takes only QR, but tonight it took her word for it."
+  },
+  {
+   "character": null,
+   "place": "place_copy_shop",
+   "dialogue": "The auntie carries her basket home herself, and the queue behind her closes like water. Note goes back to his stool, a boy with no power-saving mode, already helping the next phone."
+  }
+ ],
+ "lekInventory": [
+  "obj_word_notebook",
+  "obj_score_report",
+  "obj_stamp_keys"
+ ],
+ "objects": {
+  "obj_word_notebook": {
+   "name": "the word notebook",
+   "description": "Cardboard cover, spine split at the third signature, every page a stranger's word copied in Lek's hand — the ones nobody paid for.",
+   "picture": "/img/obj_word_notebook.jpg"
+  },
+  "obj_score_report": {
+   "name": "the laminated score report",
+   "description": "Exam result folded into a plastic sleeve, the score line worn pale from being read at the counter — three points short, twice.",
+   "picture": "/img/obj_score_report.jpg"
+  },
+  "obj_stamp_keys": {
+   "name": "the stamp-drawer keys",
+   "description": "Three brass keys on a wire ring, one bent from the year the drawer jammed, warm from Lek's pocket.",
+   "picture": "/img/obj_stamp_keys.jpg"
+  },
+  "obj_mattress_ad": {
+   "name": "the mattress ad printout",
+   "description": "A4 sheet, toner still tacky at the edge, a sale price printed twice because the first run smudged.",
+   "picture": "/img/obj_mattress_ad.jpg"
+  },
+  "obj_permit_photo": {
+   "name": "the permit photo",
+   "description": "Passport photo stapled to a construction permit, the camp's province written in a hand that pressed too hard.",
+   "picture": "/img/obj_permit_photo.jpg"
+  },
+  "obj_ring_light": {
+   "name": "the ring light",
+   "description": "Clip-on circle light, one segment dead, borrowed from Je Fah's back room and never returned.",
+   "picture": "/img/obj_ring_light.jpg"
+  },
+  "obj_laundry_basket": {
+   "name": "the laundry basket",
+   "description": "Plastic basket, handle cracked and taped, a full load of the auntie's washing sitting damp in it since the machine refused her.",
+   "picture": "/img/obj_laundry_basket.jpg"
+  },
+  "obj_vest_orange": {
+   "name": "the orange queue vest",
+   "description": "High-visibility vest with a camp name tag pinned crooked, the reflective strip gone grey at the fold.",
+   "picture": "/img/obj_vest_orange.jpg"
+  },
+  "obj_share_envelope": {
+   "name": "the circle envelope",
+   "description": "Brown envelope, flap loose, a payout counted twice and a note in pencil about someone two weeks late.",
+   "picture": "/img/obj_share_envelope.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_mattress_ad",
+    "obj_permit_photo",
+    "obj_ring_light"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_note",
+   "item": "obj_word_notebook",
+   "choice": 1,
+   "speaker": "char_note",
+   "line": "Note reads the error text back to the machine in the flat voice it trusts, and the screen stops asking the auntie to prove she is herself.",
+   "flag": "error_read",
+   "bubble": "The machine has accepted the written error"
+  },
+  {
+   "scene": "char_note",
+   "item": "obj_score_report",
+   "choice": 2,
+   "requiresFlag": "error_read",
+   "speaker": "char_note",
+   "line": "He slides the laminated score report into the machine's slot, and the machine takes the printed number over the spoken name — the queue exhales.",
+   "flag": "score_taken",
+   "bubble": "The machine has taken the score"
+  },
+  {
+   "scene": "char_note",
+   "item": "obj_stamp_keys",
+   "choice": 1,
+   "requiresFlag": "score_taken",
+   "speaker": "char_note",
+   "line": "Note turns the stamp-drawer keys once in the lock and hands Lek the basket, dry and folded. 'She paid for her own wash,' he says. 'That's the whole of it.'",
+   "flag": "level_won",
+   "bubble": "The auntie has paid for her own wash"
+  }
+ ],
+ "fallbacks": {
+  "char_note": [
+   "Note turns the {item} over in his hands and sets it back on the counter. 'Not that one, phi. The machine's already told me what it wants.'",
+   "He holds the {item} up to the ring light, then shakes his head. 'The screen's still asking her to prove she's her. Write down what it says first.'",
+   "Note taps the error screen with the {item}. 'That paper, phi — the one with the letters on it. Read it back to the machine before you try the number.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the queue's noise with nothing settled. The machine blinks its error, and the auntie's handkerchief stays folded.",
+   "Nothing comes of the {item} yet. Note watches the screen the way a clerk watches a clock — patient, and counting.",
+   "Note's gaze flicks from the {item} to the error on the auntie's phone and back — a route mapped, a proof implied."
+  ]
+ },
+ "lekPriorities": [
+  "the exam — three points short",
+  "the strip's books",
+  "the notebook of words",
+  "the voice",
+  "the unsent letter"
+ ],
+ "choices": {
+  "char_note|obj_word_notebook": [
+   {
+    "label": "Write the error down and read it back",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Ask him what the machine is really asking",
+    "priority": "the voice"
+   },
+   {
+    "label": "Say the auntie's name aloud instead",
+    "priority": "the strip's books"
+   }
+  ],
+  "char_note|obj_score_report": [
+   {
+    "label": "Offer the score report as proof",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Read the score aloud to the machine",
+    "priority": "the voice"
+   },
+   {
+    "label": "Keep the report and try the notebook again",
+    "priority": "the notebook of words"
+   }
+  ],
+  "char_note|obj_stamp_keys": [
+   {
+    "label": "Let Note turn the keys and take the basket",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Ask him to write the auntie's receipt himself",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Hold the keys back and read the queue aloud",
+    "priority": "the voice"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Ask what the machine will accept next",
+    "priority": "the voice"
+   },
+   {
+    "label": "Write the auntie's name in the notebook",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Say the queue can wait one more minute",
+    "priority": "the strip's books"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the voice"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the exam — three points short"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the voice"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the exam — three points short"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the strip's books"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the strip's books"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the exam — three points short"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the strip's books"
+   }
+  ],
+  "obj_mattress_ad|*": [
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the voice"
+   }
+  ],
+  "obj_permit_photo|*": [
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the voice"
+   }
+  ],
+  "obj_ring_light|*": [
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the voice"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the unsent letter"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the exam — three points short"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "the strip's books"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the notebook of words"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the voice"
+   }
+  ]
+ }
+}

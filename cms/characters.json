@@ -1,0 +1,72 @@
+[
+ {
+  "id": "char_lek",
+  "name": "Lek",
+  "description": "Pricha 'Lek', 29, clerk at Khun Sanga's copy-and-documents shop: he reads documents aloud for whoever cannot read them, writes what people cannot write, keeps three vendors' books in a biscuit tin, and failed the civil-service exam twice by three points. He collects other people's words in a notebook no one pays for.",
+  "picture": "/img/char_lek.jpg",
+  "inventory": [
+   "obj_biscuit_tin",
+   "obj_word_notebook",
+   "obj_score_report",
+   "obj_stamp_keys"
+  ]
+ },
+ {
+  "id": "char_mae_tim",
+  "name": "Mae Tim",
+  "description": "Sixty-one; was a dressmaker until ready-to-wear ate the trade, and now owns Saduek Sak 24, the coin laundromat that replaced her needle. She learned QR payments at fifty-eight, administers a share circle on her phone, and still mends by hand whatever the machines wash wrong. She owns the bench under the fan, which is the closest thing the soi has to a parliament. Want: to remain necessary — to keep one small rotation going that is hers",
+  "picture": "/img/char_mae_tim.jpg",
+  "inventory": [
+   "obj_change_key",
+   "obj_laundry_basket"
+  ]
+ },
+ {
+  "id": "char_bank",
+  "name": "Bank",
+  "description": "Twenty-four, engineering dropout, green-jacketed food-delivery rider; delivers sixty meals a day and eats once, standing. He charges phone and uniform at the laundromat at midnight, knows to the baht what a stalled hour costs, and treats his body, bike, and battery as one maintenance schedule. Want: to keep the wheels turning one more day — the week without a hole in it",
+  "picture": "/img/char_bank.jpg",
+  "inventory": [
+   "obj_phone_mount",
+   "obj_green_jacket"
+  ]
+ },
+ {
+  "id": "char_kwang",
+  "name": "Kwang",
+  "description": "Thirty-five, marketing manager for a foreign consumer brand's Thai office; writes 'authentic Thai home' campaigns from unit 1208 of the Parkland Lite, whose kitchen has never been used. She washes at the laundromat because the tower's machines are broken and its laundry room is overpriced. Want: to be seen as someone who arrived",
+  "picture": "/img/char_kwang.jpg",
+  "inventory": [
+   "obj_charger_bank",
+   "obj_gimbal"
+  ]
+ },
+ {
+  "id": "char_je_fah",
+  "name": "Je Fah",
+  "description": "Thirty-eight, ex-market vendor turned livestream seller; can sell out a rack in nine minutes from a shophouse back room with a ring light and a curtain. Her stock is worth more than the row it sits in, and the row knows it. Lek records her ad voice-overs because his is the voice that carries. Want: never to be quiet again — to be too loud to overlook",
+  "picture": "/img/char_je_fah.jpg",
+  "inventory": [
+   "obj_ring_light"
+  ]
+ },
+ {
+  "id": "char_ko_naing",
+  "name": "Ko Naing",
+  "description": "Twenty-nine, Mon migrant construction worker on the tower behind the soi; wife and small daughter six hundred miles away; remits through a broker at the camp-gate tea stall. His name is spelled three ways across four cards and he answers to all of them. He reads no Thai; Lek reads everything for him, which costs them both. Want: to be a father at six hundred miles — to arrive home as money every month without fail",
+  "picture": "/img/char_ko_naing.jpg",
+  "inventory": [
+   "obj_share_envelope",
+   "obj_coin_stack"
+  ]
+ },
+ {
+  "id": "char_note",
+  "name": "Note",
+  "description": "Thirteen, shophouse family, lives mid-soi with his grandmother; school uniform always slightly wrong. The youngest person on the strip and its only universal expert — he administers the neighbors' phones like a district office of one, runs an unofficial help desk from the corner of the copy shop, and assists Novice Toy's funeral livestreams at the wat. Want: to be asked — to be the one who knows",
+  "picture": "/img/char_note.jpg",
+  "inventory": [
+   "obj_charger_bank"
+  ]
+ }
+]

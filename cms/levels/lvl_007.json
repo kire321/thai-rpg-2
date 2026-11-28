@@ -1,0 +1,497 @@
+{
+ "id": "lvl_007",
+ "title": "the washed letter",
+ "location": "place_win_rank",
+ "frc": "char_mae_tim",
+ "reward": "obj_permit_photo",
+ "opening": [
+  {
+   "character": null,
+   "place": "place_laundromat",
+   "dialogue": "A life is a sending, and the machines at Saduek Sak 24 send everything through water first. Mae Tim folds a camp worker's shirt and a letter falls out of the pocket, soft as a leaf."
+  },
+  {
+   "character": "char_mae_tim",
+   "place": "place_laundromat",
+   "dialogue": "She holds the letter up to the fan light. The ink has run to the edges. 'A bus she finally boarded at fifty-eight,' she says, 'and it still cannot read Burmese.'"
+  },
+  {
+   "character": "char_mae_tim",
+   "place": "place_laundromat",
+   "dialogue": "She pins it to the lost-and-found board beside a single glove and a child's sock, then steps back. 'Three orphans now. The board is getting full of other people's waiting.'"
+  }
+ ],
+ "turns": [
+  {
+   "id": "mae_turn_1",
+   "tag": "tag_why_no_call_first",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She lifts the wet letter from the basket and taps it against the lid, scattering droplets onto the lost-and-found board."
+   ],
+   "dialogue": "You come at midnight with a basket and no word first. Why no call? The board already has three things nobody came back for.",
+   "uses": "obj_laundry_basket",
+   "target": {
+    "type": "object",
+    "id": "obj_permit_photo"
+   }
+  },
+  {
+   "id": "mae_turn_2",
+   "tag": "tag_sprained_ankle_ouch",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She limps to the bench and lowers herself, one hand flat on the share envelope to keep it from sliding."
+   ],
+   "dialogue": "My ankle went on the wet tile by the dryers. I sprained it chasing a sock. The machines do not care whose ankle.",
+   "uses": "obj_share_envelope",
+   "target": {
+    "type": "character",
+    "id": "char_mae_tim"
+   }
+  },
+  {
+   "id": "mae_turn_3",
+   "tag": "tag_lost_contact_drift",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She turns the tea-stall glass in her hands and looks at the letter on the board, not at Lek."
+   ],
+   "dialogue": "The man who owns that shirt, I know his face and not his name. He washes Sundays, first slot. We do not stay in touch. Nobody on this strip stays in touch with the ones who fold fastest.",
+   "uses": "obj_tea_glass",
+   "target": {
+    "type": "object",
+    "id": "obj_permit_photo"
+   }
+  },
+  {
+   "id": "mae_turn_4",
+   "tag": "tag_ask_what_its_called",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She points a bent finger at the permit photo pinned beside the letter, its corner curled from steam."
+   ],
+   "dialogue": "This one, with the red seal and the three spellings of one name — what is it called when a paper knows you better than the counter does?",
+   "uses": "obj_laundry_basket",
+   "target": {
+    "type": "object",
+    "id": "obj_permit_photo"
+   }
+  },
+  {
+   "id": "mae_turn_5",
+   "tag": "tag_man_called_for_you",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She sets the tea glass down and slides the share envelope toward Lek across the folding table."
+   ],
+   "dialogue": "A man called for you at the shop, Sanga said. About a letter. I told him the letter was still in the water. He kept his name in a plastic sleeve, Sanga said, and would not take it out.",
+   "uses": "obj_share_envelope",
+   "target": {
+    "type": "character",
+    "id": "char_mae_tim"
+   }
+  },
+  {
+   "id": "mae_turn_6",
+   "tag": "tag_thought_it_was_fine",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She presses the wet letter flat under the tea glass and frowns at the running ink."
+   ],
+   "dialogue": "I thought it was fine to leave it on the board. A letter is a letter. But the ink is going, and a name spelled three ways is still a name.",
+   "uses": "obj_tea_glass",
+   "target": {
+    "type": "object",
+    "id": "obj_permit_photo"
+   }
+  },
+  {
+   "id": "mae_turn_7",
+   "tag": "tag_whats_in_there",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She lifts the laundry basket lid and peers into the drum where the shirt was washed."
+   ],
+   "dialogue": "What is in there, in the pocket still? A receipt, a coin, a girl with no login waiting six hundred miles. The drum keeps what the pocket forgets.",
+   "uses": "obj_laundry_basket",
+   "target": {
+    "type": "object",
+    "id": "obj_green_jacket"
+   }
+  },
+  {
+   "id": "mae_turn_8",
+   "tag": "tag_heading_out_now",
+   "speaker": "char_mae_tim",
+   "stage_directions": [
+    "She stands, ankle stiff, and holds the share envelope out to Lek with both hands."
+   ],
+   "dialogue": "I am heading out now to lock the back gate. Take the envelope and the letter both. The circle paid me; the circle can pay for one more sending.",
+   "uses": "obj_share_envelope",
+   "target": {
+    "type": "character",
+    "id": "char_mae_tim"
+   }
+  }
+ ],
+ "turnResults": {
+  "mae_turn_1": {
+   "speaker": "char_mae_tim",
+   "line": "She takes the permit photo off the board and presses it into Lek's hand. 'The man who asked about the letter left this. Keep it dry.'",
+   "bubble": "Received: the permit photo",
+   "addToLek": [
+    "obj_permit_photo"
+   ]
+  },
+  "mae_turn_2": {
+   "speaker": "char_mae_tim",
+   "line": "She props her ankle on the bench and pulls the share envelope from under the counter, counting its contents twice.",
+   "bubble": ""
+  },
+  "mae_turn_3": {
+   "speaker": "char_mae_tim",
+   "line": "She names the Sunday slot and the exact change he always brings. 'First machine, cold water. He does not speak to anyone.'",
+   "bubble": "The letter's owner washes Sundays, first slot"
+  },
+  "mae_turn_4": {
+   "speaker": "char_mae_tim",
+   "line": "She reads the three spellings aloud, slowly, and shakes her head at the third. 'Verified, but not believed. That is what the counter does.'",
+   "bubble": ""
+  },
+  "mae_turn_5": {
+   "speaker": "char_mae_tim",
+   "line": "She pushes the envelope across the table. 'The circle's payout. One member asked to be late, so it is short. Use it as you like.'",
+   "bubble": "Received: the circle envelope",
+   "addToLek": [
+    "obj_share_envelope"
+   ]
+  },
+  "mae_turn_6": {
+   "speaker": "char_mae_tim",
+   "line": "She lifts the tea glass and the letter stays flat, ink fixed where it dried. Half the address is still legible.",
+   "bubble": ""
+  },
+  "mae_turn_7": {
+   "speaker": "char_mae_tim",
+   "line": "She pulls the green rider jacket from the drum and hangs it on the rail. 'Bank's. He will want it before midnight.'",
+   "bubble": "The green rider jacket is out of the wash"
+  },
+  "mae_turn_8": {
+   "speaker": "char_mae_tim",
+   "line": "She limps to the back gate, then turns. 'The board is full of other people's waiting, teacher. Do not add to it.'",
+   "bubble": ""
+  }
+ },
+ "finale": [
+  {
+   "character": "char_mae_tim",
+   "place": "place_laundromat",
+   "dialogue": "She locks the gate and stands under the fan with the board behind her. 'A bus she finally boarded at fifty-eight,' she says, 'and it still runs on other people's change.'"
+  },
+  {
+   "character": null,
+   "place": "place_win_rank",
+   "dialogue": "The win's lamp is on at the soi mouth. The letter goes into Lek's pocket, dry now, half an address and three spellings of one name."
+  }
+ ],
+ "lekInventory": [
+  "obj_stamp_keys",
+  "obj_score_report",
+  "obj_word_notebook"
+ ],
+ "objects": {
+  "obj_stamp_keys": {
+   "name": "the stamp-drawer keys",
+   "description": "Two brass keys on a red plastic fob, worn smooth at the bow from nine years of Sanga's thumb; they open the drawer where the stamps live.",
+   "picture": "/img/obj_stamp_keys.jpg"
+  },
+  "obj_score_report": {
+   "name": "the laminated score report",
+   "description": "Exam results laminated against the rain, sixty-eight out of a hundred, the failing margin three points wide and visible through the plastic.",
+   "picture": "/img/obj_score_report.jpg"
+  },
+  "obj_word_notebook": {
+   "name": "the word notebook",
+   "description": "A pocket notebook with a rubber band, pages soft from handling, other people's words written in Lek's hand with the date and who said them.",
+   "picture": "/img/obj_word_notebook.jpg"
+  },
+  "obj_permit_photo": {
+   "name": "the permit photo",
+   "description": "A passport-style photo stapled to a work-permit slip, the name typed three ways across three lines, one corner curled from steam.",
+   "picture": "/img/obj_permit_photo.jpg"
+  },
+  "obj_green_jacket": {
+   "name": "the green rider jacket",
+   "description": "A delivery rider's jacket, green gone grey at the cuffs, reflective strip peeling, still warm from the dryer.",
+   "picture": "/img/obj_green_jacket.jpg"
+  },
+  "obj_ring_light": {
+   "name": "the ring light",
+   "description": "A folding ring light on a bent tripod, one LED dead, used by Je Fah for the nine-minute sell-outs from the shophouse back room.",
+   "picture": "/img/obj_ring_light.jpg"
+  },
+  "obj_tea_glass": {
+   "name": "the tea-stall glass",
+   "description": "A small glass, thick-walled, tea stains at the bottom, borrowed from the camp-gate stall and never returned.",
+   "picture": "/img/obj_tea_glass.jpg"
+  },
+  "obj_laundry_basket": {
+   "name": "the laundry basket",
+   "description": "A plastic basket cracked along one side, holding a camp worker's shirt, a rider's jacket, and a single child's sock.",
+   "picture": "/img/obj_laundry_basket.jpg"
+  },
+  "obj_share_envelope": {
+   "name": "the circle envelope",
+   "description": "A brown envelope with a share-circle payout inside, short by one member's two weeks, the flap folded twice and licked shut.",
+   "picture": "/img/obj_share_envelope.jpg"
+  }
+ },
+ "sceneObjects": [
+  {
+   "ids": [
+    "obj_permit_photo",
+    "obj_green_jacket",
+    "obj_ring_light"
+   ]
+  }
+ ],
+ "outcomeRules": [
+  {
+   "scene": "char_mae_tim",
+   "item": "obj_stamp_keys",
+   "choice": 1,
+   "speaker": "char_mae_tim",
+   "line": "She takes the keys and opens the stamp drawer. 'Sanga's stamps. A letter that waited too long still needs postage.'",
+   "flag": "stamps_opened",
+   "bubble": "The stamp drawer is open"
+  },
+  {
+   "scene": "char_mae_tim",
+   "item": "obj_score_report",
+   "choice": 1,
+   "requiresFlag": "stamps_opened",
+   "speaker": "char_mae_tim",
+   "line": "She reads the score report through the plastic and sets it down. 'Three points short, and you still read for the whole soi. The board can hold one more name.'",
+   "flag": "board_read",
+   "bubble": "Mae has read the score report"
+  },
+  {
+   "scene": "char_mae_tim",
+   "item": "obj_word_notebook",
+   "choice": 1,
+   "requiresFlag": "board_read",
+   "speaker": "char_mae_tim",
+   "line": "She flips the notebook to a blank page and writes the Sunday man's three spellings in her own hand. 'Now it is written twice. Go before the ink goes again.'",
+   "addToLek": [
+    "obj_permit_photo"
+   ],
+   "flag": "level_won",
+   "bubble": "Received: the permit photo"
+  }
+ ],
+ "fallbacks": {
+  "char_mae_tim": [
+   "She turns the {item} over once and sets it back on the folding table. 'Not tonight, teacher. The board is full enough.'",
+   "She taps the {item} against the lost-and-found board. 'The letter first. Everything else is after the letter.'",
+   "She holds the {item} up to the fan light and does not look at Lek. 'Three spellings of one name, and you bring me this instead. Open the stamp drawer.'"
+  ],
+  "narrator": [
+   "The {item} goes back into the night with nothing settled. The machines turn; the board waits.",
+   "Nothing comes of the {item} yet. Mae watches the wet letter the way clerks watch clocks.",
+   "Mae's gaze flicks from the {item} to the letter on the board and back — a route mapped, a postage implied."
+  ]
+ },
+ "lekPriorities": [
+  "the till vs. the free readings",
+  "loyalty to the registrar's nine years",
+  "duty to the stamps",
+  "the big house's small favors",
+  "his mother's pride"
+ ],
+ "choices": {
+  "char_mae_tim|obj_stamp_keys": [
+   {
+    "label": "Offer the keys and say nothing",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Open the stamp drawer for the letter",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Ask what postage costs a stranger",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_mae_tim|obj_score_report": [
+   {
+    "label": "Show her the three points short",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Let her read it through the plastic",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Put it away before she finishes",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_mae_tim|obj_word_notebook": [
+   {
+    "label": "Hand her the notebook open",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Ask her to write the three spellings",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Keep the notebook closed",
+    "priority": "his mother's pride"
+   }
+  ],
+  "char_mae_tim|*": [
+   {
+    "label": "Ask about the Sunday slot",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Offer to fold the rest",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Say goodnight and mean it",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "char_bank|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "char_kwang|*": [
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "char_je_fah|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "char_ko_naing|*": [
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "loyalty to the registrar's nine years"
+   }
+  ],
+  "char_note|*": [
+   {
+    "label": "Show {scene} the {item} and wait in the noise",
+    "priority": "the till vs. the free readings"
+   },
+   {
+    "label": "Ask {scene} what the {item} is worth to them",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Set the {item} down and let {scene} look first",
+    "priority": "duty to the stamps"
+   }
+  ],
+  "obj_permit_photo|*": [
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "obj_green_jacket|*": [
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the big house's small favors"
+   }
+  ],
+  "obj_ring_light|*": [
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the big house's small favors"
+   },
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "his mother's pride"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "the till vs. the free readings"
+   }
+  ],
+  "*|*": [
+   {
+    "label": "Work the {item} against {scene}, slowly",
+    "priority": "loyalty to the registrar's nine years"
+   },
+   {
+    "label": "Put the {item} away and study {scene} again",
+    "priority": "duty to the stamps"
+   },
+   {
+    "label": "Set the {item} beside {scene} and watch a while",
+    "priority": "the big house's small favors"
+   }
+  ]
+ },
+ "seedProgress": null
+}
